@@ -1,0 +1,62 @@
+Kingdom,Phylum,Subphylum,Class,Subclass,Infraclass,Superorder,Order,Suborder,Infraorder,Superfamily,Family,Genus,Species,CommonName,OrganismCode_FISH,TaxonName,TaxonRank
+Animalia,Arthropoda,Crustacea,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Brachyura,Grapsoidea,Varunidae,Eriocheir,sinensis,Chinese Mitten Crab,CMC,Eriocheir sinensis,Species
+Animalia,Arthropoda,Crustacea,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Caridea,Palaemonoidea,Palaemonidae,Exopalaemon,modestus,Siberian Prawn,SHR,Exopalaemon modestus,Species
+nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,nocatch,No Catch,NONE,nocatch,nocatch
+unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,unidentified,Unidentified,UNID,Unidentified,unidentified
+Animalia,Arthropoda,Crustacea,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Caridea,Palaemonoidea,Palaemonidae,Palaemonetes,kadiakensis,Mississippi Grass Shrimp,SHRK,Palaemonetes kadiakensis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Acipenseriformes,,,,Acipenseridae,Acipenser,transmontanus,White Sturgeon,WST,Acipenser transmontanus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Atheriniformes,,,,Atherinopsidae,Menidia,beryllina,Inland Silverside,MSS,Menidia beryllina,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Clupeiformes,,,,Clupeidae,Alosa,sapidissima,American Shad,AMS,Alosa sapidissima,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Clupeiformes,,,,Clupeidae,Dorosoma,petenense,Threadfin Shad,TFS,Dorosoma petenense,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Catostomidae,Catostomus,occidentalis,Sacramento Sucker,SASU,Catostomus occidentalis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Carassius,auratus,Goldfish,GF,Carassius auratus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Cyprinella,lutrensis,Red Shiner,RSN,Cyprinella lutrensis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Cyprinus,carpio,Common Carp,C,Cyprinus carpio,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Lavinia,exilicauda,Hitch,HCH,Lavinia exilicauda,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Mylopharodon,conocephalus,Hardhead,HH,Mylopharodon conocephalus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Notemigonus,crysoleucas,Golden Shiner,GSN,Notemigonus crysoleucas,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Orthodon,microlepidotus,Sacramento Blackfish,SCB,Orthodon microlepidotus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Pimephales,promelas,Fathead Minnow,FHM,Pimephales promelas,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Pogonichthys,macrolepidotus,Sacramento Splittail,SPLT,Pogonichthys macrolepidotus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cypriniformes,,,,Cyprinidae,Ptychocheilus,grandis,Sacramento Pikeminnow,SAPM,Ptychocheilus grandis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cyprinodontiformes,,,,Fundulidae,Lucania,parva,Rainwater Killifish,RFK,Lucania parva,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Cyprinodontiformes,,,,Poeciliidae,Gambusia,affinis,Western Mosquitofish,MQF,Gambusia affinis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Gasterosteiformes,,,,Gasterosteidae,Gasterosteus,aculeatus,Threespine Stickleback,TSS,Gasterosteus aculeatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Osmeriformes,,,,Osmeridae,Hypomesus,nipponensis,Wakasagi,WAG,Hypomesus nipponensis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Osmeriformes,,,,Osmeridae,Hypomesus,transpacificus,Delta Smelt,DSM,Hypomesus transpacificus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Osmeriformes,,,,Osmeridae,Spirinchus,thaleichthys,Longfin Smelt,LFS,Spirinchus thaleichthys,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Osmeriformes,,,,Osmeridae,,,Unidentified Smelt,SME,Osmeridae,Family
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,Gobioidei,,,Gobiidae,Acanthogobius,flavimanus,Yellowfin Goby,YFG,Acanthogobius flavimanus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,Gobioidei,,,Gobiidae,Tridentiger,bifasciatus,Shimofuri Goby,SHM,Tridentiger bifasciatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,Labroidei,,,Embiotocidae,Hysterocarpus,traski,Tule Perch,TP,Hysterocarpus traski,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,Percoidei,,,Moronidae,Morone,saxatilis,Striped Bass,STB,Morone saxatilis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,Percoidei,,,Percidae,Percina,macrolepida,Bigscale Logperch,LP,Percina macrolepida,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Lepomis,cyanellus,Green Sunfish,GSF,Lepomis cyanellus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Lepomis,gibbosus,Pumpkinseed Sunfish,PKN,Lepomis gibbosus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Lepomis,gulosus,Warmouth,W,Lepomis gulosus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Lepomis,macrochirus,Bluegill Sunfish,BGS,Lepomis macrochirus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Lepomis,microlophus,Redear Sunfish,RES,Lepomis microlophus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Micropterus,dolomieu,Smallmouth Bass,SMB,Micropterus dolomieu,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Micropterus,punctulatus,Spotted Bass,SPB,Micropterus punctulatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Micropterus,salmoides,Largemouth Bass,LMB,Micropterus salmoides,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Micropterus,,Unidentified Bass,BAS,Micropterus sp.,Genus
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Pomoxis,annularis,White Crappie,WHS,Pomoxis annularis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,Pomoxis,nigromaculatus,Black Crappie,BKS,Pomoxis nigromaculatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Perciformes,,,,Centrarchidae,,,Unidentified Sunfish,SNF,Centrarchidae,Family
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Pleuronectiformes,,,,Pleuronectidae,Platichthys,stellatus,Starry Flounder,STF,Platichthys stellatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Salmoniformes,,,,Salmonidae,Oncorhynchus,mykiss,Rainbow / Steelhead Trout,RBT,Oncorhynchus mykiss,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Salmoniformes,,,,Salmonidae,Oncorhynchus,tshawytscha,Chinook Salmon,CHN,Oncorhynchus tshawytscha,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Salmoniformes,,,,Salmonidae,Salvelinus,fontinalis,Brook Trout,BKT,Salvelinus fontinalis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Scorpaeniformes,Cottoidei,,,Cottidae,Cottus,asper,Prickly Sculpin,PRS,Cottus asper,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Scorpaeniformes,Cottoidei,,,Cottidae,Leptocottus,armatus,Pacific Staghorn Sculpin,PSS,Leptocottus armatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Scorpaeniformes,Cottoidei,,,Cottidae,,,Unidentified Sculpin,SCP,Cottidae,Family
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,Ameiurus,catus,White Catfish,WHC,Ameiurus catus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,Ameiurus,melas,Black Bullhead,BKB,Ameiurus melas,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,Ameiurus,nebulosus,Brown Bullhead,BRB,Ameiurus nebulosus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,Ictalurus,natalis,Yellow Bullhead,YEB,Ictalurus natalis,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,Ictalurus,punctatus,Channel Catfish,CHC,Ictalurus punctatus,Species
+Animalia,Chordata,Vertebrata,Actinopterygii,,,,Siluriformes,,,,Ictaluridae,,,Catfish,CAT,Ictaluridae,Family
+Animalia,Chordata,Vertebrata,Petromyzonti,,,,Petromyzontiformes,,,,Petromyzontidae,Lampetra,ayresi,River Lamprey,RL,Lampetra ayresi,Species
+Animalia,Chordata,Vertebrata,Petromyzonti,,,,Petromyzontiformes,,,,Petromyzontidae,Lampetra,tridentata,Pacific  Lamprey,PL,Lampetra tridentata,Species
+Animalia,Chordata,Vertebrata,Petromyzonti,,,,Petromyzontiformes,,,,Petromyzontidae,Lampetra,,Ammocoete Lamprey,AMM,Lampetra sp.,Genus
+Animalia,Chordata,Vertebrata,Petromyzonti,,,,Petromyzontiformes,,,,Petromyzontidae,Lampetra,,Unidentified Lamprey,LAM,Lampetra sp.,Genus
