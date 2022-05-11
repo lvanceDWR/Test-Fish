@@ -1,0 +1,77 @@
+---
+title: "integrate_fish_data"
+author: "Catarina Pien"
+date: "4/19/2022"
+output: html_document
+---
+
+Code for joining fish data together
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read in files
+```{r}
+stations <- read_csv("clean_tables/stations.csv")
+event <- read_csv("clean_tables/event.csv")
+effort <- read_csv("clean_tables/effort.csv")
+total_catch <- read_csv("clean_tables/total_catch.csv")
+fish_unique <- read_csv("clean_tables/fish_unique")
+taxonomy <- read_csv("clean_tables/taxonomy.csv")
+salm_gen <- read_csv("clean_tables/genetics_salmon.csv")
+smelt_gen <- read_csv("clean_tables/genetics_smelt.csv")
+```
+
+Here are a few ways you might want to view the data. 
+
+1. Look at sample locations: Join latitude/longitude with samples
+```{r}
+sample_locations <- left_join(event, stations %>% select(StationCode, StationName, Latitude, Longitude))
+```
+
+2. WQ data + Total catch, CPUE 
+```{r}
+sample_effort <- left_join(event, effort) %>%
+  select(-SeineLength, -SeineDepth, -SeineWidth)
+
+catch <- left_join(sample_effort, total_catch) 
+```
+
+Add in zeroes for fish that weren't caught (important for average CPUE)
+```{r}
+catch_all <- catch %>% 
+  arrange(OrganismCode) %>%
+  filter(OrganismCode != "NONE") %>%
+  pivot_wider(names_from = "OrganismCode", values_from = "Count",values_fill = 0) %>%
+  pivot_longer(cols = AMM:YFG, values_to = "Count", names_to = "OrganismCode")%>%
+  mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume, Count/TrapHours))
+```
+
+3. If you want to add CommonName
+```{r}
+catch_names <- left_join(catch_all, taxonomy %>% select(OrganismCode, CommonName))
+```
+
+4. If you want only fish with length info
+```{r}
+length <- left_join(fish_unique, sample_effort) 
+```
+
+If you want to calculate length frequency so that every fish has a length associated (even the plus counts)
+```{r}
+
+```
+
+5. If you want salmon info (genetic results)
+```{r}
+salmon <- left_join(length, salm_gen) %>%
+  filter(OrganismCode == "CHN")
+```
+
+6. If you want smelt info (genetic results)
+```{r}
+smelt <- left_join(length, smelt_gen) %>%
+  filter(OrganismCode %in% c("WAG", "DSM", "LFS"))
+```
+
