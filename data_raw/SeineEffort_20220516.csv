@@ -1,4 +1,4 @@
-ï»¿SampleID,SeineRowID,SampleRowID,SeineLength,SeineWidth,SeineDepth,SubstrateCode,Comments,ConditionCode,Region,HabitatType,Tide,FlowDirection,s_ColLineage,s_Generation,s_Lineage,VolumeSeined
+SampleID,SeineRowID,SampleRowID,SeineLength,SeineWidth,SeineDepth,SubstrateCode,Comments,ConditionCode,Region,HabitatType,Tide,FlowDirection,s_ColLineage,s_Generation,s_Lineage,VolumeSeined
 10,{068B2606-CB7F-4977-B918-348419595B7A},{C52DFA70-3ED1-44F2-A198-AC6615D29F30},20,6,0.7,MD,,,,VEG,,,,0,,84
 11,{13BC7E2E-A494-4D31-9674-4A5B89EA399C},{DAB78F30-36D3-4DDB-AE8B-1974F172239E},27,3,0.6,MD,,,,RIP,,,,0,,48.60000229
 18,{E8F4B3AA-64EB-4A5D-8E2C-F3BEC7ECBF0B},{8E5DDBD6-FF74-4E97-BC64-128156191E42},27,3,0.4,MD,,,,RIP,,,,0,,32.40000153
@@ -1926,7 +1926,7 @@
 5461,{1477AF75-4F8F-4EB7-B3AE-5B56BC2477EB},,23,15,1.1,Mud,did not go full 30m due to flood tide depth,,STB,VEG,Flood,,,,,379.5
 5462,{CCD980E8-5736-4AD1-BB0D-1CC940B380CF},,25,8,1,Mud,,,YB,AG,,,,,,200
 5463,{F7A6447A-C858-45BE-A095-19ED16E59D3D},,32,4,0.4,Mud,,,YB,VEG,Flood,,,,,51.20000076
-5464,{DF243CDD-06E7-4C90-A940-245C1D036B02},,28,5,0.4,Mud,,,PCS,VEG,Flood,,,,,56
+5464,{DF243CDD-06E7-4C90-A940-245C1D036B02},,,,,,,,,,,,,,,
 5465,{26D4CD7C-4C72-4CFA-84E3-905676E3047A},,30,5,0.4,Mud,,,PCS,VEG,Flood,,,,,60
 5466,{433309D0-A990-497B-89C0-67AF7F492389},,27,5,0.6,Mud,,,PCS,VEG,Flood,,,,,81
 5467,{F73B0BB5-DB60-47BD-B64C-6076983B7F9A},,27,5,0.3,Mud,,,PCS,VEG,Flood,,,,,40.5
@@ -2678,7 +2678,7 @@
 7151,{DD64A17D-5982-4956-B04F-E50E68D681AD},,29,5,0.8,Mud,"75mm width, 60mm depth native mollusk (1)",,STB,RIP,Flood,,,,,116
 7157,{6D21AEA5-BF26-4F6C-82B1-2B351C7DB250},,27,5,0.5,Mud,,,PCS,VEG,Flood,,,,,67.5
 7158,{65BB5857-101C-45D5-90FD-E519E5E03249},,0,0,0,,Hyacinth clogged the waterway. NO SAMPLE.,,YB,VEG,,,,,,0
-7159,{149B71A3-1D5B-4502-A356-2CB58D585DB2},,21.2,5,0.6,Mud,SHORTENED SEINE: Couldnâ€™t seine full length due to hyacinth blockages.,,PCS,VEG,,,,,,63.60000229
+7159,{149B71A3-1D5B-4502-A356-2CB58D585DB2},,21.2,5,0.6,Mud,SHORTENED SEINE: Couldn’t seine full length due to hyacinth blockages.,,PCS,VEG,,,,,,63.60000229
 7160,{1C4FD725-A224-4A4C-8519-3E79FBF66877},,27,5,0.5,Mud,,,PCS,VEG,,,,,,67.5
 7161,{F4E11F1E-B7F4-47AD-8A37-590F5B892120},,18,8,0.3,Mud,No fish since the pond was drained (last beach seine). Too shallow to take secchi measurement.,,YB,AG,,,,,,43.20000076
 7162,{966D74BC-5145-4634-8A84-45128FDA18A2},,,,,,,,,,,,,,,
@@ -2800,7 +2800,7 @@
 7344,{0910E112-C5EB-4A8E-8A9E-EFEFFD59287E},,30,5,0.6,Vegetation,,,STB,RIP,,,,,,90
 7346,{955F4366-EECA-4B00-8F92-5745E740CF78},,30,5,0.6,Vegetation,,,PCS,VEG,,,,,,90
 7347,{8249C23E-7842-4409-A2FA-DA151DD3F8FC},,30,5,0.5,Gravel,,,FW,RIP,,,,,,75
-7348,{DFC70220-D852-43CA-AE70-C08AEA6AB257},,30,4,0.5,Mud,"SB2, road work near SB1 so we didnâ€™t do it",,SB,VEG,,,,,,60
+7348,{DFC70220-D852-43CA-AE70-C08AEA6AB257},,30,4,0.5,Mud,"SB2, road work near SB1 so we didn’t do it",,SB,VEG,,,,,,60
 7349,{D75CCA6A-CE79-4167-AC7B-4BE517DA1ECD},,18,5,0.6,Vegetation,,,CCS,RIP,,,,,,54.00000381
 7350,{0B40A65D-8335-4644-8D85-7A6054EB23B1},,30,8,0.3,Gravel,,,YB,AG,,,,,,72
 7351,{897B707B-F779-447B-9CA0-3D973DC3599F},,30,5,0.4,Vegetation,,,YB,VEG,,,,,,60
@@ -2875,7 +2875,7 @@
 7477,{F39C5C81-094A-4F98-88CF-417636D24476},,25,5,0.5,Mud,,,STB,VEG,,,,,,62.5
 7478,{D5AE5619-2BE1-49ED-AF09-A407370E0191},,15,8,1.2,Mud,,,STB,RIP,,,,,,144
 7481,{1BCDD4A6-4AB6-471D-AC05-23AD4A72EEC1},,5,8,0.2,Vegetation,"attempted 2 seines, veg pulled up lead line. No fish",,FW,RIP,,,,,,8
-7482,{3C7BF82E-D9AE-4FC4-8EAE-57AA3451CC4E},,,,,,"no seine, steep drop off. Men fishing at seine site (didnâ€™t seems to speak english)",,CCS,,,,,,,
+7482,{3C7BF82E-D9AE-4FC4-8EAE-57AA3451CC4E},,,,,,"no seine, steep drop off. Men fishing at seine site (didn’t seems to speak english)",,CCS,,,,,,,
 7483,{AA5B7185-26D8-4D25-9385-8BFD9C840814},,10,8,1.1,,disconnected pond east of usual spot. All crayfish and tadpoles including larval fish as seen at SB2). No fish,,YB,AG,,,,,,88
 7484,{8484CBE8-223D-4844-881D-28E3CC808ADC},,30,7,0.3,Mud,,,YB,AG,,,,,,63.00000381
 7485,{08F06689-5A5D-4BB5-9985-7981DF9C57E7},,30,8,0.3,,,,PCS,VEG,,,,,,72
@@ -3770,7 +3770,7 @@
 9607,{4573BE1C-74AD-434D-9D0A-BE55CC507B6F},,22,8,0.5,Mud,"too shallow for secchi, seine was shortened due to submerged vegetation. DO was 16.37 (couldn't enter since its higher than 15)",,,VEG,Ebb,D,,,,88
 9618,{C7446017-2DE3-47C5-8F08-D764200174F5},,30,5,0.6,Mud,,,,RIP,High,N,,,,90
 9619,{F7BE7113-97A4-465A-87BC-508F0B7A3C85},,30,5,0.7,Mud,,,,RIP,High,N,,,,105
-9620,{3FBED44D-4EF3-49EA-AEC4-146166E9BE1D},,30,5,0.6,Mud,,,,VEG,Ebb,D,,,,90
+9620,{3FBED44D-4EF3-49EA-AEC4-146166E9BE1D},,30,5,0.6,Mud,No Catch,,,VEG,Ebb,D,,,,90
 9621,{28E217A3-9427-4DE3-AFF4-B3E7FBEC5130},,30,5,0.6,Mud,,,,VEG,Ebb,,,,,90
 9622,{F7046380-45BB-479A-A806-EE3F40F6A0C9},,30,5,0.3,Mud,,,,RIP,Ebb,D,,,,45
 9623,{20E03719-32D6-4496-B2B1-60802469ECEB},,30,5,0.5,Mud,,,,RIP,Ebb,D,,,,75
@@ -3794,3 +3794,11 @@
 9669,{838B1E1D-56CB-4582-AE1B-712C5A64C7A5},,30,5,0.4,Mud,,,,RIP,Ebb,D,,,,60
 9670,{288E681D-2505-4DC9-89A2-8731466D5A7F},,30,4,0.7,Mud,,,,RIP,Ebb,D,,,,84
 9671,{E768BE10-BA07-4B23-955C-97F1060B1119},,24,8,0.6,Vegetation,"Water too shallow and clear for secchi, length shortned due to SAV",,,VEG,Ebb,D,,,,115.2000046
+9676,{A48F3210-AE66-4EE0-8BE4-065A2E269A26},,29,5,0.7,Mud,"High SAV, had to shrink the seine length",,,RIP,High,U,,,,101.5
+9677,{44DBDCB9-7244-431F-924B-1BAAB2BE3EBC},,30,5,0.5,Mud,SAV shifted seine ~2meters downstream,,,VEG,Ebb,D,,,,75
+9678,{5DC9D0CF-4D2C-483B-9667-FCD1DF7DBA5E},,30,5,0.5,Mud,No Catch,,,RIP,Ebb,D,,,,75
+9679,{77362085-510B-46BB-BF98-E443F385AD54},,30,5,0.7,Mud,,,,RIP,Ebb,D,,,,105
+9680,{82BB77A8-A27F-48A9-A7BA-46F46762F005},,30,5,0.7,Mud,,,,RIP,Ebb,D,,,,105
+9681,{CC7A46C4-4A11-45C3-B076-11E1D391AC38},,30,5,1,Mud,,,,RIP,Ebb,D,,,,150
+9682,{C9B49BE0-C2DB-4492-B09E-92BE2B69C388},,30,4,0.6,Mud,,,,RIP,Ebb,D,,,,72
+9683,{915EF52D-3C90-4BBE-BC68-E0D81A29F576},,25,8,0.5,Vegetation,No secchi - too clear. Lead line didn't go down firt quarter of seine due to veg.,,,VEG,Ebb,D,,,,100

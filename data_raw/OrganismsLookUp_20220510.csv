@@ -1,4 +1,4 @@
-﻿OrganismRowID,OrganismCode,Active,CommonName,Native,Phylum,Class,Order,Family,Genus,Species,NormalizedCode,Comments,s_ColLineage,s_Generation,s_Lineage
+OrganismRowID,OrganismCode,Active,CommonName,Native,Phylum,Class,Order,Family,Genus,Species,NormalizedCode,Comments,s_ColLineage,s_Generation,s_Lineage
 {6204CA58-80D1-11D3-AFD7-00C04FF7F6A0},ACL,FALSE,Asian Clam,,Mollusca,Bivalvia,Myodia,Sphaeriidae,Potamocorbula,amurenis,160,,,1,
 {6204CA7C-80D1-11D3-AFD7-00C04FF7F6A0},AGB,FALSE,Arrow Goby,,Chordata,Osteichthyes,Perciformes,Gobiidae,Clevelandia,ios,227,,,1,
 {13157E76-8C9C-11D3-AFE6-00C04FF7F6A0},AME,FALSE,American Eel,,Chordata,Osteichthyes,Anguilliformes,Anguillidae,Anguilla,rostrata,,,,1,

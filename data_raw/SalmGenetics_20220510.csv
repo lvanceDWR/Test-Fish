@@ -1,4 +1,4 @@
-﻿SalmGenRowID,FishTagID,BestEstimate,Prob1,2ndBestEstimate,Prob2,Comments
+SalmGenRowID,FishTagID,BestEstimate,Prob1,2ndBestEstimate,Prob2,Comments
 1500,2015-001CHNF,F,0.8514,LF,0.1459,
 1501,2015-001CHNS,LF,0.5112,F,0.4886,
 1502,2015-001CHNW,F,1,,0,
