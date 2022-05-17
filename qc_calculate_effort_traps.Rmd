@@ -20,9 +20,9 @@ library(tidyverse)
 library(lubridate)
 
 #bring in trap effort from YBFMP Access DB query of "TrapEffort" and "Sample" tables
-sample <- read.csv("Data/Sample_20220510.csv")
-effort <- read.csv("Data/TrapEffort_20220510.csv")
-filenames <- list.files("Data/Catch", pattern="*.csv", full.names=TRUE)
+sample <- read.csv("data_raw/Sample_20220516.csv")
+effort <- read.csv("data_raw/TrapEffort_20220516.csv")
+filenames <- list.files("data_raw/Catch", pattern="*.csv", full.names=TRUE)
 Catchread <- lapply(filenames, read.csv)
 catch <- bind_rows(Catchread, .id = "column_label")
 
@@ -230,6 +230,6 @@ sampeffort.hours<- select(qc3, c(StationCode, MethodCode, Date, DateTime, Sample
 
 #write new .csv based on calculated effort
 ```{r}
-write.csv(sampeffort.hours, file = "Data/YBFMP_TrapHours_2010_2021.csv", row.names = FALSE)
+write.csv(sampeffort.hours, file = "data_raw/YBFMP_TrapHours_2010_2021.csv", row.names = FALSE)
 ```
 
