@@ -2,8 +2,10 @@
 title: "clean_fish_tables"
 author: "Catarina Pien"
 date: "4/19/2022"
-output: html_document
-editor_options: 
+output:
+  pdf_document: default
+  html_document: default
+editor_options:
   chunk_output_type: console
 ---
 
@@ -84,18 +86,18 @@ fish_ref_clean <- fish_ref %>%
   rename(WaterTemp = WaterTemperature,
          SpecificConductance = SpCnd,
          MicrocystisRank = MicrocystisVisualRank,
-         Gear = GearID,
+         GearCode = GearID,
          EventID = SampleID)%>%
     filter(lubridate::year(Datetime) < 2022) %>%
   mutate(SampleAltered = ifelse(SampleDate<ymd("2022-02-22"), NA, SampleAltered)) %>%
-  select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, WeatherCode, VegetationRank, MicrocystisRank, MethodCode, Gear, GearConditionCode, SampleAltered) %>%
+  select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, WeatherCode, VegetationRank, MicrocystisRank, MethodCode, GearCode, GearConditionCode, SampleAltered) %>%
   arrange(Datetime)
 
 unique(fish_ref_clean$VegetationRank)
 unique(fish_ref_clean$GearConditionCode)
 unique(fish_ref_clean$StationCode)
 unique(fish_ref_clean$MethodCode)
-unique(fish_ref_clean$Gear)
+unique(fish_ref_clean$GearCode)
 
 ```
 
@@ -169,15 +171,18 @@ ifelse(FishTagID == "2019Ad_plus-F_278", "LateFall", as.character(RaceByLength))
 # Make SampleID and OrganismID
 fish_catch_clean <- left_join(fish_catch_clean0, fish_ref_clean %>% select(EventID, Datetime, StationCode)) %>%
   arrange(Datetime, StationCode) %>%
-  mutate(Year = year(Datetime)) %>%
+  mutate(Year = year(Datetime),
+         Date = date(Datetime)) %>%
+  mutate(OrganismCode = ifelse(Date>= as.Date("2021-08-09") & OrganismCode %in% c("BFK", "RFK"), "KLF", OrganismCode)) %>%
   group_by(Year, OrganismCode) %>%
   mutate(num = 1:n()) %>%
   ungroup() %>%
     group_by(Datetime, StationCode, OrganismCode, Year,) %>%
   mutate(SampleID = paste0(format(Datetime,"%Y%m%d_%H%M"), "_", StationCode, "_", OrganismCode),
          OrganismID = ifelse(!is.na(ForkLength) | !is.na(TotalLength), paste0(Year, "_", OrganismCode, num), NA)) %>%
-  ungroup() %>%
-  select( -Datetime, -StationCode, -num, -Year)
+  ungroup() %>%   
+  filter(Year<2022) %>%
+  select( -Datetime, -Date,  -StationCode, -num, -Year)
 
 # Make all consistent "minus"
 fish_catch_clean$FishGenID <- gsub("minus", "min", fish_catch_clean$FishGenID)
@@ -202,7 +207,14 @@ needRace <- filter(fish_catch_clean, is.na(RaceByLength) & OrganismCode == "CHN"
 # Taxa
 fish_tax_clean <- fish_tax %>%
   select(OrganismCode, CommonName, Native, Phylum, Class, Order, Family, Genus, Species) %>%
-  mutate(Species = replace(Species, is.na(Species), "spp.") )%>%
+  mutate(Species = replace(Species, is.na(Species), "spp."),
+         CommonName = replace(CommonName, CommonName == "AMMOCOETE LAMPREY", "Ammocoete Lamprey"),
+         Phylum = replace(Phylum, OrganismCode == "AMM", "Chordata"),
+         Class = replace(Class, OrganismCode == "AMM", "Cephalaspidomorphi"),
+         Order = replace(Order, OrganismCode == "AMM", "Petromyzontiformes"),
+         Family = replace(Family, OrganismCode == "AMM", "Petromyzontidae"),
+         Genus = replace(Genus, OrganismCode == "AMM", "Lampetra")) %>%
+   mutate(Native = ifelse(OrganismCode %in% c("RFK", "KLF"), "I", Native)) %>%
   mutate(Species = tolower(Species))%>%
   mutate(Taxa = ifelse(is.na(Genus), paste(Family, Species), paste(Genus, Species)),
          Taxa = replace(Taxa, Taxa == "Menidia beryllina", "Menidia audens"),
@@ -272,13 +284,13 @@ smelt_gen_clean <- smelt_gen %>%
                 VShape = V.shape,
                 Comments_Smelt = COMMENTS)%>%
   mutate(
-    GeneticRowID = 1:nrow(.),
+    SmeltGeneticRowID = 1:nrow(.),
     GeneticID = case_when(
     GeneticID == "hybrid (LFS/WAG)" ~ "HYB_LFS_WAG",
     GeneticID == "hybrid (DSM/WAG)" ~ "HYB_DSM_WAG",
     GeneticID == "missing data" ~ "UNK",
     TRUE ~ as.character(GeneticID))) %>%
-  select(GeneticRowID, FishGenID, qDSM, qWAG, qLFS, GeneticID, Comments_Smelt) 
+  select(SmeltGeneticRowID, FishGenID, qDSM, qWAG, qLFS, GeneticID, Comments_Smelt) 
 
 unique(smelt_gen_clean$GeneticID)
 unique(smelt_gen_clean$VShape)
@@ -290,7 +302,7 @@ salm_gen_clean <- salm_gen %>%
     GeneticID = BestEstimate,
                 GeneticID2 = X2ndBestEstimate,
                 Comments_Salmon = Comments)  %>%
-  mutate(GeneticRowID = 1:nrow(.),
+  mutate(SalmGeneticRowID = 1:nrow(.),
     GeneticID = case_when(
     GeneticID %in% c("f", "F")~ "Fall",
     GeneticID == "S"~ "Spring",
@@ -306,18 +318,11 @@ salm_gen_clean <- salm_gen %>%
     GeneticID2 %in% c("U", "")~ "n/p", 
     TRUE ~ as.character(GeneticID2))) %>%
   mutate(Comments_SalmonDataUsage = "Please contact Mariah Meek (mhmeek@msu.edu) if you wish to share or publish any salmonid genetics data") %>%
-  select(GeneticRowID, FishGenID, GeneticID, Probability1 = Prob1, GeneticID2, Probability2 = Prob2, Comments_Salmon, Comments_SalmonDataUsage)
+  select(SalmGeneticRowID, FishGenID, GeneticID, Probability1 = Prob1, GeneticID2, Probability2 = Prob2, Comments_Salmon, Comments_SalmonDataUsage)
 unique(salm_gen_clean$GeneticID)
 
 salm_gen_clean$FishGenID <- gsub("minus", "min", salm_gen_clean$FishGenID)
 salm_gen_clean$FishGenID <- gsub("min", "minus", salm_gen_clean$FishGenID)
-```
-
-```{r}
-# CWT
-cwt_clean <- cwt %>%
-  select(-CWTRowID) %>%
-  rename(CWTComments = Comments)
 ```
 
 # C. Content QA/QC
@@ -430,7 +435,7 @@ Effort_alone <- Sample_effort_clean %>%
   select(EventID, SeineLength, SeineWidth, SeineDepth, SeineVolume = Volume, TrapStatus, TrapHours = EffortHours)
 
 Sample_alone <- Sample_effort_clean %>%
-  select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, Tide, WeatherCode, VegetationRank,SubstrateCode, HabitatType, MicrocystisRank, MethodCode, Gear, GearConditionCode, SampleAltered,  FieldComments)
+  select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, Tide, WeatherCode, VegetationRank,SubstrateCode, HabitatType, MicrocystisRank, MethodCode, GearCode, GearConditionCode, SampleAltered,  FieldComments)
 ```
 
 
@@ -641,7 +646,7 @@ colnames(Outliers_wide)[2:8] <-  sub("Value_*", "", colnames(Outliers_wide)[2:8]
 ### m) Combine WQ back with rest of Sample table
 ```{r}
 fish_sample_cleaned <- left_join(Sample_alone, Outliers_wide %>% select(EventID, Flag_WQ, Comment_WQ)) %>%
- select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, Tide, WeatherCode, VegetationRank,SubstrateCode, HabitatType, MicrocystisRank, MethodCode, Gear, GearConditionCode, SampleAltered,  FieldComments, Flag_WQ, Comment_WQ) %>%
+ select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, Tide, WeatherCode, VegetationRank,SubstrateCode, HabitatType, MicrocystisRank, MethodCode, GearCode, GearConditionCode, SampleAltered,  FieldComments, Flag_WQ, Comment_WQ) %>%
   filter(GearConditionCode<3)
 
 filterEventID <- unique(fish_sample_cleaned$EventID)
@@ -649,8 +654,8 @@ filterEventID <- unique(fish_sample_cleaned$EventID)
 
 
 ## 6. Check fish catch table
-Join with MethodCode
-There are a number of missing methods. Some of these are in the original fish_ref table... check some out at some point. Hard to figure out with no date.
+
+### a) Filter to events in sample_cleaned; check MethodCode
 ```{r}
 fish_catch_QC0 <- fish_catch_clean %>%
   filter(EventID %in% filterEventID) %>%
@@ -666,7 +671,7 @@ fish_catch_QC <- fish_catch_QC0 %>%
   filter(!is.na(MethodCode))
 ```
 
-QC fish catch/plus counts
+### b) QC fish catch/plus counts
 ```{r}
 check_counts <- fish_catch_QC %>%
   filter((PlusCount == TRUE|OrganismCode == "NONE") & !is.na(ForkLength) ) %>%
@@ -698,43 +703,52 @@ fish_catch_QC2 <- fish_catch_QC %>%
   filter(!(OrganismID %in% None))
 ```
 
+### c) No catch
 Check no catch entries that don't say no catch in comments, see if there is other fish catch in that sample. 
 ```{r}
+# Remove samples that clearly say no catch
 fish_nocatch <- fish_catch_QC2 %>%
   filter(OrganismCode == "NONE") %>%
   left_join(fish_sample_cleaned %>% select(EventID, FieldComments)) %>%
   filter(!grepl('No fish|No fish|zero catch|No catch|No Fish', FieldComments))
 
+# Get unique IDs for remaining "NONE"s
 events <- fish_nocatch$EventID
+
+# What do these events look like, is there other catch? Filter to those where n>1
 checkNoCatch <- filter(fish_catch_QC2, EventID %in% events) %>%
   group_by(EventID) %>%
   mutate(n = n()) %>%
   filter(n>1)
 
+# Find unique IDs for those with more than 1 catch
 incorrectevents <- unique(checkNoCatch$EventID)
 
+# Remove the "NONE" lines
 fish_catch_QC3 <- fish_catch_QC2 %>%
   filter(!(EventID %in% incorrectevents & OrganismID == "NONE"))
 ```
 
-Make separate tables
-### a) Make table of total catch
+### d) Make separate tables
+
+Make table of total catch
 ```{r}
 total_catch <- fish_catch_QC3 %>%
   group_by(EventID, SampleID, OrganismCode) %>%
   summarize(Count = sum(Count))  %>%
   ungroup() %>%
-  select(SampleID, EventID, OrganismCode, Count)
+  select(SampleID, EventID, OrganismCode, Count) %>%
+  arrange(SampleID)
 ```
 
-### b) Make table for individuals
+Make table for individuals
 ```{r}
 individuals0 <- fish_catch_QC3 %>%
   filter(PlusCount == FALSE) %>%
   select(OrganismID, FishGenID, SampleID, EventID, OrganismCode, ForkLength, TotalLength, Weight, Sex, RaceByLength, StageCode, Dead, Expression, GeneticSample, FishIDComments)
 ```
 
-Check out small fish
+### e) Check out small fish
 ```{r}
 smallFish <- fish_catch_QC3 %>%
   filter(ForkLength<20)
@@ -745,15 +759,20 @@ individuals <-  individuals0 %>%
   mutate(ForkLength = replace(ForkLength, OrganismID %in% FL_NA, NA))
 ```
 
-Just an overall look at catch and length - leaving these as they are since the extra high lengths, counts seem plausible
+### f) Just an overall look at catch and length - leaving these as they are since the extra high lengths, counts seem plausible
 ```{r}
-ggplot(individuals) + geom_boxplot(aes(x = OrganismCode, y = ForkLength, fill = OrganismCode)) + 
+individuals_methods <- individuals %>%
+  left_join(fish_sample_cleaned %>%select(EventID, MethodCode))
+total_catch_methods <- total_catch %>%
+  left_join(fish_sample_cleaned %>%select(EventID, MethodCode))
+
+ggplot(individuals_methods) + geom_boxplot(aes(x = OrganismCode, y = ForkLength, fill = OrganismCode)) + 
   facet_wrap(~MethodCode, scales = "free",nrow = 3) + theme(axis.text.x = element_text(angle = 90))
 
-ggplot(total_catch) + geom_boxplot(aes(x = OrganismCode, y = Count, fill = OrganismCode)) + 
+ggplot(total_catch_methods) + geom_boxplot(aes(x = OrganismCode, y = Count, fill = OrganismCode)) + 
   facet_wrap(~MethodCode, scales = "free",nrow = 3) + theme(axis.text.x = element_text(angle = 90))
 
-highcatch <- filter(total_catch, Count> 200) %>%
+highcatch <- filter(total_catch_methods, Count> 200) %>%
   filter(!OrganismCode %in% c("SHR", "SHRK")) 
 
 ggplot(highcatch) + geom_boxplot(aes(OrganismCode, Count))
@@ -777,7 +796,8 @@ finalFish <- unique(fish_catch_QC2$OrganismCode)
 ## Keep fixing species
 taxonomy_clean <- left_join(fish_tax_clean, iepfishcodes, by = "Taxa") %>%
   filter(OrganismCode %in% finalFish) %>%
-  mutate(IEPFishCode = case_when(OrganismCode == "CAT" ~ "UNISIL",
+  mutate(IEPFishCode = case_when(OrganismCode == "AMM" ~ "AMMLAM",
+                                 OrganismCode == "CAT" ~ "UNISIL",
                                  OrganismCode == "CMC" ~ "CHMICR",
                                  OrganismCode == "NONE" ~ "NOCATC",
                                  OrganismCode == "PL" ~ "PACLAM",
@@ -790,6 +810,7 @@ taxonomy_clean <- left_join(fish_tax_clean, iepfishcodes, by = "Taxa") %>%
                                  OrganismCode == "YEB" ~ "YELBUL",
                                  OrganismCode == "SHR" ~ "SIBPRA",
                                  OrganismCode == "SHRK" ~ "MIGRSH",
+                                 OrganismCode == "KLF" ~ "UNIKIL",
                                  TRUE~as.character(IEPFishCode))) %>%
   mutate(Taxa = case_when(OrganismCode == "NONE" ~ "NoCatch",
                           OrganismCode == "UNID" ~ "Unknown",
@@ -797,27 +818,55 @@ taxonomy_clean <- left_join(fish_tax_clean, iepfishcodes, by = "Taxa") %>%
   select(OrganismCode, IEPFishCode, everything()) %>%
   select(-CommonName.y) %>%
   rename(CommonName = CommonName.x)
-
+  
 str(iepfishcodes)
 str(fish_tax_clean)
 ```
 
-Effort table, remove EventIDs
+### c) Effort table, remove EventIDs
 ```{r}
 effort_final <- Effort_alone %>%
   filter(EventID %in% filterEventID)
 ```
 
+### d) Add in zeroes for total catch
+```{r}
+# Figure out the first and last (alphabetical) OrganismCode for pivoting in next step
+orgs <- total_catch %>% select(OrganismCode) %>% arrange(OrganismCode) %>% unique() 
+first_org <- first(orgs$OrganismCode)
+last_org <- last(orgs$OrganismCode)
+
+total_catch_wide <- total_catch  %>%
+  arrange(OrganismCode) %>%
+  select(-SampleID ) %>%
+  distinct() %>%
+  pivot_wider(values_from = Count, 
+              names_from = OrganismCode,values_fill = 0) 
+
+total_catch_all <- total_catch_wide %>%
+  pivot_longer(cols = first_org:last_org,names_to = "OrganismCode", values_to = "Count") %>%
+  left_join(fish_sample_cleaned %>% select(EventID, Datetime, StationCode)) %>%
+  arrange(Datetime, StationCode) %>%
+  mutate(Year = year(Datetime),
+         Date = date(Datetime)) %>%
+    group_by(Datetime, StationCode, OrganismCode, Year) %>%
+  mutate(SampleID = paste0(format(Datetime,"%Y%m%d_%H%M"), "_", StationCode, "_", OrganismCode)) %>%
+  ungroup() %>%
+  select(SampleID, EventID, OrganismCode, Count) %>%
+  arrange(SampleID) %>%
+  filter(OrganismCode != "NONE")
+```
+
 
 ## 8. Write cleaned tables
 ```{r}
-write_csv(stations_clean, "clean_tables/stations.csv")
-write_csv(fish_sample_cleaned, "clean_tables/event.csv")
-write_csv(effort_final, "clean_tables/effort.csv")
-write_csv(total_catch, "clean_tables/total_catch.csv")
-write_csv(individuals, "clean_tables/fish_unique")
-write_csv(taxonomy_clean, "clean_tables/taxonomy.csv")
-write_csv(salm_gen_clean, "clean_tables/genetics_salmon.csv")
-write_csv(smelt_gen_clean, "clean_tables/genetics_smelt.csv")
+write_csv(stations_clean, "data_clean/stations.csv")
+write_csv(fish_sample_cleaned, "data_clean/event.csv")
+write_csv(effort_final, "data_clean/effort.csv")
+write_csv(total_catch_all, "data_clean/total_catch.csv")
+write_csv(individuals, "data_clean/fish_unique")
+write_csv(taxonomy_clean, "data_clean/taxonomy.csv")
+write_csv(salm_gen_clean, "data_clean/genetics_salmon.csv")
+write_csv(smelt_gen_clean, "data_clean/genetics_smelt.csv")
 ```
 
