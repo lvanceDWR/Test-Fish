@@ -3,6 +3,8 @@ title: "integrate_fish_data"
 author: "Catarina Pien"
 date: "4/19/2022"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 Code for joining fish data together
@@ -11,67 +13,88 @@ Code for joining fish data together
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Read in files
 ```{r}
-stations <- read_csv("clean_tables/stations.csv")
-event <- read_csv("clean_tables/event.csv")
-effort <- read_csv("clean_tables/effort.csv")
-total_catch <- read_csv("clean_tables/total_catch.csv")
-fish_unique <- read_csv("clean_tables/fish_unique")
-taxonomy <- read_csv("clean_tables/taxonomy.csv")
-salm_gen <- read_csv("clean_tables/genetics_salmon.csv")
-smelt_gen <- read_csv("clean_tables/genetics_smelt.csv")
+library(dplyr)
+library(tidyr)
 ```
 
-Here are a few ways you might want to view the data. 
+Read in files
+```{r}
+station <- read.csv("data_clean/station.csv")
+event <- read.csv("data_clean/event.csv")
+effort <- read.csv("data_clean/effort.csv")
+total_catch <- read.csv("data_clean/total_catch.csv")
+fish_unique <- read.csv("data_clean/fish_unique")
+taxonomy <- read.csv("data_clean/taxonomy.csv")
+salm_gen <- read.csv("data_clean/genetics_salmon.csv")
+smelt_gen <- read.csv("data_clean/genetics_smelt.csv")
+```
+
+Check files
+```{r}
+glimpse(stations)
+glimpse(event)
+glimpse(effort)
+glimpse(total_catch)
+glimpse(fish_unique)
+glimpse(taxonomy)
+glimpse(salm_gen)
+glimpse(smelt_gen)
+```
+
+*Here are a few ways you might want to view the data. *
 
 1. Look at sample locations: Join latitude/longitude with samples
 ```{r}
 sample_locations <- left_join(event, stations %>% select(StationCode, StationName, Latitude, Longitude))
 ```
 
-2. WQ data + Total catch, CPUE 
+2. WQ data + Total catch, CPUE: This is the version written for EDI
 ```{r}
 sample_effort <- left_join(event, effort) %>%
   select(-SeineLength, -SeineDepth, -SeineWidth)
 
-catch <- left_join(sample_effort, total_catch) 
+catch <- left_join(sample_effort, total_catch) %>%
+  relocate(c(SeineVolume, TrapStatus, TrapHours), .after = Count) %>%
+  mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume,
+                       ifelse(MethodCode %in% c("RSTR", "FKTR") & lubridate::year(SampleDate)>=2010, Count/TrapHours, NA))) %>%
+  filter(TrapStatus!= "Set")
+
+catch_names <- left_join(catch, taxonomy %>% select(OrganismCode, IEPFishCode)) %>%
+  relocate(IEPFishCode, .after = OrganismCode)
 ```
 
-Add in zeroes for fish that weren't caught (important for average CPUE)
+3. If you want only fish that have length/individual info
 ```{r}
-catch_all <- catch %>% 
-  arrange(OrganismCode) %>%
-  filter(OrganismCode != "NONE") %>%
-  pivot_wider(names_from = "OrganismCode", values_from = "Count",values_fill = 0) %>%
-  pivot_longer(cols = AMM:YFG, values_to = "Count", names_to = "OrganismCode")%>%
-  mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume, Count/TrapHours))
+length <- left_join(fish_unique, event) 
 ```
 
-3. If you want to add CommonName
-```{r}
-catch_names <- left_join(catch_all, taxonomy %>% select(OrganismCode, CommonName))
-```
-
-4. If you want only fish with length info
-```{r}
-length <- left_join(fish_unique, sample_effort) 
-```
-
-If you want to calculate length frequency so that every fish has a length associated (even the plus counts)
-```{r}
-
-```
-
-5. If you want salmon info (genetic results)
+4. If you want salmon catch info with genetic results
 ```{r}
 salmon <- left_join(length, salm_gen) %>%
   filter(OrganismCode == "CHN")
 ```
 
-6. If you want smelt info (genetic results)
+5. If you want smelt catch info with genetic results
 ```{r}
 smelt <- left_join(length, smelt_gen) %>%
   filter(OrganismCode %in% c("WAG", "DSM", "LFS"))
+```
+
+
+To remove flagged data:
+```{r}
+noflags <- catch_names %>%
+  filter(!grepl('2|3', Flag_WQ))
+
+nopHflags <- catch_names %>%
+  filter(!grepl('pH', Comment_WQ))
+```
+
+
+Write flat file
+```{r}
+write.csv(catch_names, "data_clean/integrated_wq_totalcatch.csv", quote = TRUE, row.names = FALSE)
+saveRDS(catch_names, "data_clean/integrated_wq_totalcatch.rds", compress = "xz") #version for GitHub
 ```
 

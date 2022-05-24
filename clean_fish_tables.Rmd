@@ -352,9 +352,19 @@ Sample_effort <- (fish_ref_clean %>% select(-SampleDate)) %>%
 
 ### c) Join seine table
 ```{r}
+seine_large <- seine_clean %>%
+  left_join(Sample_effort %>%select(EventID, SampleDate, StationCode)) %>%
+  filter(SeineDepth>2 | Volume>300)
+
+seine_clean_qc <- seine_clean %>%
+  mutate(SeineDepth = replace(SeineDepth, EventID == 8356, 0.7))
+```
+
+
+```{r}
 str(Sample_effort)
 
-Sample_effort_seine <- left_join(Sample_effort, seine_clean) %>%
+Sample_effort_seine <- left_join(Sample_effort, seine_clean_qc) %>%
   mutate(GearConditionCode = ifelse(is.na(GearConditionCode) & !is.na(ConditionCode), ConditionCode, GearConditionCode)) %>%
  # mutate_if(is.factor, empty_as_na) %>%
  # mutate_if(is.character, empty_as_na) %>%
@@ -745,7 +755,7 @@ Make table for individuals
 ```{r}
 individuals0 <- fish_catch_QC3 %>%
   filter(PlusCount == FALSE) %>%
-  select(OrganismID, FishGenID, SampleID, EventID, OrganismCode, ForkLength, TotalLength, Weight, Sex, RaceByLength, StageCode, Dead, Expression, GeneticSample, FishIDComments)
+  select(OrganismID, FishGenID, EventID, OrganismCode, ForkLength, TotalLength, Weight, Sex, RaceByLength, StageCode, Dead, Expression, GeneticSample, FishIDComments)
 ```
 
 ### e) Check out small fish
@@ -791,7 +801,7 @@ stations_clean <- fish_stations_only %>%
 
 ### b) Add in IEP Fish Code and filter to species we have
 ```{r}
-finalFish <- unique(fish_catch_QC2$OrganismCode)
+finalFish <- unique(fish_catch_QC3$OrganismCode)
 
 ## Keep fixing species
 taxonomy_clean <- left_join(fish_tax_clean, iepfishcodes, by = "Taxa") %>%
@@ -860,13 +870,14 @@ total_catch_all <- total_catch_wide %>%
 
 ## 8. Write cleaned tables
 ```{r}
-write_csv(stations_clean, "data_clean/stations.csv")
-write_csv(fish_sample_cleaned, "data_clean/event.csv")
-write_csv(effort_final, "data_clean/effort.csv")
-write_csv(total_catch_all, "data_clean/total_catch.csv")
-write_csv(individuals, "data_clean/fish_unique")
-write_csv(taxonomy_clean, "data_clean/taxonomy.csv")
-write_csv(salm_gen_clean, "data_clean/genetics_salmon.csv")
-write_csv(smelt_gen_clean, "data_clean/genetics_smelt.csv")
+write.csv(stations_clean, "data_clean/station.csv", quote = TRUE, row.names = FALSE)
+write.csv(fish_sample_cleaned, "data_clean/event.csv", quote = TRUE, row.names = FALSE)
+write.csv(effort_final, "data_clean/effort.csv", row.names = FALSE)
+write.csv(total_catch_all, "data_clean/total_catch.csv", row.names = FALSE)
+write.csv(individuals, "data_clean/fish_unique.csv", quote = TRUE, row.names = FALSE)
+write.csv(taxonomy_clean, "data_clean/taxonomy.csv", row.names = FALSE)
+write.csv(salm_gen_clean, "data_clean/genetics_salmon.csv", quote = TRUE, row.names = FALSE)
+write.csv(smelt_gen_clean, "data_clean/genetics_smelt.csv", quote = TRUE, row.names = FALSE)
+saveRDS(total_catch_all, "data_clean/total_catch.rds") #version for GitHub
 ```
 
