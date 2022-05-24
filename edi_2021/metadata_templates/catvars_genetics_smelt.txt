@@ -1,0 +1,27 @@
+attributeName	code	definition
+Comments_Smelt	2 swab tests for DNA one5x one 10x	
+Comments_Smelt	Damaged near adipose	
+Comments_Smelt	dead	
+Comments_Smelt	degrade state	
+Comments_Smelt	female	
+Comments_Smelt	female spent	
+Comments_Smelt	Found dead	
+Comments_Smelt	isthmus contains lots of chromatophores	
+Comments_Smelt	lots of pigmentation on dorsal	
+Comments_Smelt	lots of pigmentation on the dorsal	
+Comments_Smelt	male	
+Comments_Smelt	no EtOH in tube	
+Comments_Smelt	no jaw	
+Comments_Smelt	Seems to have a v-shape	
+Comments_Smelt	small clip	
+Comments_Smelt	tail cut off	
+Comments_Smelt	tail damaged	
+Comments_Smelt	tail fork missing	
+Comments_Smelt	the weight might be entered incorrectly	
+Comments_Smelt	very large well developed eyes and mouth	
+GeneticID	DSM	
+GeneticID	HYB_DSM_WAG	
+GeneticID	HYB_LFS_WAG	
+GeneticID	LFS	
+GeneticID	UNK	
+GeneticID	WAG	

@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SmeltGeneticRowID		numeric	!Add units here!			
+FishGenID		character				
+qDSM		numeric	!Add units here!			
+qWAG		numeric	!Add units here!			
+qLFS		numeric	!Add units here!			
+GeneticID		categorical				
+Comments_Smelt		categorical				

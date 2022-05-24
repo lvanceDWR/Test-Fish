@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+EventID		numeric	!Add units here!			
+SeineLength		numeric	!Add units here!			
+SeineWidth		numeric	!Add units here!			
+SeineDepth		numeric	!Add units here!			
+SeineVolume		numeric	!Add units here!			
+TrapStatus		character				
+TrapHours		numeric	!Add units here!			

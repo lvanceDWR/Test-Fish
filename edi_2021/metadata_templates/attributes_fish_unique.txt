@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+OrganismID		character				
+FishGenID		categorical				
+EventID		numeric	!Add units here!			
+OrganismCode		categorical				
+ForkLength		numeric	!Add units here!			
+TotalLength		numeric	!Add units here!			
+Weight		numeric	!Add units here!			
+Sex		categorical				
+RaceByLength		categorical				
+StageCode		categorical				
+Dead		categorical				
+Expression		categorical				
+GeneticSample		categorical				
+FishIDComments		categorical				

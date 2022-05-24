@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+StationCode		character				
+StationName		character				
+StationNumber		character				
+Latitude		numeric	!Add units here!			
+Longitude		numeric	!Add units here!			
+PeriodOfRecordFrom		character				
+PeriodOfRecordTo		categorical				
+MonitoringType		categorical				
+MethodCode		categorical				

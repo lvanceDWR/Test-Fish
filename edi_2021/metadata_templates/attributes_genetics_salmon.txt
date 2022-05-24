@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SalmGeneticRowID		numeric	!Add units here!			
+FishGenID		character				
+GeneticID		categorical				
+Probability1		numeric	!Add units here!			
+GeneticID2		categorical				
+Probability2		numeric	!Add units here!			
+Comments_Salmon		categorical				
+Comments_SalmonDataUsage		categorical				

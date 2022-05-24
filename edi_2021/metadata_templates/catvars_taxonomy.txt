@@ -1,0 +1,27 @@
+attributeName	code	definition
+Class	Actinopterygii	
+Class	Cephalaspidomorphi	
+Class	Crustacea	
+Class	Malacostraca	
+Class	Osteichthyes	
+Class	NA	
+Native	I	
+Native	N	
+Order	Acipenseriformes	
+Order	Atheriniformes	
+Order	Caridae	
+Order	Clupeiformes	
+Order	Cypriniformes	
+Order	Cyprinodontiformes	
+Order	Decapoda	
+Order	Gasterosteiformes	
+Order	Perciformes	
+Order	Petromyzontiformes	
+Order	Pleuronectiformes	
+Order	Salmoniformes	
+Order	Scorpaeniformes	
+Order	Siluriformes	
+Order	NA	
+Phylum	Arthropoda	
+Phylum	Chordata	
+Phylum	NA	

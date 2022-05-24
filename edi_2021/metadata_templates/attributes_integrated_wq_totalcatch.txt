@@ -1,0 +1,33 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+EventID		numeric	!Add units here!			
+StationCode		categorical				
+Datetime		Date		!Add datetime specifier here!		
+SampleDate		Date		!Add datetime specifier here!		
+WaterTemp		numeric	!Add units here!			
+SpecificConductance		numeric	!Add units here!			
+Conductivity		numeric	!Add units here!			
+Turbidity		numeric	!Add units here!			
+DO		numeric	!Add units here!			
+pH		numeric	!Add units here!			
+Secchi		numeric	!Add units here!			
+Tide		categorical				
+WeatherCode		categorical				
+VegetationRank		numeric	!Add units here!			
+SubstrateCode		character				
+HabitatType		character				
+MicrocystisRank		numeric	!Add units here!			
+MethodCode		categorical				
+GearCode		categorical				
+GearConditionCode		numeric	!Add units here!			
+SampleAltered		categorical				
+FieldComments		character				
+Flag_WQ		categorical				
+Comment_WQ		categorical				
+SampleID		character				
+OrganismCode		categorical				
+IEPFishCode		categorical				
+Count		numeric	!Add units here!			
+SeineVolume		character				
+TrapStatus		categorical				
+TrapHours		numeric	!Add units here!			
+CPUE		numeric	!Add units here!			

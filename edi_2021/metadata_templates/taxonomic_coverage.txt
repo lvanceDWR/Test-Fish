@@ -1,0 +1,61 @@
+name	name_type	name_resolved	authority_system	authority_id
+Lampetra spp.	scientific	Lampetra	ITIS	159700
+Alosa sapidissima	scientific	Alosa sapidissima	ITIS	161702
+Micropterus spp.	scientific	Micropterus	ITIS	168158
+Lepomis macrochirus	scientific	Lepomis macrochirus	ITIS	168141
+Ameiurus melas	scientific	Ameiurus melas	ITIS	164039
+Pomoxis nigromaculatus	scientific	Pomoxis nigromaculatus	ITIS	168167
+Ameiurus nebulosus	scientific	Ameiurus nebulosus	ITIS	164043
+Cyprinus carpio	scientific	Cyprinus carpio	ITIS	163344
+Ictaluridae spp.	scientific	Ictaluridae	ITIS	163995
+Ictalurus punctatus	scientific	Ictalurus punctatus	ITIS	163998
+Oncorhynchus tshawytscha	scientific	Oncorhynchus tshawytscha	ITIS	161980
+Eriocheir sinensis	scientific	Eriocheir sinensis	ITIS	99058
+Hypomesus transpacificus	scientific	Hypomesus transpacificus	ITIS	162032
+Pimephales promelas	scientific	Pimephales promelas	ITIS	163517
+Carassius auratus	scientific	Carassius auratus	ITIS	163350
+Lepomis cyanellus	scientific	Lepomis cyanellus	ITIS	168132
+Notemigonus crysoleucas	scientific	Notemigonus crysoleucas	ITIS	163368
+Lavinia exilicauda	scientific	Lavinia exilicauda	ITIS	163569
+Mylopharodon conocephalus	scientific	Mylopharodon conocephalus	ITIS	163587
+Cyprinodontidae spp.	scientific	Cyprinodontidae	ITIS	165629
+Spirinchus thaleichthys	scientific	Spirinchus thaleichthys	ITIS	162049
+Micropterus salmoides	scientific	Micropterus salmoides	ITIS	168160
+Percina macrolepida	scientific	Percina macrolepida	ITIS	168487
+Gambusia affinis	scientific	Gambusia affinis	ITIS	165878
+Menidia audens	scientific	Menidia audens	ITIS	165998
+NoCatch	scientific	NoCatch	NA	NA
+Lepomis gibbosus	scientific	Lepomis gibbosus	ITIS	168144
+Lampetra tridentata	scientific	Lampetra tridentata	ITIS	159713
+Cottus asper	scientific	Cottus asper	ITIS	167233
+Leptocottus armatus	scientific	Leptocottus armatus	ITIS	167302
+Oncorhynchus mykiss	scientific	Oncorhynchus mykiss	ITIS	161989
+Lepomis microlophus	scientific	Lepomis microlophus	ITIS	168154
+Lucania parva	scientific	Lucania parva	ITIS	165679
+Lampetra ayresi	scientific	Lampetra ayresi	ITIS	159704
+Cyprinella lutrensis	scientific	Cyprinella lutrensis	ITIS	163792
+Ptychocheilus grandis	scientific	Ptychocheilus grandis	ITIS	163524
+Catostomus occidentalis	scientific	Catostomus occidentalis	ITIS	163908
+Orthodon microlepidotus	scientific	Orthodon microlepidotus	ITIS	163589
+Cottidae spp.	scientific	Cottidae	ITIS	167196
+Tridentiger bifasciatus	scientific	Tridentiger bifasciatus	ITIS	553361
+Exopalaemon modestus	scientific	Exopalaemon modestus	ITIS	96574
+Palaemonetes kadiakensis	scientific	Palaemonetes kadiakensis	ITIS	96396
+Micropterus dolomieu	scientific	Micropterus dolomieu	ITIS	550562
+Osmeridae spp.	scientific	Osmeridae	ITIS	162028
+Centrarchidae spp.	scientific	Centrarchidae	ITIS	168093
+Micropterus punctulatus	scientific	Micropterus punctulatus	ITIS	168161
+Pogonichthys macrolepidotus	scientific	Pogonichthys macrolepidotus	ITIS	163603
+Morone saxatilis	scientific	Morone saxatilis	ITIS	167680
+Platichthys stellatus	scientific	Platichthys stellatus	ITIS	172893
+Dorosoma petenense	scientific	Dorosoma petenense	ITIS	161738
+Hysterocarpus traskii	scientific	Hysterocarpus traskii	ITIS	553322
+Gasterosteus aculeatus	scientific	Gasterosteus aculeatus	ITIS	166365
+Unknown	scientific	Unknown	NA	NA
+Lepomis gulosus	scientific	Lepomis gulosus	ITIS	168138
+Hypomesus nipponensis	scientific	Hypomesus nipponensis	ITIS	162033
+Ameiurus catus	scientific	Ameiurus catus	ITIS	164037
+Pomoxis annularis	scientific	Pomoxis annularis	ITIS	168166
+Acipenser transmontanus	scientific	Acipenser transmontanus	ITIS	161068
+Ictalurus natalis	scientific	Ictalurus natalis	ITIS	164042
+Acanthogobius flavimanus	scientific	Acanthogobius flavimanus	ITIS	171882

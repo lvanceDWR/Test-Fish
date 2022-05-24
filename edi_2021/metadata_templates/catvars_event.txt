@@ -1,0 +1,2154 @@
+attributeName	code	definition
+Comment_WQ	NA,Conductivity,NA,NA,NA,NA,NA	
+Comment_WQ	NA,Conductivity,NA,NA,NA,NA,Secchi	
+Comment_WQ	NA,Conductivity,SpecificConductance,NA,NA,NA,NA	
+Comment_WQ	NA,Conductivity,SpecificConductance,NA,NA,Turbidity,NA	
+Comment_WQ	NA,NA,NA,DO,NA,NA,NA	
+Comment_WQ	NA,NA,NA,DO,NA,NA,Secchi	
+Comment_WQ	NA,NA,NA,NA,NA,NA,NA	
+Comment_WQ	NA,NA,NA,NA,NA,NA,Secchi	
+Comment_WQ	NA,NA,NA,NA,NA,Turbidity,NA	
+Comment_WQ	NA,NA,NA,NA,pH,NA,NA	
+Comment_WQ	NA,NA,NA,NA,pH,Turbidity,NA	
+Comment_WQ	NA,NA,SpecificConductance,NA,NA,NA,NA	
+Comment_WQ	WaterTemp,NA,NA,NA,NA,NA,NA	
+Comment_WQ	NA	
+FieldComments	-1 (shortened) Length	
+FieldComments	-3m from 28	
+FieldComments	-4 length	
+FieldComments	-6 m due to hyacinth	
+FieldComments	""boat ramp""	
+FieldComments	(2) bag twist	
+FieldComments	(2) bag twist/not entire bag twisted	
+FieldComments	(Shortened by 5 meter) due to primrose	
+FieldComments	*DO meter broken? (not entered). Sucker fry, SPLT too small (lots)	
+FieldComments	*DO meter may be broken	
+FieldComments	*JF CHNF	
+FieldComments	*temperature seems high?*	
+FieldComments	`35 TADPOLES	
+FieldComments	~5 STB, 2 C, 15 WHC/CHC lost	
+FieldComments	~50 SPLT killed	
+FieldComments	~7rpm	
+FieldComments	>100 larval STB,DSM ; trap counter-rotating	
+FieldComments	0-44 Fall run CHN; both CHN-F have adipose fins	
+FieldComments	1 AMS head	
+FieldComments	1 dead WHC floating in trap, length N/A	
+FieldComments	1 door ajar	
+FieldComments	1 door open on cone.	
+FieldComments	1 hour set	
+FieldComments	1 hour set (set at 10:19) 87 turns	
+FieldComments	1 hour set, set at 11:00. 8 RPM	
+FieldComments	1 hour set. pH off.	
+FieldComments	1 HR SET (SET @ 126930) 9.5 rpm	
+FieldComments	1 ovigerous exo	
+FieldComments	1 splt unmeasured (escape)	
+FieldComments	1 TFS half eaten	
+FieldComments	1 TURTLE	
+FieldComments	1 WST taken by DFG warden	
+FieldComments	1.25 mi S of I-80	
+FieldComments	1.8 RPM	
+FieldComments	10 AM set- 1st of the season.	
+FieldComments	10 larval fish caught; all < 20mm.  Otherwise - no catch	
+FieldComments	10 PL were ammoceotes: average lgth. Was 140 mm.	
+FieldComments	10 splt for RK	
+FieldComments	10 SPLT given to Fred	
+FieldComments	100 ft east of last one	
+FieldComments	100 ft N of 1st, possible type 3	
+FieldComments	100% submerged, but 10 ft. shy of center channel.	
+FieldComments	104 shrimp.  Female mitten crab at 22mm	
+FieldComments	11 directed take for rachel johnson- otoliths. Range 75 to 87mm.	
+FieldComments	1196 shrimp, EC:569	
+FieldComments	12 UNID were sunfish, remaining 1 UNID a minnow	
+FieldComments	120 Shrimp	
+FieldComments	14 SHR w/eggs. Ec=1245	
+FieldComments	14 SPLT transported to DFG Demo. Wetlands Pond	
+FieldComments	150 ft N of 2nd, possible type 3	
+FieldComments	161 SHRw/eggs. Ec=666. No scale	
+FieldComments	179 Shrimp	
+FieldComments	18 shrimp.	
+FieldComments	194 shrimp	
+FieldComments	1Mort CHN seen in trap. Gone once trap pulled.	
+FieldComments	1st 7 WST taken by UCD, last 10 clipped for DFG	
+FieldComments	1st day back after SIP (Stay in Place for Covid-19)	
+FieldComments	1st day w/o lining	
+FieldComments	1st overnight set after shotdown.	
+FieldComments	1st pull- no catch	
+FieldComments	1st set after hyacinth flushed out	
+FieldComments	1st set borrowed screw trap.	
+FieldComments	1st set of season	
+FieldComments	1st set of season. Hyacinth caught before set.	
+FieldComments	1st set of the season, high flow conditions	
+FieldComments	1st set of the year.	
+FieldComments	1ST TOW	
+FieldComments	1st trap check, 1 adult AMS head	
+FieldComments	2 AMS heads in trap; 3 CHC in front chamber	
+FieldComments	2 dead MSS probably regurgiated by WHC, not netted	
+FieldComments	2 DSM (1 MORTALITY KEPT) LMB 62MM HAD 37MM MSS IN MOUTH	
+FieldComments	2 goldfish present	
+FieldComments	2 hauls done	
+FieldComments	2 hour set	
+FieldComments	2 hour set, medium debris	
+FieldComments	2 hr set	
+FieldComments	2 hr set (checked at 11:05). 7 RPM	
+FieldComments	2 in. hole in net.	
+FieldComments	2 LARGE CHC, ONE HAD 2 SILVERSIDES IN ITS MOUTH!	
+FieldComments	2 RPM	
+FieldComments	2 Seines; first had a twisted bag - and just 1 fish SASQ = 115	
+FieldComments	2 STB (520 & 390) tagged and released	
+FieldComments	2) not spinning- log in livewell	
+FieldComments	2.0 RPM	
+FieldComments	2.5 hours set (last check 11:40)	
+FieldComments	2.5 RPM	
+FieldComments	2.5 RPM. 2.5 hour set.	
+FieldComments	20 Shrimp Ec=945	
+FieldComments	2020_ACHN_001 was caught between chain link and black mesh of trap, it was pulled out of the water while rolling the trap up but seemed to recover ok.	
+FieldComments	214 WHC = Splotchy	
+FieldComments	218 ntu?	
+FieldComments	2nd check of the day. Secchi and Turbidity was taken in the morning. CHNF=0-70mm	
+FieldComments	2nd check since 09:28am. Heavy debris load	
+FieldComments	2nd pull	
+FieldComments	2nd PULL	
+FieldComments	2ND TOW	
+FieldComments	2x4 stuck in cone, preventing rotation. Ebb tide.	
+FieldComments	2x6 blocking cone - was not spinning when we arrived.	
+FieldComments	3 C and 1 WST expressed milt.	
+FieldComments	3 hour set (set @ 9:50), 6.5 RPM chnf = 0-67 chns = 68-91	
+FieldComments	3 hours set (set @ 9:30) CHNW 88-177	
+FieldComments	3 hr set (set at 9:20) 7.5 RPM. Broken rev counter	
+FieldComments	3 mitten crabs in haul, all 20 mm carapace	
+FieldComments	3 mitten crabs, F52mm,F45mm,M38mm	
+FieldComments	3 SHR w/eggs. Ec=478	
+FieldComments	3 SPLT total taken to pond, 2 were tagged	
+FieldComments	3 UNID- probably C or GF, @ 20 mm or less	
+FieldComments	3 UNID were minnows, 1 UNID a goby	
+FieldComments	3 volumetric measures averaged: (788+749+806)-> 781	
+FieldComments	3 WST tagged	
+FieldComments	3.5 RPM	
+FieldComments	3.5 RPM, ~45,000 undersized SPLT	
+FieldComments	3.8 RPM	
+FieldComments	30 ft seine	
+FieldComments	30 FT SEINE	
+FieldComments	30 ft seine.. Two other seines taken used to verify seine net capture efficiency (30ft and 50ft), but not entered.	
+FieldComments	324 Shrimp  Ec=265	
+FieldComments	328 shrimp,one 20mm male mitten crab	
+FieldComments	36 shrimp.  Many cockelbur invaders in net	
+FieldComments	3rd pull	
+FieldComments	4 AMS heads	
+FieldComments	4 AMS heads in trap, STB tagged	
+FieldComments	4 revolutions/minute	
+FieldComments	4 undersized shrimp and 1 shrimp k present	
+FieldComments	42259	
+FieldComments	44075 (rev for 1/26/15)	
+FieldComments	48 shrimp.  Ec=336	
+FieldComments	5 RPM	
+FieldComments	5 rpm after blockage removed	
+FieldComments	5 UNID, probably C, <20mm. MSS expressed milt.	
+FieldComments	5 WST tagged	
+FieldComments	5.5 RPM	
+FieldComments	50 ft net used	
+FieldComments	50 ft seine.  30ft seine taken as replacte next to site (data not entered). Used to check catchability of seines	
+FieldComments	50 SPLT killed for Fred	
+FieldComments	500 is estimate for escaped STB, CHN  tag 1365	
+FieldComments	50ft Seine	
+FieldComments	514 (FL) Chn might be female	
+FieldComments	5salmon&7mss inside white cat	
+FieldComments	6.25 RPM  no rev. counter	
+FieldComments	6.25 RPM. 2 hour set (set at 9:15). no rev counter F:34-73 S: 75-100 mm	
+FieldComments	650 STB tag# 11494 20-Y	
+FieldComments	68 shrimp	
+FieldComments	7 RPM	
+FieldComments	7 RPM. 2 hour set. No fish.	
+FieldComments	7 RPM. WINDY! Rev counter broken	
+FieldComments	7 SPLT <20mm	
+FieldComments	7.5 rpm	
+FieldComments	7.5 RPM	
+FieldComments	7.5 RPM no rev counter	
+FieldComments	7.5 RPM, YSI # not noted	
+FieldComments	75-100 young of the year shrimp	
+FieldComments	75mm width, 60mm depth native mollusk (1)	
+FieldComments	7rpm	
+FieldComments	7rpm, high flow	
+FieldComments	8 RPM	
+FieldComments	8 RPM. New foam installed	
+FieldComments	8 RPM. Unknown cyprinid, might be hardhead	
+FieldComments	8 x8 seine. No fish caught	
+FieldComments	8.0 RPM	
+FieldComments	8.5 RPM	
+FieldComments	8.5 RPM. 1 hour set. Small SPLT <25mm present; chns 80 - 107 mm	
+FieldComments	8m x 8m beach seine	
+FieldComments	8rpm, high flow	
+FieldComments	8rpm, high flow, no fish caught. Partially blocked.	
+FieldComments	8WHC,1HCH,1SASU seen & escaped when repulled	
+FieldComments	8x8 J-seine due to high flows	
+FieldComments	9 mins too much debris & clogged cone	
+FieldComments	9 rpm	
+FieldComments	9 RPM	
+FieldComments	9.2 RPM	
+FieldComments	A little primrose caught in seine	
+FieldComments	A lot of debris clogged cone but able to unclog.	
+FieldComments	A lot of debris in trap.	
+FieldComments	A lot of debris/ one door of rstr is broken and open. Trap is spinning.	
+FieldComments	a lot of hyacinth	
+FieldComments	A lot of hyacinth, fyke crooked	
+FieldComments	a lot of primrose stock in the seine	
+FieldComments	a lot of shad spp. <25mm	
+FieldComments	a lot of silversides	
+FieldComments	a lot of SPLT <25mm	
+FieldComments	A stick stuck in the bag (might have lost some fish)	
+FieldComments	about 180 BKS <20mm	
+FieldComments	Acoustic tagged CHNF - ERP Project	
+FieldComments	Acoustic Tagged CHNF - ERP project	
+FieldComments	Acoustic Tagged CHNF - ERP Study	
+FieldComments	ad presen; pH high	
+FieldComments	ad present	
+FieldComments	AD present	
+FieldComments	Add REVS to 2(og in fish binder) Did not set foam stopper on trap.	
+FieldComments	ADDED CABLE AND LOCKS TO BOTH DOORS ON FYKE	
+FieldComments	added new rev counter (started with 44 revs). Need to replace livewell foam.	
+FieldComments	Added protective crate in the livewell of the RSTR - Gets put in livewell during each set. AKA - ""The Fish Bunker""	
+FieldComments	Added zip ties, moved trap upstream (cable was moving over and blocking access to the door)	
+FieldComments	adipose present	
+FieldComments	Adipose Present	
+FieldComments	ADIPOSE PRESENT	
+FieldComments	Adjusted length of seine due to primrose overgrowth. Cloudy/haze from yolo/sonoma wildfires	
+FieldComments	Adjusted length of seine to fit between patches of primrose	
+FieldComments	adjusted position of fyke. Was crooked in the channel and had moved upstream	
+FieldComments	ADULT BULLFROG	
+FieldComments	adult red ear slider turtle captured--- 200mm carapace total length	
+FieldComments	after cleared RPM: 4.5	
+FieldComments	After cleared trap RPM=5, YSI not working	
+FieldComments	after cleared, rpm:2.5. Measured splt taken for FF	
+FieldComments	After debris removal trap RPM=0	
+FieldComments	After debris removal trap RPM=1.5	
+FieldComments	After debris removal trap RPM=3	
+FieldComments	after debris removed RPM=2.5	
+FieldComments	AFTER SEINE	
+FieldComments	After the storm high current	
+FieldComments	After wood removal trap RPM=4	
+FieldComments	AfterclearRPM=6,ONLY 2 decomp fish in box inc MSS	
+FieldComments	Afternoon check  deep-higher tide	
+FieldComments	AL3 high flow site	
+FieldComments	Alex fishing at mouth of trap	
+FieldComments	Alice's first day!	
+FieldComments	All but one STB exhibited milt	
+FieldComments	all chn returned to the river	
+FieldComments	All dead MSS  pretty badly mangled/partially eaten	
+FieldComments	all dsm and wag dead.	
+FieldComments	all MSS died	
+FieldComments	All SPLT brought to YB pond but FL 357	
+FieldComments	all SPLT moved to pond	
+FieldComments	all SPLT sent to study pond, 5 radio tagged	
+FieldComments	all SPLT taken to pond	
+FieldComments	All SPLT taken to pond, 2 tagged	
+FieldComments	ALL WST RECEIVED ACCOUSTIC TAGS- TAGGED BY PHIL S. AND MIKE FROM KLIMLEY LAB. TAGS USED WERE DONATED BY ZOLTAN MATICA	
+FieldComments	alligned trap in channel	
+FieldComments	Alt site (below hyacinth & fyke). Hole in net	
+FieldComments	AMS had no thread projection but deep body scutes and faded single dot.	
+FieldComments	AMS might be from the stomach of another fish. Looks partially digested. WHC (420) taken for predation ERP study.	
+FieldComments	AMS skeleton.NO YSI	
+FieldComments	Anchor line caught on tree.  Will still fish fine.	
+FieldComments	ANCHOR RESET	
+FieldComments	Anchor was set. 3 RPM	
+FieldComments	AND PULL	
+FieldComments	Approx. 6""x2"" hole in seine net.	
+FieldComments	around 300 STB under 20mm	
+FieldComments	around 400 STB less than 20 mm	
+FieldComments	around 50 larval STB(?) <15mm	
+FieldComments	at board wier boat ramp	
+FieldComments	at end of boat ramp	
+FieldComments	at fish ladder, 102 ft between block nets	
+FieldComments	attempted 2 seines, veg pulled up lead line. No fish	
+FieldComments	ave. ysi trub 108.2 NTU, vial turbidity: 103.7	
+FieldComments	Azolla	
+FieldComments	bag did not deploy fully	
+FieldComments	bag did not deploy, bad haul	
+FieldComments	bag did not open fully - little twisted	
+FieldComments	bag inside out, lots of larval fish	
+FieldComments	bag inside out. Started seine @ stake & moved North	
+FieldComments	bag of seine wrapped inside out when brought to shore	
+FieldComments	Bag section of beach seine net slightly twisted around lead line.	
+FieldComments	Bag Twist	
+FieldComments	Bag Twist. Substarte more of a hard pan than mud.	
+FieldComments	bag twisted and lots of mud, large carp escaped	
+FieldComments	Bag twisted and lots of primrose caught on the lead line.	
+FieldComments	Bag twisted during seine	
+FieldComments	BAG WAS FOLDED IN ON IT SELF	
+FieldComments	Bag was partially twisted	
+FieldComments	bag/net twisted	
+FieldComments	bank is eroded	
+FieldComments	beach seine day	
+FieldComments	Beach seine site SB-2, no option in station code drop down menu.	
+FieldComments	Been fishing since 1700 previous day. Fished for 17 hrs.	
+FieldComments	Began fishing trap	
+FieldComments	Below the fence, right below fyke due to hyacinth.	
+FieldComments	Below the weir. Secchi was >0.41, water was not deep enough. Seems to be disconnected, lots of larval fish. Site was SB-1. * no ID# given, stopped fin clips after 15 Fall run	
+FieldComments	BF Tadpoles!	
+FieldComments	BGS had parasites in them	
+FieldComments	big log stuck on trap	
+FieldComments	BIG MAMA CARP- 816 WOW!!	
+FieldComments	BIGGIE!! Angie M= 95mm Regional Loggy Champion (upper)	
+FieldComments	bismark brown fish present	
+FieldComments	bk	
+FieldComments	BKS caught in back of trap not in front chamber	
+FieldComments	bks is either bks or whc, <25mm fish not counted	
+FieldComments	bks is either bks or whs	
+FieldComments	BKS is either BKS or WHS,10 SPLT given to Fred	
+FieldComments	Blood on deck of trap?	
+FieldComments	Boat launch near RSTR	
+FieldComments	boated out every 30 minutes to check trap debris	
+FieldComments	both fish taken for isotope work	
+FieldComments	Both salmon were male(pictures)	
+FieldComments	Bottom of net snagged.	
+FieldComments	Branch at front of trap	
+FieldComments	BRANCH IN CONE, LIKELY DIDNâ€™T SPIN +1 LARGE BRANCH ON CABLE	
+FieldComments	Branches stuck in the bag and twisted lead line little bit.	
+FieldComments	BRANCHES WERE STOPPING THE CONE	
+FieldComments	BRIAN S. FAMILY VISIT	
+FieldComments	Bright with wispy clouds. Amanda Canepa = AC / Veg = 1	
+FieldComments	Broke guide line, came up crooked, fixed it.	
+FieldComments	broken counter. Set @ 10:32 (4 hr set.) 6 RPM chnf 0-67 mm s 68-91 mm	
+FieldComments	Broken rev. counter. 6 RPM	
+FieldComments	Bud Paul Pond in YBW, two classes of FHM (A & J)	
+FieldComments	bullfrog caught & released	
+FieldComments	Burrs were stuck to and twisting bottom on the net.	
+FieldComments	Bypass in flooded condition.	
+FieldComments	Bypass side: east	
+FieldComments	C(618 FL)= BROKEN CAUDAL FIN	
+FieldComments	cable over four, trap needs to be adjusted, ebb	
+FieldComments	cable wrapped around itself	
+FieldComments	Cables crossed b/c trap rotated.	
+FieldComments	cables tangled with LWD, and nose of trap exposed	
+FieldComments	Carp at 328 had a spinal deformity,EC:395	
+FieldComments	catfish had 2 mss in belly	
+FieldComments	catfish with MSS in stomach	
+FieldComments	Cattle fence up - Pond recently filled	
+FieldComments	Caudal clipped-CHN 75	
+FieldComments	caught 2 BKS and 1 WHC b/t mesh and chain link of one door due to mesh breaking on edge at 2 places	
+FieldComments	caught a lot of vegetation in bag	
+FieldComments	caught in rip rap	
+FieldComments	caught larval STB (too small); E= eggs	
+FieldComments	caught STB with hook and line-->hook cut, hole in side of body cavity--took pictures on phone	
+FieldComments	Caught stick that may have taken up led line.	
+FieldComments	Caught up on log when bringing net in.	
+FieldComments	causway pond site, many MSS <20mm	
+FieldComments	causway pond west end	
+FieldComments	center	
+FieldComments	Challenging pulling lead line up. May have lost a few fish.	
+FieldComments	Challenging to pull lead line up bank with how deep the water was.	
+FieldComments	Changed Status to ""check"" on 7/23/04. BH	
+FieldComments	CHC @ 562mm with head stuck in trap door	
+FieldComments	chc adipose present, saved for ERP genetics	
+FieldComments	chc both with adipose fin. Both taken for erp genetics	
+FieldComments	CHC had a ventral caudal tail clip.	
+FieldComments	Check & Pull	
+FieldComments	Check and pull	
+FieldComments	Check and pull, Began fishing around 10:30, Fished for ~ 5 hrs	
+FieldComments	Check and pull. Trap was checked and pulled for the day due to high number of DSM.	
+FieldComments	Check and pull. Trap was set at 13:30 but only fished for two hours	
+FieldComments	Check/pull	
+FieldComments	Check/Pull	
+FieldComments	CHECK/PULL	
+FieldComments	Check/Pull  Low (Flood) Tide	
+FieldComments	Check/pull, Only fished for 2 hrs	
+FieldComments	Check/pull. Trap fished for about 5 hrs. during low high ebb tide. Trap was pulled for the day.	
+FieldComments	Check/pull. Trap was fishing for about 2 hrs.	
+FieldComments	CHECKED AFTER LOWER TROPHIC	
+FieldComments	Checked earlier; reset the trap	
+FieldComments	Chinook salmon caught in beach seine - fork and total length were taken, as well as genetics. Male adult with adipose.    YSI ntu 75.3,82.9,52.4 = 70.2	
+FieldComments	CHN-CWT # 013 ad cllipped	
+FieldComments	CHN-CWT #009 ad clipped	
+FieldComments	CHN-CWT #010 ad clipped	
+FieldComments	CHN-CWT #011, ad clip	
+FieldComments	CHN-CWT #022	
+FieldComments	CHN-CWT weight measured in grams - No Rev Counter # Recorded	
+FieldComments	CHN-F acoustic tagged but no genetics	
+FieldComments	CHN-F: 0-53mm; ad present on all 3	
+FieldComments	CHN-F: 0-64mm	
+FieldComments	CHN-F: 0-71mm	
+FieldComments	CHN-F: 42-93mm AD PRESENT	
+FieldComments	CHN-F: 42-93mm; took whole fish and fin clipped for genetics	
+FieldComments	CHN-F:0-58mm, ad present	
+FieldComments	CHN-F=0-66;CHN-S=67-90;CHN-W=91-182 E=eggs CHN-S=88 Ad(-) possible knaggs	
+FieldComments	CHN-f=49-106mm; CHN-S=107-144mm; CHN-W=145-269mm	
+FieldComments	CHN-S 61-83mmFL CHN-S 72mm-Whole fish taken for genetic	
+FieldComments	CHN-S: 54-71mm; ad present	
+FieldComments	CHN-S: 59-79mm, ad present.  CHN-CWT #012, ad partially clipped	
+FieldComments	CHN-S: 64-86mm, ad +	
+FieldComments	CHN-S: 65-87mm, AD+	
+FieldComments	CHN-S: 66-88mm, AD +; CHN-W: 88-177mm, AD+	
+FieldComments	CHN-S: 66-88mm, AD+	
+FieldComments	CHN-S: 71-94mm	
+FieldComments	CHN-S: 71-95mm. DSM- eggs	
+FieldComments	CHN-S: fin clip only; ad+	
+FieldComments	CHN-W: 73-147mm, ad present, smolting. Whole fish whirl pak	
+FieldComments	CHN-W: 86-167mm; AD+	
+FieldComments	CHN -- adipose present, Male	
+FieldComments	CHN ad present	
+FieldComments	CHN adult- ad fin clipped	
+FieldComments	CHN escaped from dipnet; DSM dead in trap	
+FieldComments	CHN F=76 SP=103 W=209	
+FieldComments	CHN FIN CLIP TAKEN	
+FieldComments	CHN FL86: part ad clip, likely CHNT but chart=S	
+FieldComments	CHN of 93: wild winter run. CHN of 54: CWT release	
+FieldComments	chn taken for diet analysis	
+FieldComments	CHN was CHNS (collected at 10:56)	
+FieldComments	CHN: F= 0-69   S= 70-94	
+FieldComments	CHN: F= 33-73  S=74-99	
+FieldComments	CHN: Fin clip taken, adipose present	
+FieldComments	CHN=CHNs	
+FieldComments	CHN=CHNS	
+FieldComments	CHN=CHNt	
+FieldComments	chna tagged code-1786 ad fin intact	
+FieldComments	CHNF- 0-70; ODO-7.49	
+FieldComments	CHNF-42-91mm	
+FieldComments	CHNF-NO AD-CLIP	
+FieldComments	CHNF = 34-75	
+FieldComments	CHNF = 38-78mm	
+FieldComments	CHNF not Radio Tagged - no tag avaiable	
+FieldComments	CHNF Not Radio tagged - tag would not stay in	
+FieldComments	CHNF Radio Tagged, Ebb Tide	
+FieldComments	CHNF Radio Tagged, Flood Tide	
+FieldComments	CHNF= 0-69 S= 70-94	
+FieldComments	chnf= 40-88; chns- 89-120	
+FieldComments	CHNF=0-58mm, CHNS=59-79mm, CHNW=80-162mm	
+FieldComments	CHNF=0-64; CHNS=65-87; CHNF=37* was slightly decomposed, unsure if it had Ad.(*CHNS 82,85, and 80 are possible knaggs fish)	
+FieldComments	CHNF=0-67;CHNS=68-91	
+FieldComments	CHNF=0-69	
+FieldComments	CHNF=34-74mm	
+FieldComments	CHNF=35-76mm	
+FieldComments	CHNs - transitional life stage	
+FieldComments	CHNS #2, 3, and 4 (FL=77,76, and 80) had adipose fin clip (possible Knaggs fish). # 3 and 4 also had other fin clip	
+FieldComments	CHNS may have been CHNT with bad clip.	
+FieldComments	CHNS= 64-86 mm	
+FieldComments	CHNT code 001FWFF12801182006	
+FieldComments	CHNW pics taken	
+FieldComments	Clear and sunny/ wind out of the NW	
+FieldComments	clear sky-no clouds-wind from the N- Flood tide	
+FieldComments	clear water	
+FieldComments	cloudy/haze from Yolo/Sonoma wildfires	
+FieldComments	CLOUDY/HAZE FROM YOLO/SONOMA WILDFIRES	
+FieldComments	cockleburs in bag	
+FieldComments	Code 2 - one door ajar	
+FieldComments	Code 2 - Stopped by debris	
+FieldComments	Cold Day, Low Water, Set Trap	
+FieldComments	COLD!! STB taken for ERP predation study	
+FieldComments	Cold, Low tide, 1st seine of the day (started from lower site due to the tide)	
+FieldComments	Collected fish for kids day.	
+FieldComments	Collected scales from 849 STB	
+FieldComments	Cond 2: lots of veg/twigs pulling on lead line	
+FieldComments	Cond. #2- Flow is too high. Fyke isn't launched to its usual position in channel (it's closer to the shore than normal)	
+FieldComments	condition 2- lead line lifted when caught on bottom debris. High flow site/area	
+FieldComments	condition code 2-net got caught at beginning of haul	
+FieldComments	Condition Code 2 becase width was smaller than 4m at certain points.	
+FieldComments	Condition code 2 because part of the seine sampling width was <4 at certain point because of water depth.	
+FieldComments	Conductivity=301	
+FieldComments	cone blocked with a lot of debris; large log stopping cone from spinning	
+FieldComments	cone door unlatched	
+FieldComments	cone full of debris	
+FieldComments	cone not down all the way	
+FieldComments	cone not spinning	
+FieldComments	Cone not spinning- sticks and hyacincth debris.	
+FieldComments	cone not spinning-log jam, slack tide	
+FieldComments	cone not spinning due to log	
+FieldComments	Cone not spinning on arrival due to 2x4 blockage.	
+FieldComments	cone not spinning, log jam	
+FieldComments	cone not spinning, lots of debris	
+FieldComments	cone opening is clean, but due to the flood tide not spinning.	
+FieldComments	cone partially blocked by debris	
+FieldComments	Cone partially clogged with debris, not spinning	
+FieldComments	Cone raised for the season.	
+FieldComments	Cone was not spinning because there was a small branch in the cone. CHNF=0-71mm	
+FieldComments	Cone was set at 0910 but did not start spinning until 1330	
+FieldComments	Construction at FYKE	
+FieldComments	Construction at Lisbon Weir caused very low water level, adjusted width due to low water level.	
+FieldComments	Cormorant in trap	
+FieldComments	Couldn't do BL6 due to issues with the boat rack on the truck	
+FieldComments	cove dried up at old seine location	
+FieldComments	Cows surrounding pond	
+FieldComments	Crew DW (Daniel Wisheropp) & NI	
+FieldComments	current was too strong at parts so lead line came up a little bit	
+FieldComments	cyprinid(splt?) hopped out of the seine	
+FieldComments	D.O. MAY BE OFF, H20 PUMP TURNED ON DURING SEINE	
+FieldComments	D.O. MEMBRANE MAY NEED TO BE REPLACED	
+FieldComments	data sheet shows depth of ""7.7"". Entered as 0.7 which makes more sense.	
+FieldComments	dead beaver in trap	
+FieldComments	dead sea lion in trap 2-3 m male	
+FieldComments	dead sheep/ moved seine site N 15M	
+FieldComments	Debris Blocking cone (not spinning until cleaned) vegtation in code to an extent	
+FieldComments	Debris in trap- not spinning	
+FieldComments	debris light, cone left down	
+FieldComments	debris preventing cone from spinning, ebb	
+FieldComments	Debris trapped around cone.	
+FieldComments	decent amount of small MSS & shad <25mm	
+FieldComments	Deep at the end, so had trouble keeping lead line down when pulling up seine.	
+FieldComments	Deep water, slow moving seine. Seine width was <4m at times during sampling due to the water being too deep.	
+FieldComments	DFG drained large pond upstream 5/21/08	
+FieldComments	Did a second sweep with old seine and only had 2 SHR	
+FieldComments	did not go full 30m due to flood tide depth	
+FieldComments	DID NOT SPIN FROM FLOOD	
+FieldComments	Did not take water quality.	
+FieldComments	DIDN'T TAKE TURBIDITY VIAL	
+FieldComments	didn't write down width or depth	
+FieldComments	difficult to ID small FHM vs. RSN or GSN vs. HCH	
+FieldComments	disconnected pond east of usual spot. All crayfish and tadpoles including larval fish as seen at SB2). No fish	
+FieldComments	disrupted by cows in water before our arrival-> did a 2nd pull	
+FieldComments	DO back up above 5 mg/L	
+FieldComments	DO membrane needs replacement on YSI - no data taken.	
+FieldComments	DO meter may be broken, recorded value is 11.15 mg/l.	
+FieldComments	DO meter may be broken, recorded value is 11.21 mg/l. Site code recorded as LIS, no other location info provided.	
+FieldComments	DO meter may be broken, value recorded as 10.61mg/l. High velocity made a difficult/slow seine. Site code written as FRE, no number indicating specific fremont site. Splittail kept for further ID	
+FieldComments	DO meter may be broken, value recorded: 11.58 mg/l.	
+FieldComments	DO meter not fully  calibrated, reading low	
+FieldComments	DO meter not fully calibrated, reading low.	
+FieldComments	DO not taken due to calibration issues	
+FieldComments	DO recorded 80.5	
+FieldComments	DO recorded as 67.2 (maybe percent instead of mg/L); High tide	
+FieldComments	DO recorded as 86.5 possible % was recorded instead of mg/L?	
+FieldComments	DO recorded on data sheet seems incorrect: 11.31 mg/l. Site code: SB2. Lots of emergent insects, larval/juvenile Sac Sucker and Splittail <25mm	
+FieldComments	DO seems very high	
+FieldComments	done in conjunction with MN predator study	
+FieldComments	Door ajar/2 latches broken	
+FieldComments	door broke open in final roll up & lost fish	
+FieldComments	door loose, lost fish	
+FieldComments	Door not shut tightly.  Some fish escaped.	
+FieldComments	DOOR OPENED, 5 FISH ESCAPED BEFORE MEASURE	
+FieldComments	door partly ajar - enough for SPLT to escape	
+FieldComments	Door was partially off	
+FieldComments	downstream of original site.  Original site not totally flooded.	
+FieldComments	Downstream of regular site due to hyacinth- south of the gate. Pictures # 568-575	
+FieldComments	Draining, trap not in the middle of the channel	
+FieldComments	drop-off near end of seine site	
+FieldComments	dropped cone, started fishing, downloaded SCUFA	
+FieldComments	DSM- 72(dead) expressing milt; DSM 70 expressing gametes; CHN-S: 56-75mm ad present	
+FieldComments	DSM 72 - expressing milt	
+FieldComments	DSM was lively- swam away after handling	
+FieldComments	DSM(1)- EXPRESSING GAMETES (MILT), DSM(4)- EXP. EGGS	
+FieldComments	Duckweed present	
+FieldComments	Due to high FAV (Hyacinth) we moved the start and stop points down by ~1meter	
+FieldComments	Due to high flow, trap was not fishing in middle of channel.	
+FieldComments	Due to high flows, trap did not get pushed all the way in to te center of the channel- code 2	
+FieldComments	due to hyacynth length shortened	
+FieldComments	Due to overgrown primrose had to make shorter seine	
+FieldComments	Due to primrose overgrowth, length of seine shortened by 8m	
+FieldComments	due to primrose, had to do short haul	
+FieldComments	Due to the veg. seine length -6 m of normal. Lots of primrose caught in the seine	
+FieldComments	E= eggs; M= milting	
+FieldComments	e=eggs; CHNF=0-66	
+FieldComments	E=eggs; CHNS was dead for a while	
+FieldComments	E=Expressing Eggs; M=milting	
+FieldComments	east end of pond	
+FieldComments	ebb	
+FieldComments	EBB	
+FieldComments	ebb tide	
+FieldComments	Ebb tide	
+FieldComments	ebb tide and spinning!!!	
+FieldComments	Ebb tide.	
+FieldComments	Ebb Tide. large log jammed in front of cone - stopped the rotation	
+FieldComments	Ebb tide/ Rain w/in the last 24hrs	
+FieldComments	ebb,	
+FieldComments	ebb, 1.6 RPM	
+FieldComments	ebb. SASQ-->SAPM	
+FieldComments	ebb; foam broke - need to replace, but functions fine	
+FieldComments	Ec =365	
+FieldComments	Ec 314	
+FieldComments	EC:  356	
+FieldComments	EC:  384	
+FieldComments	EC: 289,STB@592 re-cap lower caudal clip	
+FieldComments	Ec: 306	
+FieldComments	EC: 323	
+FieldComments	EC: 364	
+FieldComments	EC: 418	
+FieldComments	EC: 518	
+FieldComments	ec:225, +32 SHR w/eggs	
+FieldComments	ec:243, +25 SHR w/eggs	
+FieldComments	ec:245, +16 SHR w/eggs	
+FieldComments	ec:337	
+FieldComments	ec:340	
+FieldComments	ec:368, STB @ 422 recap-this year	
+FieldComments	EC:375	
+FieldComments	EC:406	
+FieldComments	EC:483	
+FieldComments	EC:564	
+FieldComments	ec:781	
+FieldComments	Ec= 164.	
+FieldComments	Ec=117	
+FieldComments	EC=148	
+FieldComments	Ec=178	
+FieldComments	Ec=194	
+FieldComments	Ec=208. 1 SHR w/ eggs	
+FieldComments	Ec=211. WHC 236 saved for stomach	
+FieldComments	ec=218, SHR w/eggs=77	
+FieldComments	Ec=240. No Secchi	
+FieldComments	ec=241, SHR w/eggs=2	
+FieldComments	Ec=254	
+FieldComments	Ec=255.  Trap pulled.  Freemont to spill today	
+FieldComments	EC=266, held LAM to identify	
+FieldComments	ec=266, SHR w/eggs=130	
+FieldComments	Ec=269	
+FieldComments	EC=280, noticed 4-5 diff size classes of SHR	
+FieldComments	Ec=281	
+FieldComments	EC=288	
+FieldComments	Ec=289.  31 SHR w/eggs	
+FieldComments	Ec=294	
+FieldComments	Ec=296	
+FieldComments	Ec=298	
+FieldComments	ec=299	
+FieldComments	EC=314, shrimp=12	
+FieldComments	ec=318	
+FieldComments	Ec=321. 110 SHR w/eggs	
+FieldComments	ec=323	
+FieldComments	EC=329       Shrimp=+25	
+FieldComments	EC=333	
+FieldComments	EC=356, heavy debris in live box	
+FieldComments	Ec=359.  33 SHR w/eggs	
+FieldComments	EC=361	
+FieldComments	ec=365	
+FieldComments	Ec=368	
+FieldComments	Ec=383	
+FieldComments	EC=386	
+FieldComments	EC=391	
+FieldComments	Ec=395	
+FieldComments	EC=395    shrimp=+5	
+FieldComments	EC=397	
+FieldComments	EC=397, trap spins on ebb tide	
+FieldComments	Ec=398. 69 shrimp w/eggs	
+FieldComments	Ec=402	
+FieldComments	EC=404	
+FieldComments	EC=407	
+FieldComments	ec=407, +97 SHR w/eggs, Largest SHR=3.9g	
+FieldComments	ec=408	
+FieldComments	ec=438, +188 SHR w/eggs	
+FieldComments	ec=439, +30 SHR w/eggs	
+FieldComments	ec=439, +6 SHR w/eggs	
+FieldComments	Ec=440	
+FieldComments	EC=444	
+FieldComments	EC=452	
+FieldComments	Ec=459	
+FieldComments	EC=462, stb @535 milt present	
+FieldComments	Ec=468	
+FieldComments	EC=468	
+FieldComments	Ec=468.  32 SHR w/eggs	
+FieldComments	EC=470	
+FieldComments	EC=475	
+FieldComments	Ec=479	
+FieldComments	ec=481, +5 SHR w/eggs	
+FieldComments	EC=496	
+FieldComments	Ec=497	
+FieldComments	Ec=517	
+FieldComments	Ec=527	
+FieldComments	Ec=530. Many shrimp exoskeletons	
+FieldComments	EC=535,mitten male=40mm, intsall temp logger	
+FieldComments	Ec=535. STB@710 has lower caudal clip	
+FieldComments	Ec=542. STB 576 is recap. Lower caudal	
+FieldComments	Ec=547. 42 SHR w/ eggs. Saved 100 SHR for DFG	
+FieldComments	ec=565, +49 SHR w/eggs	
+FieldComments	Ec=568. CHC@714 is 17.3lbs	
+FieldComments	Ec=572.Shrimp and crayfish exoskeletons	
+FieldComments	ec=574, +66 SHR w/eggs, +over 300 SHR larvae	
+FieldComments	Ec=583	
+FieldComments	ec=586	
+FieldComments	Ec=591	
+FieldComments	ec=600	
+FieldComments	ec=601, 2 SHR w/ eggs	
+FieldComments	Ec=614	
+FieldComments	Ec=617.  142 shrimp w/eggs	
+FieldComments	ec=624	
+FieldComments	EC=625	
+FieldComments	EC=628, stb@576 male	
+FieldComments	Ec=630	
+FieldComments	ec=650, +7 SHR w/eggs, +32 SHR larvae	
+FieldComments	Ec=652	
+FieldComments	EC=652	
+FieldComments	ec=661, +1 shr w/eggs	
+FieldComments	ec=661, rbt with eroded anal and upper caudal fins	
+FieldComments	ec=664, trap tangled/reset anchor, +8 SHR w/eggs	
+FieldComments	ec=668, +38 SHR w/eggs	
+FieldComments	ec=671	
+FieldComments	Ec=671	
+FieldComments	Ec=672	
+FieldComments	ec=673	
+FieldComments	Ec=673	
+FieldComments	Ec=674.  All CHN kept.19/59 clipped	
+FieldComments	Ec=675	
+FieldComments	Ec=678.  16/45 CHN clipped	
+FieldComments	Ec=680. UNID are sunfish	
+FieldComments	Ec=683	
+FieldComments	Ec=684	
+FieldComments	Ec=686	
+FieldComments	ec=688	
+FieldComments	Ec=688 CHN 51, 84 Released	
+FieldComments	ec=689	
+FieldComments	Ec=689	
+FieldComments	Ec=692 windy,gusty gale	
+FieldComments	Ec=693	
+FieldComments	Ec=694	
+FieldComments	ec=694, largest SHR 3.0g, +47 w/eggs	
+FieldComments	Ec=695	
+FieldComments	ec=696	
+FieldComments	EC=696	
+FieldComments	Ec=698, 1SHR w/ eggs	
+FieldComments	EC=699	
+FieldComments	Ec=699.  2 SHR w/eggs	
+FieldComments	Ec=701	
+FieldComments	Ec=704	
+FieldComments	ec=704, +18 shr w/eggs	
+FieldComments	Ec=708.  First Gravid Shrimp of Season	
+FieldComments	Ec=708.  STB 571 possible 2002 recapture	
+FieldComments	ec=709, 7 SHR w/ eggs	
+FieldComments	Ec=710	
+FieldComments	EC=713	
+FieldComments	Ec=716	
+FieldComments	Ec=717	
+FieldComments	ec=718, +31 SHR w/eggs, kept 100SHR for DFG	
+FieldComments	ec=720, +21 SHR w/eggs	
+FieldComments	Ec=728	
+FieldComments	Ec=735	
+FieldComments	Ec=737. Splittail in poor condition	
+FieldComments	ec=738	
+FieldComments	Ec=745	
+FieldComments	Ec=748, +7 SHr w/eggs	
+FieldComments	ec=752, largest SHR @2.8g, 6 SHR w/ eggs	
+FieldComments	Ec=754	
+FieldComments	Ec=755.  12 SHR w/eggs	
+FieldComments	ec=764, all fish kept for disease analysis	
+FieldComments	ec=765	
+FieldComments	ec=777	
+FieldComments	EC=778	
+FieldComments	ec=785, no secchi disk	
+FieldComments	Ec=787	
+FieldComments	ec=796, STB @416 recap from this year	
+FieldComments	Ec=800	
+FieldComments	Ec=801. STB 424 is recap	
+FieldComments	Ec=818. 5 SHR w/eggs	
+FieldComments	ec=825, +32 SHR w/eggs, pond only knee deep	
+FieldComments	ec=828, STB @ 366 recap from this year	
+FieldComments	ec=832	
+FieldComments	Ec=838, 89 shrimp	
+FieldComments	Ec=839	
+FieldComments	ec=868	
+FieldComments	ec=884	
+FieldComments	ec=886	
+FieldComments	Edge of bank eroded into water- had to go around	
+FieldComments	eggs and milt from carp, C @638mm Mirror Carp?	
+FieldComments	end counter: 908; CHN-S: 59-78mm ad present	
+FieldComments	End of lead line caught up in a couple sticks, was not completely closed when pulling out	
+FieldComments	End trap RPM=0	
+FieldComments	ERP project---salmon tagged by Myfanwy. Genetic sample taken, not sure about adipose fin presence	
+FieldComments	ERP project-- first acoustic tagged salmon (Myfanwy and Phil from UC Davis) Salmon adipose fin clipped. No genetic sample taken	
+FieldComments	Escape occuring as gaps open when trap is rolled	
+FieldComments	escaped WST approx 1.5 m	
+FieldComments	ESTIMATED TIME.  NO CATCH DUE TO HIGH FLOW ACROSS ROAD	
+FieldComments	exo rating - 5^1	
+FieldComments	exo rating - 5^6	
+FieldComments	Exo taken	
+FieldComments	Exo taken to snorkel pond	
+FieldComments	exo taken, exo rating - 5^4	
+FieldComments	Extra seine for kids day	
+FieldComments	EXTREMELY WINDY	
+FieldComments	F 41-91, S 92-123 *upper lobe already clipped (Putah Creek?)	
+FieldComments	F= 0-63mm, S=64-86mm	
+FieldComments	F= 36-79, S= 80-107	
+FieldComments	faint bismark brown, rbt was clipped	
+FieldComments	Fall 0-46mm	
+FieldComments	fall 36-79 mm	
+FieldComments	FALL RUN: 0-54 mm FL, SPRING RUN: 55-73 mm FL	
+FieldComments	Fall runs and both had fin	
+FieldComments	fall= 0-63mm; spring= 64-85mm	
+FieldComments	Feb. rain, finally.	
+FieldComments	FHM clipped, Tide seemed to be slack, screw trap was not moving-> low flow and low amount of debris	
+FieldComments	FIN CLIPS AND PICS	
+FieldComments	fine filament algae in water, SCB w/ parasites	
+FieldComments	First attempt to seine lead line was wrapped. Moved to ~10m and re-attempted seine. Perpendicular seine	
+FieldComments	First beach seine at release site after 50,000 CWT CHN release in Toe Drain; width 3-5m, depth 1m+	
+FieldComments	First check of the season	
+FieldComments	First Day back After Covid!	
+FieldComments	First day of the season!	
+FieldComments	First day that the fyke went back into the middle of the channel	
+FieldComments	First MSS 34mm=caudal was missing fork	
+FieldComments	First overnight set of 2013--overnight	
+FieldComments	First Pull	
+FieldComments	first seine	
+FieldComments	First seine attempt caught large piece of metal and no fish, so this was the second attempt	
+FieldComments	first set after bank construction	
+FieldComments	first set for new season	
+FieldComments	first set of Fall 2012	
+FieldComments	first set of the season	
+FieldComments	First set of the season	
+FieldComments	first set of the season, new trap	
+FieldComments	First set of the season.	
+FieldComments	first small seine no fish, tried bigger parallel to levee seine	
+FieldComments	First trap set for the season	
+FieldComments	fish code MSQ on sheet, entered as MQF (?)	
+FieldComments	fish died while pulling in trap, trap cables broke	
+FieldComments	Fish end time: 14:10. Raised cone. #2 set.	
+FieldComments	Fish stranded in submerged veg @ end of haul	
+FieldComments	Fished 2 nights; trap in center of channel	
+FieldComments	Fished from 11:44am (About 3 hrs.)	
+FieldComments	Fished since 08:30am	
+FieldComments	FISHED SINCE 08:58(~2HRS FISHING TIME).  TURBIDITY VIAL #3= 70.2	
+FieldComments	Fished since 14:25 (about 2.5 hrs)	
+FieldComments	Fished since 8:45am	
+FieldComments	Fished since 9:06am	
+FieldComments	Fished trap for 24 hours - first time in a long time	
+FieldComments	Fishermen tied boat to trap.	
+FieldComments	fishing near edge of channel but fully submerged	
+FieldComments	Fixed inner lining of cone.	
+FieldComments	Fixed ripped inner lining.Ec=338	
+FieldComments	floating beam lodged near trap mouth	
+FieldComments	Floating tiny plants. No DO taken on accident.	
+FieldComments	flood	
+FieldComments	FLOOD	
+FieldComments	flood tide	
+FieldComments	Flood tide	
+FieldComments	flood tide - trap not spinning, lots of debris in cone	
+FieldComments	Flood tide so not spinning but no blackage inside the cone. Alge grow on one side (under the water side) probably didn't spin	
+FieldComments	Flood tide, adult WST breached nearby.	
+FieldComments	flood tide.	
+FieldComments	flood, stick preventing cone from turning	
+FieldComments	Flood. YSI ntu needed correction, 4 NTU added before mean. Checked Turb data w/ LIS CDER -> Did not need to add correction to data JF 2/23/18	
+FieldComments	Flooded bypass--timed 2 hr sets for RSTR--#1 set 1015-1215 /ebb/high outflow/low debris, set + check	
+FieldComments	flooding	
+FieldComments	Flooding	
+FieldComments	flow came up - lots of hyacinth/debris on fyke, localized overtopping above LIS	
+FieldComments	FLOW TOO HIGH, TRAP NOT IN CHANNEL.	
+FieldComments	foam at livewell / cone interchange ripped.  Fixed with zip ties - appears to be holding well.	
+FieldComments	Foam ring was still under pin	
+FieldComments	Foam was getting pinched and cone wouldnâ€™t spin. Had to adjust.	
+FieldComments	foggy	
+FieldComments	Foggy	
+FieldComments	forgot secchi	
+FieldComments	forgot to get turbidity	
+FieldComments	forgot to take secchi	
+FieldComments	Forgot turb vials; pictures # 530-533	
+FieldComments	Forgot turbidity vial. No fish.	
+FieldComments	forgot vial, no turbidity	
+FieldComments	FORGOT YSI AT OFFICE	
+FieldComments	Forgot YSI; Used the Lisbon sonde data from CDEC at 11:30 am	
+FieldComments	Found 2 dead WHC in trap from Fri, 12/06/2019	
+FieldComments	Found shovel near trap	
+FieldComments	front cable broke, trap pulled	
+FieldComments	Front crossbeam bent when lifting cone	
+FieldComments	Fyke downstream due to high flow, moved upstream' shortened nose cable by 4 ft	
+FieldComments	fyke has a lot of mud/debris caked on front. Still high flows in toe drain. YSI unit may be reading low DO despite good calibration in the morning.	
+FieldComments	fyke not set in middle of the channel due to high water from overtopping, fished near bank - still fully submerged	
+FieldComments	Fyke set for Fall fishing season.	
+FieldComments	FYKE TRAP SAFETY MEETING	
+FieldComments	Fyke trap set for fall season	
+FieldComments	Fyke was pulled until Fall fishing season.	
+FieldComments	Genetics 077 - 087 may not correspond to associated lengths. Ended up with 11 vials & only 10 recordes lengths - made a mistake somewhere	
+FieldComments	genetics fin clip taken for both CHN-F	
+FieldComments	Get WQ data from Lisbon sonde.	
+FieldComments	giant garter snake on shore	
+FieldComments	Going over the water primrose. (growing back)	
+FieldComments	H-F FLOODED	
+FieldComments	H20 coming in from drain N of site,Sed discharge	
+FieldComments	h20 too clear for secchi, high tide- seined parrallel to shore	
+FieldComments	H2O warmer	
+FieldComments	Habitat:Riparian Region: STB Tide: Ebb, Mud/Sand	
+FieldComments	HAD TO HAUL OUT 3 YARDS FURTHER DUE TO OBSTRUCTION	
+FieldComments	Had to reset anchor/Front cable wrapped around east side pontoon+plus log stuck in anchor line	
+FieldComments	HAD TO SEINE W/CURRENT, SMALL RIP IN PURSE	
+FieldComments	Had to shorten due to hyacinth	
+FieldComments	Had to start 2 m downstream due to veg, lots of dead carp	
+FieldComments	Happy 40th Birthday Naoaki!	
+FieldComments	hard to ID GSN vs. HCH	
+FieldComments	have to shift 5 meters downstream due to SAV/FAV	
+FieldComments	head taken of RBTT	
+FieldComments	Heavy debris in the livewell. CHNF=0-70mm	
+FieldComments	heavy debris load, trap clogged in 1/2 hr	
+FieldComments	heavy debris, 2 hour set	
+FieldComments	heavy debris, cone partially blocked by debris	
+FieldComments	Heavy debris, large submerged tree	
+FieldComments	Heavy debris; CHN-W: 88-176mm, ad +; CHN-S: 65-87mm, ad+	
+FieldComments	Heavy hyacinth	
+FieldComments	HEAVY PRIMROSE VEGETATION IN POND + MUD, NOTE HIGH EC	
+FieldComments	HF- Flooded bypass	
+FieldComments	HF-Flooded	
+FieldComments	HF-Flooded bypass	
+FieldComments	Hifh flow site	
+FieldComments	High-Ebb tide    Crew NI, TM (Travis Marella)	
+FieldComments	High-Ebb tide  crew NI & WF (Wyatt Floerke)	
+FieldComments	high abundance of mud twisted bag slightly.   Caught native clam---> 38mm and 46mm measurements (Diagram on data sheet)	
+FieldComments	High current after storm	
+FieldComments	high debris	
+FieldComments	High debris clogged cone. Ebb tide	
+FieldComments	high debris load	
+FieldComments	High debris load clogged half of cone. No fish.	
+FieldComments	High Debris, trap was pulled then reset. 9 RPM	
+FieldComments	High Ebb tide	
+FieldComments	high flow	
+FieldComments	High flow	
+FieldComments	high flow- sampled at tip of rock barrier, outer bank of toe drain	
+FieldComments	High flow (3000+ cfs) overtopped a little bit Saturday 1/19/2019. 5.5 RPM	
+FieldComments	High flow after overtopping. 4.0 RPM	
+FieldComments	High flow at site.	
+FieldComments	High flow beach seine site	
+FieldComments	High flow day set, RPM 7.5	
+FieldComments	high flow site	
+FieldComments	High flow site	
+FieldComments	High Flow Site	
+FieldComments	High flow site, back water current strong	
+FieldComments	High flow site.	
+FieldComments	High flow site. CHN weights not perfect, wind moving scale	
+FieldComments	High flow site. High water velocity	
+FieldComments	high flow site/area	
+FieldComments	High flow site/area	
+FieldComments	High flow site/area.	
+FieldComments	High Flow, 7.5 RPM, set at 12:02, 50 mins set	
+FieldComments	high flow, 7rpm	
+FieldComments	high flow, high debris	
+FieldComments	high flow, moderate debris floating--inundation event	
+FieldComments	High flow, possible trout (CHNF+ 833 or 844)	
+FieldComments	High flow.	
+FieldComments	High Flow.	
+FieldComments	High flow. Trapped not in the middle of the channel.	
+FieldComments	High flow/site area	
+FieldComments	HIGH FLOW/TURB, LOTS OF PRIMROSE IN TRAP	
+FieldComments	High flow; FL value for CHN 1385 corrected from 68 to 58	
+FieldComments	High flows	
+FieldComments	High Flows	
+FieldComments	High flows = set trap on bank, not in middle of channel	
+FieldComments	high flows kept seine short. Northern study pond-high flow site.	
+FieldComments	high flows, 2 hours set	
+FieldComments	High flows.	
+FieldComments	High flows. Bag poss not deployed	
+FieldComments	high tide	
+FieldComments	High tide	
+FieldComments	High Tide	
+FieldComments	High tide- not 5m wide	
+FieldComments	high tide- outgoing	
+FieldComments	high tide, past flood/start depth 1.2 to beach	
+FieldComments	high velocity, hard to sample, 1st seine 4x5 0.3m no fish and condition 4 so redid it	
+FieldComments	High water	
+FieldComments	High water-difficult to seine, branch tangled net	
+FieldComments	high water and flow from storm previous week/weekend	
+FieldComments	High water level.	
+FieldComments	High water, difficult to seine	
+FieldComments	High water/high tide	
+FieldComments	High Wind  first seine of the day due to tide cycle	
+FieldComments	High wind, Incoming tide, trap was not in middle of channel off to the west side.	
+FieldComments	HIGH/EBB	
+FieldComments	Higher low tide	
+FieldComments	Highter low tide (Deep)	
+FieldComments	hitch- genetic fin clip taken, given to UCD	
+FieldComments	Hole in 2nd door mesh	
+FieldComments	HOT DAY!	
+FieldComments	Huge influx of unknown shad (<25mm).	
+FieldComments	Hundreds of adult shrimp many with eggs.	
+FieldComments	Hundreds of shrimp.  Pulled cone for 00'-01'season	
+FieldComments	HW=Hannah Willover	
+FieldComments	Hyacinth	
+FieldComments	Hyacinth- seine length shortened	
+FieldComments	Hyacinth (lots)	
+FieldComments	Hyacinth (whole channel span)	
+FieldComments	hyacinth and logs in way, but cleared up after	
+FieldComments	Hyacinth and primrose large knot stuck on rope, took 1/2 hour to remove. Also, dead beaver in cage that chewed through some mesh	
+FieldComments	hyacinth and tree jam	
+FieldComments	Hyacinth crazy. Turb vial broke before reading was taken	
+FieldComments	hyacinth debris in trap	
+FieldComments	Hyacinth in seine	
+FieldComments	hyacinth in the exit area	
+FieldComments	hyacinth might reduce seine effort (2)	
+FieldComments	Hyacinth=100%	
+FieldComments	HYBRID-PHOTO TAKEN. MOUTH OF WARMOUTH BUT PATTERNING OF BGS	
+FieldComments	I-5	
+FieldComments	I-5 ramp	
+FieldComments	ID check in Bullhead. Originally labeled as BRB after ID check changed to BKB.	
+FieldComments	incoming tide	
+FieldComments	incoming tide-> low flow-> trap not spinning, low debris, blockage-> large log	
+FieldComments	installed hubometer/ end # is 22 revolutions; CHN-W: 77-155mm; ad present; DSM 75 79 76 74 expressing gametes; DSM 70 71 70 milting	
+FieldComments	Installed new foam	
+FieldComments	installed new foam seal	
+FieldComments	inundation event	
+FieldComments	inundation event. 2 hour set while babysitting the cone for large debris. High flow and high debris	
+FieldComments	j-hook	
+FieldComments	J-seine at site. Condition code 2 due to snag on thorn bush during seine.	
+FieldComments	j hook	
+FieldComments	J HOOK	
+FieldComments	Jared and Brian forgot to pin down gasket when trap was raised on 02/13/2012	
+FieldComments	Jared took both YSI's	
+FieldComments	JS= Jamie Suria	
+FieldComments	Just below high flow	
+FieldComments	kept 3 CHN (CWT): FLs 67, 78, 53.	
+FieldComments	Kept all CHN-CWT.	
+FieldComments	kept both CHN	
+FieldComments	kept cwt salmon	
+FieldComments	Kept two SCB. One SLPT for USGS	
+FieldComments	Kept WHC (FL=421) for predator study.	
+FieldComments	Knaggs fish released for gear efficiency study 11:55	
+FieldComments	LAM were amocetes w/out eyes, unable to ID	
+FieldComments	Large algae bloom - can see green film from the surface - Very high DO : 15.33 ??	
+FieldComments	Large amounts of small woody debris	
+FieldComments	Large C jumped over float line	
+FieldComments	large catfish in trap w/2 DSM , several MSS and 1 TFS in mouth and stomach; CHN-CWT (66) body damage; CHN-S: 63-84mm ad +	
+FieldComments	Large log jam but spun about 700 turns. (trap wasn't spinning when we arrived)	
+FieldComments	Large mitten crab on outside of trap	
+FieldComments	Large Mouth Bass Spit out YFG	
+FieldComments	large rotten fish in box; hard to tell GSH vs HCH	
+FieldComments	large tear in black mesh	
+FieldComments	Large tree at front of cone when we arrived.	
+FieldComments	large tree caught in buoy	
+FieldComments	Large tree wrapped in ropes/Large hole in cone	
+FieldComments	Large Woody debris moved off of trap	
+FieldComments	Largest STB expressed milt.	
+FieldComments	largest STB saved for tagging	
+FieldComments	Larval cyprinids present (<18mm). Veg & cobbles.	
+FieldComments	Last day of season.	
+FieldComments	Last day of season/year	
+FieldComments	Last day of trapping	
+FieldComments	Last day of trapping; flood tide	
+FieldComments	Last day, pulled for the season	
+FieldComments	Last day, pulled for the season.	
+FieldComments	Last pull of the season	
+FieldComments	latertrapRPM=2,DSM>25could be WAG/LFS,+SPLT left	
+FieldComments	Launch for 2014	
+FieldComments	LD=Leela Dixit	
+FieldComments	Lead line caught up slightly on veg.	
+FieldComments	lead line lifted at end (stick in bag)	
+FieldComments	Lead line rolled slightly due to high debris.	
+FieldComments	lead line rolled up a lottle due to vegetation	
+FieldComments	lead line slightly twisted on bottom	
+FieldComments	led line rolled	
+FieldComments	led line twisted, no beach to pull up line. Crayfist +10	
+FieldComments	Left SPLT in trap- took out as many non-SPLT poss.	
+FieldComments	Length -2 for hyacinth	
+FieldComments	Length shortened due to vegetation	
+FieldComments	lg pond, S of RR tracks (west end of pond)	
+FieldComments	light, air=950, 0.5m water=71.5 mmoles/sec/m2	
+FieldComments	light: air=549,  water 0.5m=7.5	
+FieldComments	Line pulled up by veg. *DO meter may be broken (not entered)	
+FieldComments	LIS weir not overtopping	
+FieldComments	LIS weir not overtopping, only a small breach in the middle	
+FieldComments	LIS weir not overtopping, small breach in the middle	
+FieldComments	Lisbon weir flowing over	
+FieldComments	Live well full of debris, not much in cone though	
+FieldComments	LMB - Took fin-clip	
+FieldComments	LMB - Took fin-clip.	
+FieldComments	location: I-5 high flow site = 'ramp'	
+FieldComments	Log blocking trap.	
+FieldComments	log caught in trap; CHN-F 39-84mm	
+FieldComments	log caught on net	
+FieldComments	log cuaght in seine haul	
+FieldComments	Log in cone, not spinning, mostly clear otherwise	
+FieldComments	log in livewell	
+FieldComments	log jam (trap might not have been spinning the whole time)	
+FieldComments	Log jam when Jared got there (~10am); CHN-S: 72-96mm	
+FieldComments	Log jam, trap was stopped.	
+FieldComments	Log Jam. Tap not spinnin when we arrived. 4.3 RPM	
+FieldComments	Log jammed in cone. Flood tide	
+FieldComments	log jammed; not spinning	
+FieldComments	Log stuck on the side of the cone. Cone wasnâ€™t' spinning	
+FieldComments	LOG WAS RESTING ON TOP OF TRAP, MOVED TRAP DOWNSTREAM APPROX. 8 FT.	
+FieldComments	Logs in trap.  Cone not spinning due to flood tide, but debris may have stopped rotation of cone during ebb(?). Tide: Flood/High	
+FieldComments	Logs wedged in trap, not spinning and lots of debris	
+FieldComments	lost ~ 5 C/WHC, 1 C when trap door came open	
+FieldComments	Lost a big fish	
+FieldComments	Lost a few fish, saw but couldn't measure, plus counted	
+FieldComments	Lost back bungee, lost a few fish on pull out.zip tied back door	
+FieldComments	Lot's of mud in seine net, cold, low tide	
+FieldComments	LOTS < 25 MM	
+FieldComments	Lots of azolla	
+FieldComments	Lots of dead shrimp	
+FieldComments	Lots of debirs, Secchi depth > 1m	
+FieldComments	lots of debris	
+FieldComments	Lots of debris	
+FieldComments	lots of debris (hyacinth)	
+FieldComments	Lots of debris but trap was still spinning. 2.4 RPM	
+FieldComments	Lots of debris in cone	
+FieldComments	Lots of debris in cone - clogged but still spinning. Cone backed up half way with vegetation.	
+FieldComments	Lots of debris in cone clogged the trap	
+FieldComments	Lots of debris in livewell and cone.	
+FieldComments	LOTS OF DEBRIS ON PAVEMENT--HIGH FLOW SITE	
+FieldComments	lots of debris stopped the cone; white sturgeon swam into cone while working.  Safely exited from front. Ebb tide	
+FieldComments	lots of debris trap not moving	
+FieldComments	Lots of debris!	
+FieldComments	lots of debris, a couple logs	
+FieldComments	lots of debris; CHNF= 0-63	
+FieldComments	Lots of hyacincth	
+FieldComments	Lots of hyacinth debris	
+FieldComments	Lots of hyacinth debris in the cone.	
+FieldComments	Lots of hyacinth in the cone	
+FieldComments	lots of hyacinth on trap	
+FieldComments	lots of hyacinth, caught SHR-K but too small to count (~21mm, some w eggs)	
+FieldComments	LOTS OF HYCINTH/PRIMROSE CLOGGING BUT FISH WERE CAUGHT	
+FieldComments	lots of larvae less than 25mm. N>300 STB	
+FieldComments	Lots of larval fish-TFS?	
+FieldComments	lots of larval fish (TFS?). +46 for yoyTFS	
+FieldComments	Lots of larval fish <25mm (long gut, no ad fins - likely AMS)	
+FieldComments	lots of larval fish dead and/or under 25mm	
+FieldComments	lots of larval MSS	
+FieldComments	Lots of mix veg	
+FieldComments	lots of MQF, like a lot	
+FieldComments	Lots of mud	
+FieldComments	LOTS OF MUD	
+FieldComments	Lots of Mud in Net	
+FieldComments	LOTS OF MUD IN NET	
+FieldComments	Lots of mud in seine	
+FieldComments	Lots of mud in seine-Condition 2-	
+FieldComments	Lots of mud in seine and hyacinth	
+FieldComments	lots of mud in seine net  Large catch of SHR	
+FieldComments	Lots of mud. Might have lost a few fish when washed through the mud.	
+FieldComments	Lots of primrose- had to pull trap (day early/Thursday)	
+FieldComments	LOTS OF PRIMROSE ALONG SHORE, VEG TANGLED IN NET	
+FieldComments	Lots of primrose on trap	
+FieldComments	lots of PRS < 25mm	
+FieldComments	lots of SASU larvae <25mm present	
+FieldComments	Lots of SAV	
+FieldComments	Lots of SAV (submerged aquatic vegetation), no secchi value taken	
+FieldComments	Lots of SAV, had to come close together (<5m across) at end to avoid thick section of SAV and drop off near end of seine.	
+FieldComments	Lots of SAV, hard to tell if impact to sample.	
+FieldComments	lots of SHR with eggs	
+FieldComments	Lots of shrimp!!; 5 of the PL were ammocoetes.	
+FieldComments	lots of small debris in front of cone. Pulled traps for season	
+FieldComments	lots of small MQF	
+FieldComments	Lots of small MSS <25mm	
+FieldComments	lots of SPLT, TFS, STB > 25mm	
+FieldComments	lots of too small SPLT. Flood tide.	
+FieldComments	lots of veg in cone. Partially clogged	
+FieldComments	lots of veg, YSI 1 trub 4.9	
+FieldComments	Lots of Veg.	
+FieldComments	Lots of vegetation hung up on the trap and stuck on/in cone. 1 deformed SPLT for USGS	
+FieldComments	Lots of vegetation pulling up lead line.	
+FieldComments	lots shrimp, baby turtle	
+FieldComments	low catch but no issues with the seine noticed	
+FieldComments	Low debris. DSM were not expressing gametes or milt	
+FieldComments	Low Flow. A lot of SAV caught in trap. At least three fish may have been damaged or partially eaten.	
+FieldComments	Low tide - heavy vegetation and filamentous algae.	
+FieldComments	Low water level / low tide.   Windy	
+FieldComments	M(circled)=milt present	
+FieldComments	Made repairs and added new door.	
+FieldComments	majority of TFS/MSS are dead	
+FieldComments	Male mitten crab 60mm carapace length	
+FieldComments	male mitten crab collected	
+FieldComments	Many bullfrog tadpoles	
+FieldComments	many decaying goldfish in pond 40-150mm	
+FieldComments	Many newly hatched shrimp and one mitten crab	
+FieldComments	Many shad 20-25 mm long.	
+FieldComments	many shrimp. UNID > 10 mm.	
+FieldComments	MANY YOY EXOS	
+FieldComments	masticated sunfish, salmon head	
+FieldComments	MAY BE MORE FISH IN TRAP, WATER LEVEL TOO HIGH.	
+FieldComments	Maybe flood tide.	
+FieldComments	MEASURED	
+FieldComments	Measuring stick on secchi broken	
+FieldComments	medium debris, CHN-F (adipose fin on) kept it for genetics	
+FieldComments	medium debris. 2 hour set	
+FieldComments	medium size branches stopped cone, RPM 1.2	
+FieldComments	Membrane just changed on YSI	
+FieldComments	microcystis= 1	
+FieldComments	Microcystis= 1	
+FieldComments	Microcystis= 2	
+FieldComments	microcystis= 2/3	
+FieldComments	Microcystis= 2; water quality taken at beginning of the seine because of bees at the end	
+FieldComments	Microcystis= 2; windy	
+FieldComments	Microcystis= 3	
+FieldComments	Microsystis= 2	
+FieldComments	might have lost some of the catch, YSI down	
+FieldComments	Might have mis ID'd some YFG as PRS	
+FieldComments	mile marker 1.5	
+FieldComments	milt expressed from splt and wst	
+FieldComments	milt from sasu	
+FieldComments	minus 5m length due to overgrown veg	
+FieldComments	Mitten crab 35mm male	
+FieldComments	Mitten crab 8mm	
+FieldComments	moderate debris	
+FieldComments	Monday FYKE set in	
+FieldComments	Mosquito fern covered the water. Seems to be effecting water quality data, should not read secchi because of mosquito fern	
+FieldComments	Most plust count CHNF dead	
+FieldComments	Moved BL4 23 meters down stream (see the new stake position). A native clam was found.	
+FieldComments	Moved Hyacinth out of the way	
+FieldComments	Moved logs from end of seine site. Some SAV at end and filamentous algae present.	
+FieldComments	moved seine downstream due to dead sheep. End point became start.	
+FieldComments	Moved stakes to avoid fallen tree. Now 30m length.	
+FieldComments	moved trap a few feet south, adjusted cables	
+FieldComments	Moved trap upstream before setting.	
+FieldComments	Moved upstream due to the submerged tree	
+FieldComments	moving trap for third time	
+FieldComments	moving trap upstream	
+FieldComments	MSS were from dipnet	
+FieldComments	mud ramp upstream side of station	
+FieldComments	MUD/GRAVEL	
+FieldComments	multiple branches in net. Possible fish loss with removing woody debris	
+FieldComments	multitudes of debris, trap clogged in 1/2 hr	
+FieldComments	N 38- 35' 56.1   W 121- 35'25.7	
+FieldComments	N 38-36'4.7   W 121-35'59.6	
+FieldComments	N 38-37'19.2    W 121-36'29.1	
+FieldComments	N 38-38'25.8    W 121-37'13.1	
+FieldComments	native clam 98 mm long, 73 mm wide	
+FieldComments	NE of study pond	
+FieldComments	near mile 2	
+FieldComments	need to get DNA for WAG still?	
+FieldComments	Need to staple a photocopy of salmon sampling sheet to field data sheet. (done JJ)	
+FieldComments	nest 90' to the west	
+FieldComments	Net full of mosquito fern	
+FieldComments	net twisted so condition 2	
+FieldComments	net twisted, water low so only 3m wide	
+FieldComments	New cables installed. Logger dry 24 hrs+.	
+FieldComments	New net- 1st seine using it. Did a pull first with the old net for the same length but downstream to check efficiency (data sheet is in binder, not entered into database).	
+FieldComments	New secchi disc being made today.	
+FieldComments	new seine	
+FieldComments	New site- to supplement BL-5 being covered in hyacinth	
+FieldComments	New Site - board weir boat ramp	
+FieldComments	new site attempt, not good for seining	
+FieldComments	New thermometer, double ck. Temperature	
+FieldComments	NEW YSI #1 - Turb + 51.0, 76.2, 47.9= 58.4 NTU. Lots of hyacinth and primrose has provided necessity to reduce length of seine	
+FieldComments	New/brand new trap install. Set cone for rest time - Flood tide/cone not spinning	
+FieldComments	Newbie's fault?	
+FieldComments	next 87' to the west	
+FieldComments	next 90' to west	
+FieldComments	No adipose fin. 556 ysi handheld temp probe bad-> all other WQ parameters dependent	
+FieldComments	no catch	
+FieldComments	No catch	
+FieldComments	NO CATCH	
+FieldComments	NO CATCH, 2ND HAUL	
+FieldComments	no catch, fw1 didn't have any water so we seined directly at the weir (lat 38.765, long -121.636, accuracy 5m)	
+FieldComments	No CHN; 2 seines	
+FieldComments	no crowding	
+FieldComments	No debris to remove	
+FieldComments	No depth or tide listed on data sheet - KM	
+FieldComments	No depth recorded	
+FieldComments	no DO	
+FieldComments	no fish	
+FieldComments	No fish	
+FieldComments	No Fish	
+FieldComments	NO FISH	
+FieldComments	no fish caught!	
+FieldComments	no fish caught. Seined slightly down from typical spot, didn't cut through primrose --- just filled about 0.5m deep on both sides	
+FieldComments	No fish due to reverse flow.	
+FieldComments	No Fish in trap	
+FieldComments	No fish since the pond was drained (last beach seine). Too shallow to take secchi measurement.	
+FieldComments	no fish, exo taken	
+FieldComments	NO FISH.	
+FieldComments	No fish. 7 RPM. 2 hr set (set at 9:05)	
+FieldComments	No Fish. CHECKED @ 11:4- (1.5 HOURS SET)	
+FieldComments	No fish; 8 rpm 2 hours set (set @ (9:20) small split tail <25mm	
+FieldComments	no fish; re-did seine, no catch 1st effort. 2nd effort, 1 MSS & MQF but both < 25mm	
+FieldComments	no info on length/depth etc. forgot to write it on datasheet	
+FieldComments	no parr markings on juvenile salmon	
+FieldComments	No pH taken, pH meter seemed off. 7.6 RPM. 2100 cfs at LIS.	
+FieldComments	No pH taken, pH seemed off. 7.5 RPM. Set at 11:43 (2hr. set)	
+FieldComments	No rope on back when at bank, Pulled out completely. Retrapped(?)	
+FieldComments	no secchi	
+FieldComments	No secchi	
+FieldComments	No secchi- too shallow/clear	
+FieldComments	no secchi measurement taken, used Al-2 measurement	
+FieldComments	no secchi reading, perpendicular seine	
+FieldComments	no secchi, EC=609	
+FieldComments	no secchi, ec=714, Shr w/eggs =6	
+FieldComments	No secchi, too clear and too shallow. Potential new species (bluefin killifish)	
+FieldComments	no secchi. Inner liner torn due to debris.	
+FieldComments	No seine information recorded.	
+FieldComments	No tail on WHC 200mm. Dead comorant in the trap	
+FieldComments	no temp.,secchi. SASU-milt.WHC 205-clipped caudal.	
+FieldComments	no thermometer	
+FieldComments	no thermometer, BAS are probably STB	
+FieldComments	No turbidity	
+FieldComments	no turbidity from vial recorded, avg ysi used instead	
+FieldComments	no turbidity recorded	
+FieldComments	No turbidity sample; vial broke back at the office	
+FieldComments	No turbidity vial reading.	
+FieldComments	NO TURBIDITY VIAL TAKEN	
+FieldComments	No water quality done.	
+FieldComments	no where to pull up seine (steep edge). No net data recorded	
+FieldComments	No YSI	
+FieldComments	No YSI - Forgot at office	
+FieldComments	no YSI -> used sonde data from LIS, EC Data - N/A, ebb	
+FieldComments	No YSI      CHN; SMSCG00115; V-Tag:6664, code 1374	
+FieldComments	NO YSI 31 shrimp w/eggs	
+FieldComments	NO YSI DATA	
+FieldComments	NO YSI DATA.	
+FieldComments	NO YSI! Used on Cache Slough Study.	
+FieldComments	No YSI, No Catch	
+FieldComments	NO YSI.	
+FieldComments	No YSI.  248 SHR w/eggs	
+FieldComments	No YSI. 1AMS body	
+FieldComments	No YSI. 259 SHR w/eggs	
+FieldComments	No YSI. STB 311 is recap from this year	
+FieldComments	Normal high flow site was not accessible b/c of lowering water. Site was located just outside toe drain. Seined north of Rd 22 south of RR tracks. CHN adipose present on all	
+FieldComments	NORMAL SITE FLOODED, SEINED SHELF.	
+FieldComments	North side of pond sampled due to primrose overgrowth at usual YB pond site	
+FieldComments	Nose cable stuck - could only pull in half way	
+FieldComments	Not directly overtopping at Fremont weir anymore, but still draining at 3200 cfs.	
+FieldComments	Not in the middle of the channel due to the high flows. STB milting	
+FieldComments	Not middle of the channel.	
+FieldComments	Not set in center of channel. (OT)	
+FieldComments	not spinning	
+FieldComments	not spinning on arrival. Lots of hyacynth	
+FieldComments	not spinning when we arrived	
+FieldComments	Not spinning when we arrived. Log jam	
+FieldComments	not spinning, small log in cone	
+FieldComments	not sure if what was recorded as LMB was actually a LMB	
+FieldComments	Nothing caught in seine net; water too low	
+FieldComments	nothing in fyke.	
+FieldComments	NPR reporter Jeff Hudson accompanying	
+FieldComments	NTU readings were jumpy (30-90's) recorded most consistent 3. quite a few small shrimp <25mm	
+FieldComments	Numerous dead TFS (<30mm) - too mangled to measure	
+FieldComments	Numerous decomp cyprinids (probably splt)	
+FieldComments	Numerous small carp under 20mm (not counted)	
+FieldComments	ODO: 7.02	
+FieldComments	ODO: 7.09	
+FieldComments	ODO: 7.43	
+FieldComments	ODO: 7.47	
+FieldComments	Old DO: 7.54	
+FieldComments	one 1/2 eaten AMS in trap	
+FieldComments	One baffle blocked by small plug of debris.	
+FieldComments	One bluegill was decapitated	
+FieldComments	One bungy missing from door	
+FieldComments	One dead Cormorant	
+FieldComments	ONE DEAD OTTER	
+FieldComments	One DSM alive, thrown back and not kept.	
+FieldComments	one hour set. No fish	
+FieldComments	One male WST FL=1620, TL= 1830; Tagged	
+FieldComments	One man Crew!!!  Oh yea.	
+FieldComments	One of the bungies had come off the door	
+FieldComments	One of the doors was slightly loose, lost 1 carp.	
+FieldComments	one salmon lost when recovering others	
+FieldComments	One shrimp	
+FieldComments	one small log in cone, not spinning on arrival, but probably because of tide	
+FieldComments	One SPLT stuck in nose of trap- stayed alive.	
+FieldComments	One SPLT w/ nearly symmetrical tail- took pics.	
+FieldComments	ONLY ACOUSTICALLY TAGGED 1 CHN-OTHER ONE WAS TOO SMALL (<600 MM FL)	
+FieldComments	Only one larval fish.  <25mm	
+FieldComments	ONLY SET FOR ONE DAY	
+FieldComments	Only went to 11m due to SAV.	
+FieldComments	OT ground vegitation may have lifted lead line.	
+FieldComments	Over-bank high water. Seine on top of shelf and bottom of seine net rolled up over tall vegetation.	
+FieldComments	OVER 100 GOATS HERE	
+FieldComments	overcast,foggy,drizzling	
+FieldComments	Overnight rain	
+FieldComments	overtopping	
+FieldComments	Overtopping event.  Set at 12:33	
+FieldComments	Overtopping.	
+FieldComments	Overtopping. Trap not sitting in middle of channel. Trap moved, and reset ok.	
+FieldComments	parallel seine	
+FieldComments	parallel seine due to depth	
+FieldComments	Parallel seine due to veg/hyacinth mats.	
+FieldComments	Parallel seine.	
+FieldComments	parasite on exterior of splittail(319mm)	
+FieldComments	parasite on splt, unids less than 10mm, tfs male	
+FieldComments	Part of foam insert starting to rip off, foam still in place. 8 RPM	
+FieldComments	Partial bag inversion	
+FieldComments	Partial bag twist.	
+FieldComments	partial blockage, 1 hr set	
+FieldComments	partial blockage, 2 hr set	
+FieldComments	partly cloudy and windy	
+FieldComments	perpendicular seine	
+FieldComments	Perpendicular seine	
+FieldComments	Perpendicular seine. SASU larvae <25mm present. Site: Sac Weir- SB2	
+FieldComments	perpendicular seine. Too shallow and clear for seine. Forgot secchi depth. Site: SB2	
+FieldComments	Perpindicular beach seine	
+FieldComments	pH  al: 7.04, 10.09/ EC cal: 5.03	
+FieldComments	pH is off.	
+FieldComments	pH meter not working properly	
+FieldComments	pH not taken by accident	
+FieldComments	photo of CHN	
+FieldComments	Pictures # 559-562	
+FieldComments	Pictures # 563-567	
+FieldComments	PL of F. Length 163 was an ammocoete	
+FieldComments	PLs of 141 + 138 were ammoceotes.	
+FieldComments	plump (but not yet gravid) female splittail	
+FieldComments	POCKET SEINE, 1 MAN SWEEP	
+FieldComments	Pond	
+FieldComments	POND	
+FieldComments	pond @ parking lot D (YBW)	
+FieldComments	pond at end of gravel road (1st gate)	
+FieldComments	pond east of study pond	
+FieldComments	pond east of study pond (east end)	
+FieldComments	Pond over bank, seined path to pond	
+FieldComments	pond perimeter (638x3) ft	
+FieldComments	Pond recently filled - high water level / too deep to perform full width (usually 15m wide)	
+FieldComments	POND REFILLED-LAST SEINE WAS TOO SHALLOW,  D.O. PROBE/MEMBRANE NOT WORKING CORRECTLY = 2.98 mg/L	
+FieldComments	pond refilled since last seine (deeper water)	
+FieldComments	Pond was filled to the top	
+FieldComments	Pool next to weir, apprx. 1/4 mi west of levee	
+FieldComments	Pre spawn female CHN in seine	
+FieldComments	Primrose covering first ~20ft of ""normal"" AL-3 reach.  Moved upstream to avoid primrose, measured 30m for sample.  May need to adjust start / stop points going forward	
+FieldComments	Primrose presence shortened length of seine, construction at Lisbon weir caused low water levels.	
+FieldComments	Problem with water weeds, 1/2 across	
+FieldComments	pull #2; this was the only site seined for the day because DSM take limit surpassed at STTD RSTR	
+FieldComments	pull due to low DO/fish kill @ Lisbon	
+FieldComments	Pull early for kids day	
+FieldComments	pull trap due to DSM take limit; cone pulley system broke when raising cone; CHN-F:47-102mm	
+FieldComments	pulled 180K receiver s/n: 300978	
+FieldComments	pulled cone due to number dsm	
+FieldComments	Pulled due to heavy debris and oncoming storms	
+FieldComments	Pulled due to large amounts of high devris flowing down Toe Drain	
+FieldComments	Pulled due to veg getting caught on trap. Wow that was a lot of veg	
+FieldComments	Pulled for COVID-19 shutdown.	
+FieldComments	pulled for the season	
+FieldComments	Pulled for Veteran's Day.	
+FieldComments	Pulled for weekend.	
+FieldComments	Pulled screw trap due to high volume of debris flowing down Toe Drain. Log jam- trap wasn't spinning @ arrival.	
+FieldComments	Pulled the trap due to COVID-19 shutdown.	
+FieldComments	Pulled trap b/c tree serving as anchor dislodged	
+FieldComments	pulled trap early (thurs instead of fri)-crooked and safety cables tangled/disconnected.	
+FieldComments	Pulled trap for season	
+FieldComments	Pulled trap halfway out of the water at 9:19, came back and pulled entirely at 13:10. Otherwise, fished fine.	
+FieldComments	PULLED TRAPS FOR SEASON	
+FieldComments	Purse got caught on a tree at the end.	
+FieldComments	Q	
+FieldComments	raiing on and off throughout the day	
+FieldComments	rain w/in las t24hrs/ dead sheep (TX115)1660 SFCP	
+FieldComments	rain w/in last 24 hrs	
+FieldComments	rain w/in past 24hrs/  *TFS from mouth of LMB	
+FieldComments	Rain w/in the last 24 hrs	
+FieldComments	rain w/in the last 24hrs	
+FieldComments	Rain w/in the last 24hrs	
+FieldComments	rain w/in the past 24 hrs	
+FieldComments	rain w/in the past 24hrs	
+FieldComments	Rainbow trout in fyke, adipose clipped.	
+FieldComments	raining on and off during day	
+FieldComments	raining on and off throughout the day	
+FieldComments	Raining on and off throughout the day	
+FieldComments	raised cone for season	
+FieldComments	RBT not tagged	
+FieldComments	RBT was tagged (hatchery)- on datasheet as RBTT.	
+FieldComments	RBT with clipped adipose and caudal(dorsal tip)	
+FieldComments	RBT: ad +	
+FieldComments	RD 22 CWT Release Site	
+FieldComments	Re-straightened trap- retrighted guide cables- Remove Hyacinth/ still lots of hyacinth	
+FieldComments	re-tow slightly upstream of (12/14 time 11:10)	
+FieldComments	really large log against trap-blocked flow to cone, stopping spin.  After log dislodged, cone started spinning again	
+FieldComments	Really windy and white caps in the toe drain	
+FieldComments	REAR ROPE WRAPPED BACKWARDS, UNABLE TO SET AS SAFETY, PULLED TRAP RESET LINE	
+FieldComments	Reg. distance/Length minus 12 meters	
+FieldComments	Removed massive tree, cleared debris, lowered cone	
+FieldComments	Removed the debris that stuck on the mesh w/ power sump. 23000+cfs	
+FieldComments	replaced fron A-frame guide -back fishing	
+FieldComments	reposition FYKE/ moved downstream & relinked cable	
+FieldComments	Repositioned Fyke, was too far upstream.	
+FieldComments	Repositioned guide cable posts	
+FieldComments	repositioned trap,~ 3ft upstream	
+FieldComments	RES198 caught on outside of trap and pushed in.	
+FieldComments	Reset after fixing-pulled earlier in the day. Set for fishing overnight.	
+FieldComments	reset at 11:05	
+FieldComments	restricted by water level and bottom contour	
+FieldComments	Rev counter broken; chnf = 0-66 chns = 67-89	
+FieldComments	Rev counter might be wrong	
+FieldComments	Rev. counter broken, 8 RPM	
+FieldComments	riffle	
+FieldComments	riveted panel	
+FieldComments	road 22-high flow site	
+FieldComments	Rotated trap to shift door opening for easier access and safer conditions for fish.	
+FieldComments	Rough count on juv SPLT.	
+FieldComments	rpm 8	
+FieldComments	rpm 8.25	
+FieldComments	RPM after debris removal=3	
+FieldComments	rpm: 3.5, after cleared. FF took 9 splt for study	
+FieldComments	RPM: 5.5 after cleared	
+FieldComments	RPM= 7.5 trap crank broken. Unable to take rev counter reading, used RPMs	
+FieldComments	RPM= 7.5.  No ""set"" for rev. counter, see ""set"" datasheet	
+FieldComments	RSTR WAS PULLED UNTIL FALL	
+FieldComments	s of FW @ gravel boat ramp	
+FieldComments	Safety meeting - first check of season	
+FieldComments	sal: 0.3, DO: 6.8. BKS could also be WHS	
+FieldComments	Salmon- Black tongue,white lower & upper gums	
+FieldComments	Salmon jumped out of bucket (lost).	
+FieldComments	salmon taged with acoustic and spgtti,  code:1364	
+FieldComments	Salmon!	
+FieldComments	Salmon!!!	
+FieldComments	sand beach only accessible from side because large ramp in/on water/beach	
+FieldComments	SASQ AND STB FIN CLIPS	
+FieldComments	sasq had fin rot (46mm)	
+FieldComments	SASQ looks eaten/ spit out; flood tide	
+FieldComments	SASU 24mm was captured but not counted	
+FieldComments	SASU of 399 expressed milt.	
+FieldComments	SAV in cone.	
+FieldComments	SAV present at site. Large log in seine, no real impact.	
+FieldComments	saw 1 giant garter snake on the shore near the end of BL1	
+FieldComments	Saw 15+ TFS in live box on 2/8. Where did they go?	
+FieldComments	Saw angler catch sturgeon near trap in AM	
+FieldComments	sb1	
+FieldComments	SB1	
+FieldComments	sb1 high flow	
+FieldComments	SB1, high flow	
+FieldComments	sb1, weir closed so had to move seine further down the road -- very muddy	
+FieldComments	sb2	
+FieldComments	SB2	
+FieldComments	SB2, high flow	
+FieldComments	SB2, road work near SB1 so we didnâ€™t do it	
+FieldComments	scale only goes to tenths (0.1) so inaccurate	
+FieldComments	scale only worked to 0.1g, 30 minute set time	
+FieldComments	Scale stopped working, later fish have no weights	
+FieldComments	SCB full of parasites	
+FieldComments	scb very heavily parasitized	
+FieldComments	Screw trap clogged w/ debris. Trap cleaned and brushed, screen removed and cleaned.	
+FieldComments	Screw trap not in center of toe drain- might need to re-anchor- also tide seemed to be a strong flood- trap not moving, DO too low down stream flow.	
+FieldComments	Screw trap set for the season.	
+FieldComments	Secchi = depth of pond (clear to bottom).	
+FieldComments	Secchi > 1m,  lots of debris	
+FieldComments	secchi > 1meter	
+FieldComments	secchi could not be read, too shallow and clear (touched bottom). A lot of aquatic veg	
+FieldComments	Secchi depth > pond depth.  Pond depth approx 1 m.	
+FieldComments	Secchi disc fell in toe drain.	
+FieldComments	Secchi disc fell in tow drain.	
+FieldComments	Secchi disc not available.New one being made today	
+FieldComments	secchi hit bottom	
+FieldComments	Secchi hit bottom	
+FieldComments	Secchi hit bottom (0.74m). Lots of Azula (filled up seine)	
+FieldComments	secchi hit bottom, too clear	
+FieldComments	secchi hit bottom. Too clear	
+FieldComments	Secchi max at 0.45 M, hit bottom.	
+FieldComments	Secchi measuring stick broken	
+FieldComments	Secchi not applicable; too clear to measure. Seined perpendicular to shore. No fish.	
+FieldComments	SECCHI NOT RECORDED	
+FieldComments	secchi questionable	
+FieldComments	SECCHI READING WAS GREATER THAN 1 METER	
+FieldComments	Secchi value seems too high.	
+FieldComments	SECOND ATTEMPT, FIRST HAD BIG TREE STUCK IN SEINE	
+FieldComments	Second check of the day.- Debris pretty low for 5 hours/ bypass inundating. Riveted door back on.	
+FieldComments	second seine attempt, on the other side of the pond	
+FieldComments	Seine #2 at BL5 - 1st seine had bag twist.	
+FieldComments	seine bunched up, tangled with burrs	
+FieldComments	seine caught & ripped hole	
+FieldComments	seine completed at ""boat ramp""	
+FieldComments	SEINE DAY; LARGE GASH IN SASU	
+FieldComments	Seine ended short due to thick patch of primrose	
+FieldComments	Seine flipped at beginning; pictures # 554-558	
+FieldComments	Seine got caught at end and had to pull lead line over snag.	
+FieldComments	Seine length increased to 40m for ease of exiting	
+FieldComments	seine length shortened due to encroaching primrose	
+FieldComments	seine perpendicular to shore. Lots of little fishes (<25mm)	
+FieldComments	Seine shortend to 26m due to veg. Water quality taken from STTD	
+FieldComments	seine snagged and released	
+FieldComments	seine snagged, closed, released, continued (twice)	
+FieldComments	seined 3 m past take out to avoid debris	
+FieldComments	seined below fyke trap not through zone where fyke is removed. Waited 15 min before seining, seemed to improve catch.	
+FieldComments	Seined over the hyacinth	
+FieldComments	seined parallel to shore due to high water levels	
+FieldComments	seined parallel to shore, high deep water w hyacinth	
+FieldComments	Seined parallel to shore, length of seine was restricted due to water depth.	
+FieldComments	Seined perpendicular to shore	
+FieldComments	seined pond, lost connectivity to drainage	
+FieldComments	Seined through hyacinth	
+FieldComments	seined through sav bed	
+FieldComments	set	
+FieldComments	SET	
+FieldComments	set @ 09:30	
+FieldComments	set @ 10:21, high flow after overtopping (1.5 RPM)	
+FieldComments	Set @1400 on 1/17/06.  Above channel on bank	
+FieldComments	SET and Check   Hight flow condition a lot of debris	
+FieldComments	Set at 12:00	
+FieldComments	set at edge of dropoff, not in the middle of the channel. Trap is fully submerged due to high flows	
+FieldComments	set cone	
+FieldComments	Set on Sunday because of rain	
+FieldComments	Set on Sunday. Let's catch sturgeon!!	
+FieldComments	Set on the just below the ramp (off in the middle of main channel), high water	
+FieldComments	set temp. logger	
+FieldComments	set time 11am - 12pm (7.5 RPM), 50 mins set	
+FieldComments	several small carp(?) <20mm	
+FieldComments	several small tumors on body of SCB	
+FieldComments	shallow flooded veg, bad seining conditions	
+FieldComments	Shallow, caught on bottom ledge, took RFK for genetics	
+FieldComments	shallow/narrow. Up on flooded bank, not in channel.	
+FieldComments	shell from native bivalve found in fyke trap	
+FieldComments	Shifted closer to railroad tracks, water level was too low.	
+FieldComments	Shifted slightly downstream	
+FieldComments	Shifted start and stop location for seine due to fallen tree at original start.	
+FieldComments	Shifted two meters downstream due to veg. Water is shallow and clear too.	
+FieldComments	shimp with eggs	
+FieldComments	Shortened due to hyacinth; forgot to take pictures here	
+FieldComments	Shortened due to Primrose	
+FieldComments	shortened due to veg	
+FieldComments	shortened length due to primrose/hyacinth growth	
+FieldComments	Shortened nose cable 10ft.. 1st Day Check - tested new platform.	
+FieldComments	Shortened seine by approx. 3m due to vegetation. Led line of net rolled on itself a little- code 2.	
+FieldComments	SHORTENED SEINE: Couldnâ€™t seine full length due to hyacinth blockages.	
+FieldComments	Shorter seine due to the vegetation (see the length)	
+FieldComments	Shorter seine length due to hyacinth	
+FieldComments	SHR not notated on sheet although +/-100 caught	
+FieldComments	SHR, E for eggs; CHNF= 0-73	
+FieldComments	SHR^E= eggs; CHNF=38-83mm; CHNS=84-113mm	
+FieldComments	SHR^E=eggs; CHNF=34-75mm CHNS=76-102	
+FieldComments	Shrimp= +11, EC=551	
+FieldComments	Shrimp= +20, EC=447	
+FieldComments	shrimp=+2, mitten male=30mm,EC=817	
+FieldComments	Shrimp=147, EC=718	
+FieldComments	Site Code: SB-2	
+FieldComments	site just below hells gate- (need to double check)	
+FieldComments	site listed as AL-1(ish)- slightly upstream of AL-1	
+FieldComments	site SB2, nearest to weir.	
+FieldComments	Site shifted 30m upstream	
+FieldComments	Site: SB-2	
+FieldComments	Slack current and trap blowing upstream  @ set	
+FieldComments	Slack High	
+FieldComments	slack tide	
+FieldComments	slack tide, trap not spinning, low debris	
+FieldComments	Slack Tide. Trap was not turning. Plastic tub and large log clogging trap.	
+FieldComments	Slightly windy both smelt alive	
+FieldComments	sm pond N of I-80	
+FieldComments	SM= Sierra Mabanta	
+FieldComments	SMALL BLOCKAGE IN INTAKE	
+FieldComments	Small fish caught - dead.  ID questionable.  23 mm FL - possible DSM (?)  fin clip to be sent for genetics in case	
+FieldComments	Small limb in trap/not spinning; CHN-S: 60-80mm	
+FieldComments	small log jam	
+FieldComments	SMALL LOG WAS STUCK IN FRONT OF TRAP.  VIAL #1= 54.6 NTU	
+FieldComments	Snag at end of seine.	
+FieldComments	Snag on 1st tow, lost +/- 30 MSS & 1 LMB +/- 300mm	
+FieldComments	snag on tree at beginning	
+FieldComments	snag, closed off, freed, haul continued	
+FieldComments	snag, closed, released, continued	
+FieldComments	snagged twice, closed and released	
+FieldComments	some fish lost through door when trap pulled in	
+FieldComments	Some hyacynth moved prior to seining	
+FieldComments	Some Primrose	
+FieldComments	some small <25 mm MQF	
+FieldComments	some small fish escaped (likely cats),4 WST tagged	
+FieldComments	some WST taken to UCD	
+FieldComments	sorta set at edge of bank in water	
+FieldComments	SpCnd seems wrong. Maybe 152.6?	
+FieldComments	Spinning!	
+FieldComments	splittail sacrificed for Fred and Rachel	
+FieldComments	SPLT- LOOK GRAVID	
+FieldComments	splt @ 33mm with parasite just posterior operculum	
+FieldComments	SPLT escaped (plus counted)	
+FieldComments	SPLT fell out back door of fyke	
+FieldComments	SPLT FL365,F,ripe transported to YB Wetland E Pond	
+FieldComments	SPLT gilled in cone,  SPLT for Fred,small DSM=?	
+FieldComments	SPLT given to Fred	
+FieldComments	SPLT got out of door	
+FieldComments	SPLT Ided, >25mm=larval; MSS ripe	
+FieldComments	SPLT seems post spawn	
+FieldComments	SPLT taken to pond	
+FieldComments	SPLT: 4 tagged-1 died, 2 released, remainder taken	
+FieldComments	SPLT<20 UNID cyprinid	
+FieldComments	staghorn sculpin 46mm	
+FieldComments	started 5m N of start and ended 5m N of end	
+FieldComments	started 8m wide	
+FieldComments	started clipping SPLT (ventral lobe of caudal)	
+FieldComments	Started clipping top caudal fin of stipers.	
+FieldComments	STB (592mm) tagged-229836 (code)	
+FieldComments	STB (FL- 388), M, milt; took for Brian's study	
+FieldComments	STB @654 re-cap upper caudal clip, EC:284	
+FieldComments	STB @768mm w/ tag #F.0532 DFG Stockton	
+FieldComments	STB 40 and 30 is correct.	
+FieldComments	STB 936 tagged	
+FieldComments	STB and CHC collected for ERP predation study	
+FieldComments	STB and LMB kept for brian's study	
+FieldComments	STB collected for predation study	
+FieldComments	STB fin clips collected	
+FieldComments	STB FL535 ripe	
+FieldComments	STB FL615: TAG #278224	
+FieldComments	STB FL646, DFG STOCKTON TAG #271385	
+FieldComments	STB is 35 not 350.	
+FieldComments	stb kept for predation erp project	
+FieldComments	STB kept for predation study	
+FieldComments	STB larvae; CHNF+ 40-88	
+FieldComments	STB lgth. 587 tagged  Stockton-952052488 DFG	
+FieldComments	STB possible female	
+FieldComments	STB spitted out small BKS	
+FieldComments	STB splitted out a small CHC (not recorded on take)	
+FieldComments	STB TAG #Y11614, FL=595	
+FieldComments	STB with SPLT in mouth(photos)	
+FieldComments	STB: took all 3 for predation study	
+FieldComments	stb@532 with milt, ec=629	
+FieldComments	Stick stuck in cone/made cone stop spinning	
+FieldComments	Stick twisted the net a little bit	
+FieldComments	Stick/branch stuck between cone and pontoon. Trap was not spinning upon arrival. Stick removed at 11:00am. Let trap fish while lower trophic sampling was completed. Lots of shrimp - took 2 hrs to fish out livewell.	
+FieldComments	Sticks caught on wings.	
+FieldComments	Sticks in cone stopped rotation. 1/2 RPM.	
+FieldComments	Still a good amount of SAV pulling up lead line. NO CATCH	
+FieldComments	STILL HEAVY VEG. PERPENDICULAR SEINE--> NOT PARALLEL TO SHORE	
+FieldComments	STOPPED BECAUSE FENCE POST IN CONE, WEIR OVERTOP HIGH FLOW	
+FieldComments	straightened fyke- aligned fence posts with guide cables	
+FieldComments	Straightened the cables on the trap-> Always watch alignment of cables on trap, not just ropes.	
+FieldComments	Straigtened fyke before set	
+FieldComments	Strong north wind, haf to realign trap slightly.	
+FieldComments	strong odor of decay	
+FieldComments	Strong winds.  Possible cause for low secchi value	
+FieldComments	stuck on log	
+FieldComments	Study Pomd	
+FieldComments	Study Pond	
+FieldComments	study pond, west	
+FieldComments	Sturgeon pushed door open, 4 escaped + other fish	
+FieldComments	Submerged ledges and cattails allowed some escape.	
+FieldComments	Substrate is grass	
+FieldComments	Substrate MD/VG	
+FieldComments	substrate of hard packed clay, created undulations	
+FieldComments	Substrate: vegetation/mud.	
+FieldComments	substrate: vegetation/mud. 2nd seine at location to catch salmon for diet study	
+FieldComments	Super Low DO (optic DO meter)	
+FieldComments	Super low tide, tried to seine in dropoff	
+FieldComments	Super windy	
+FieldComments	Super Windy!!!	
+FieldComments	Supplemental BSEIN for RST   only 1/3 of normal width	
+FieldComments	Supplemental BSEIN for RST (STTD site)	
+FieldComments	SW-2 middle of sac weir, perpendicular seine. Substrate: mix of mud and sand	
+FieldComments	sw2/sb2. windy, old sw site- leadline up from wind possibly	
+FieldComments	Tadpole	
+FieldComments	tadpole present	
+FieldComments	tag on WST $20 reward #11512 probable FL 1147	
+FieldComments	Tagged adult chinook Tag#1787	
+FieldComments	tagged and released both salmon	
+FieldComments	Tangled in primrose -> Lots of primrose! LOTS! -mo	
+FieldComments	TEMP AND D.O. WOULD NOT STABILIZE	
+FieldComments	Temp, SCnd, DO, pH, Turb taken from sonde data from 2/14/18 at 10:45.	
+FieldComments	Temp. estimate with backup thermometer(split merc.	
+FieldComments	Tempurature and Conductivity probe broken, no readings recorded. 9.5 RPM	
+FieldComments	Test set week (New moon week)	
+FieldComments	TFS of 140mm in plus counts,kept 5 CHNT	
+FieldComments	The water was too high and had to decrease width at some points (near tree).	
+FieldComments	theadfin caught in mesh/debris at nose end	
+FieldComments	THERE'S NO DATA SHEET FOR AFTER THIS ONE? WASN'T PULLED AT THE END OF THE DAY? (RF)	
+FieldComments	There was a turb vial number on the data sheet, but no value was recorded.	
+FieldComments	thermometer broke	
+FieldComments	thermometer broken	
+FieldComments	This concludes RSTR Sampling for the season	
+FieldComments	This STB2 is different than previous dates.	
+FieldComments	Tide flooding.  Debris not bad at trap	
+FieldComments	Tide just switched from fld to ebb, cone spinning very slow and pausing frequently. Tightened anchor line.	
+FieldComments	Tide listed as N/A. High flow site.	
+FieldComments	Tide listed as N/A. High flowsite. A lot of small juvenille fish present (FHM, RSN?) less than 25mm estimated 30-40fish.	
+FieldComments	Tide listed as N/A. Too shallow for secchi. Substrate listed as VEG/MUD.	
+FieldComments	tide low, shallow seine. vial turb recorded	
+FieldComments	TIDE MIGHT BE FLOOD	
+FieldComments	tide pushing net/raining on and off throughout day	
+FieldComments	tide was high so seine had to reduce width at some points	
+FieldComments	Tide: Ebbing	
+FieldComments	tire in seine- some fish lost when bringing up the net	
+FieldComments	toe drain edge	
+FieldComments	Tons of hyacinth on trap, also channel bank to channel bank all the way to lisben	
+FieldComments	Tons of tiny Splittail; Scale stopped working	
+FieldComments	Too clear and shallow for secchi, Veg = 1, Station code: SB1	
+FieldComments	too clear and shallow for secchi.	
+FieldComments	Too clear and shallow for secchi; still too much SAV for a good seine. However, notably less veg than before.	
+FieldComments	Too clear for sechhi; lots of SAV	
+FieldComments	Too clear for succhi. Perpendicular seine to shore. Upstream corner of BL5, water hyacinth in middle.	
+FieldComments	too deep	
+FieldComments	too deep for wide haul	
+FieldComments	too deep to seine	
+FieldComments	too deep, did j-seine	
+FieldComments	too deep, reduced length & width	
+FieldComments	Too much hyacinth, had to shorten seine length.	
+FieldComments	too shallow & clear for secchi	
+FieldComments	Too shallow and clear for secchi	
+FieldComments	Too shallow and clear for secchi. Caught a lot of fish under 25mm.	
+FieldComments	too shallow for a secchi	
+FieldComments	too shallow for secchi	
+FieldComments	Too shallow for secchi depth	
+FieldComments	too shallow for secchi reading	
+FieldComments	too shallow for secchi, no fish in seine, high flow	
+FieldComments	Too Shallow for secchi. Many very small MQF	
+FieldComments	Too shallow for secchi. NO CATCH	
+FieldComments	Too shallow for secchi. Pulled seine parallel to levee, water was kind of low.	
+FieldComments	Too shallow for sechi, High SAV	
+FieldComments	Took 9 whole body Killifish for genetics	
+FieldComments	Took DSM back to lab	
+FieldComments	took STB for brian's study	
+FieldComments	Took STB for Brian's Study	
+FieldComments	Took WHC and STB for Brian's study	
+FieldComments	Top of trap 2' above water level	
+FieldComments	TP & BGS photos taken	
+FieldComments	TP (139mm) having livebirth; small TP may be its young	
+FieldComments	Transported all (6) SPLT to YB Pond	
+FieldComments	Transpoted 6 of 8 SPLT to YB Pond	
+FieldComments	Transpoted one SPLT to YB Pond	
+FieldComments	trap-10 ft. shy ctr. Channel.7.70 mg/L O2,454 cond	
+FieldComments	Trap 3/4 submerged before pull.	
+FieldComments	trap anchor line maybe too long b/c trap does not stay in one place.	
+FieldComments	Trap approx 2/3 submerged after check.	
+FieldComments	TRAP BLOCKED, CONE NOT SPINNING, HIGH DEBRIS	
+FieldComments	Trap blown upstream. Numerous LMB,C,SCB,HCH <20mm	
+FieldComments	Trap broken due to debris in high water	
+FieldComments	TRAP CABLE WAS RESTRICTING TRAP ON NOSE, EITHER RAN OVER OR INSTALLED INCORRECTLY. WE GAVE IT MORE SLACK AND RE-TIED AT FENCE POST.	
+FieldComments	Trap came up at an angle	
+FieldComments	Trap closer to west bank	
+FieldComments	trap completely spun around, down lines crossed	
+FieldComments	Trap did not get pushed into the center of the channel due to flow and water levels	
+FieldComments	trap door ajar ~3 inches	
+FieldComments	trap fishing shallow	
+FieldComments	Trap in center of channel, draining	
+FieldComments	Trap is not pushed (set) all the way out (high flow).	
+FieldComments	TRAP MOVED DOWNSTREAM 5' IN FLOW	
+FieldComments	Trap moved downstream last week, moved back upstream.	
+FieldComments	trap not back to originalsetting, too deep to push	
+FieldComments	trap not fishing deep. Reset shallow	
+FieldComments	trap not fishing dp, logger dry, reset dp after	
+FieldComments	Trap not in center of channel due to high water and flow.	
+FieldComments	Trap not in the center of the channel, YSI # not noted	
+FieldComments	trap not reset to full depth	
+FieldComments	trap not set to full depth	
+FieldComments	Trap not sitting in middle of channel due to high flow/ tight nose cable. Overtopping	
+FieldComments	trap not spinning	
+FieldComments	Trap not spinning	
+FieldComments	Trap not spinning due to debris/water hyacinth	
+FieldComments	Trap not spinning due to upstream wind. Pulled early due to overtopping.	
+FieldComments	trap not spinning when we arrived; debris in trap.	
+FieldComments	Trap not spinning/ Water hyacinth in cone and livewell. Once cleared, trap started spinning.	
+FieldComments	trap not turning due to tide, box unusually empty	
+FieldComments	Trap pulled for the season!	
+FieldComments	Trap pulled post sample to complete cable liner	
+FieldComments	Trap rolled to the center of channel when released	
+FieldComments	Trap rotation 4 RPM prior to pull	
+FieldComments	trap RPM=3.5 after debris removal	
+FieldComments	Trap Set	
+FieldComments	Trap set 11:13am. Run for 2 hrs 13 mins on ebb tide	
+FieldComments	Trap set after three-day weekend.	
+FieldComments	Trap set and lower trophic	
+FieldComments	Trap set during the day/trap did not fish overnight due to 02/07/2012 DSM lethal take of 6	
+FieldComments	TRAP SET SINCE 09:33 (SPUN ~5 HRS).  DSM(1) 72-F/G, DSM(2) 70-M, DSM(3) 72-F/G, DSM(4) 65-M, DSM(5) 64-N/A	
+FieldComments	Trap started spinning 1600->once ebb-> first test of new trap	
+FieldComments	Trap still 85% submerged	
+FieldComments	trap stuck in shallow water	
+FieldComments	Trap turns sideways when winching up.	
+FieldComments	Trap was completely submerged looked dented (?)/ Saw fresh tire tracks near trap-> Did they scoop them(?)	
+FieldComments	trap was facing upstream -- reinstalled anchor	
+FieldComments	Trap was not in center of channel most likely due to overtopping.	
+FieldComments	Trap was not in the center of the channel. Day check, trap was set at 10:34	
+FieldComments	trap was not rolling out completely	
+FieldComments	TRAP WAS NOT SPINNING AT ARRIVAL DUE TO STICKS.  CHNS- 79 MM, KNAGGS RANCH	
+FieldComments	Trap was set at 08:44 but only spun for 1.5 hours	
+FieldComments	TRAP WASN'T SPINNING	
+FieldComments	trap wasn't spinning when arrived due to debris	
+FieldComments	Trap wasn't spinning.	
+FieldComments	trap way off kilter, log	
+FieldComments	Trap will be fished for 2 hours to check catch and operation efficiency/ Just experienced first couple of rain storms for the year	
+FieldComments	TRAPPED WAS CHECKED/PULLED	
+FieldComments	TREE BRANCH WAS STUCK IN THE CONE	
+FieldComments	tree in middle of site	
+FieldComments	TREE LIMBS WERE STUCK IN CONE.  NO TURBIDITY TAKEN	
+FieldComments	tree on cable, tweaked trap a bit	
+FieldComments	tree was pulled out of the water for seine. Was in the transect	
+FieldComments	TT= Traci Treleaven	
+FieldComments	Tub= 16.2, 15.8, 14.4 = 15.47 ave.	
+FieldComments	Turb calib error- YSI#1- applied 4.0 NTU correction to readings	
+FieldComments	turb calib error- YSI#1- applied a 4.0 NTU correction to data readings	
+FieldComments	Turb calib error on YSI1, added +4.0 NTU correction to readings	
+FieldComments	turb calib error, YSI1, applied 4.0 NTU correction to data reading	
+FieldComments	turb vial broke	
+FieldComments	turb vial broke in transport, RES (FL 114) maybe pumpkin seed? Anal fin spine 4, ray 8, dorsal spine 10, ray 9, crazy colors!	
+FieldComments	turb vial dropped	
+FieldComments	Turbidity = 59.1 ntu	
+FieldComments	Turbidity = 67.0 ntu	
+FieldComments	Turbidity isn't working on the YSI	
+FieldComments	turbidity might not be accurate since it's so high	
+FieldComments	turbidity questionable	
+FieldComments	turbidity super high, unreliable turb reading?	
+FieldComments	Turbidity taken at AL-2	
+FieldComments	Turbidity taken at Fyke trap (BL-1)	
+FieldComments	Turbidity taken at Fyke trap (BL-1) CHNF = 0-70mm CHNS #2 and # possible Knaggs fish	
+FieldComments	Turbidity taken in shallow water due to low tide	
+FieldComments	turbidity too high for Hach, inaccurate YSI reading?	
+FieldComments	TURBIDITY VIAL #1-40.8	
+FieldComments	Turbidity vial #1 = 53.6 ntu	
+FieldComments	TURBIDITY VIAL #1= 39.8.  STARTED SPINNING AT 12:45	
+FieldComments	TURBIDITY VIAL #1= 45.7NTU	
+FieldComments	TURBIDITY VIAL #1= 55.8 NTU	
+FieldComments	TURBIDITY VIAL #2= 52.7 NTU	
+FieldComments	TURBIDITY VIAL #2= 56.8 NTU	
+FieldComments	TURBIDITY VIAL #2= 60.6	
+FieldComments	TURBIDITY VIAL #3- 48.5.  TRAP WAS FISHING FROM 11:30(~2 HRS)	
+FieldComments	Turbidity vial #3 = 39.8 ntu. Trap has been fishing since 8:53am but low tide was at 1pm so trap was spinning for about 4 hours.	
+FieldComments	TURBIDITY VIAL #3= 49.5.  STARTED FISHING 12:45 (2 HRS)	
+FieldComments	TURBIDITY VIAL #3= 52.5 NTU.    DSM(1) 68- UNKNOWN/ DSM(2)- FEMALE/GRVD/ DSM(3) 70-MALE	
+FieldComments	TURBIDITY VIAL #4= 51.6 NTU.  2ND CHECK, FISHED SINCE 14:45 (1 HR)	
+FieldComments	TURBIDITY VIAL #5= 46.5.  DSM (1) 70- FEMALE.  TRAPPED CHECKED AT 13:30,14:30, AND 15:30.  FISHING FOR ~4 HRS	
+FieldComments	TURBIDITY VIAL#2= 65.2 NTU	
+FieldComments	turbidity was taken at AL-4	
+FieldComments	twist in net	
+FieldComments	twisted bag	
+FieldComments	TWISTED BAG	
+FieldComments	Two CHNF's Radio Tagged	
+FieldComments	two hauls	
+FieldComments	TWO SEINES, FIRST BAG CAUGHT ON CEMENT. SECOND SEINE DOWN RIVER, EXIT POINT AT FIRST ENTRANCE BUT BAG GOT TWISTED	
+FieldComments	two stages for tfs	
+FieldComments	type 1	
+FieldComments	type 1 pond	
+FieldComments	type 1 pond, unid= sculpin spp	
+FieldComments	type 1 pond, unid=sculpin spp <25mm	
+FieldComments	type 2	
+FieldComments	type 2 pond	
+FieldComments	UIND=juvenile cyprinid, prob a shiner	
+FieldComments	uneven bottom-type 2 pond	
+FieldComments	uneven bottom, possible type 3	
+FieldComments	unid are centrarchids	
+FieldComments	unid are lepomis	
+FieldComments	UNID is an unidentified sunfish.  No YSI	
+FieldComments	unid may be tfs, 150-200 shrimp	
+FieldComments	unid=splt	
+FieldComments	Unidentified likely to be MSS or TFS	
+FieldComments	unids are centrarchids	
+FieldComments	Unknown crappie stuck in first chamber, swam off	
+FieldComments	Unkowns- mushy minnows	
+FieldComments	Used different YSI. EC was measured from top value. PPT=0.21	
+FieldComments	used fyke net- smaller nets not in truck	
+FieldComments	Used spring scale. Ec=524. UNID kept.554 SHRw/eggs	
+FieldComments	veg + barbed wire made lead line wrap up on itself	
+FieldComments	VEG = 1	
+FieldComments	veg blocking start and end so shorter length	
+FieldComments	Veg caught on trap.	
+FieldComments	Veg code 3 because we had to adjust seine location slightly due to SAV (primrose)	
+FieldComments	VEG TWISTED LEAD LINES	
+FieldComments	Vegetation (water primrose and hyacinth)	
+FieldComments	Vert bank - escapement under lead line. Large pond	
+FieldComments	Vert bank. Some escapement below lead line.	
+FieldComments	Vertical ledge - escapement under lead line.	
+FieldComments	Very high flows beyond seine area.	
+FieldComments	very high tide, 45 shrimp	
+FieldComments	Very high, light clouds (approaching CLR status).	
+FieldComments	very light bismark brown	
+FieldComments	VERY LOW TIDE	
+FieldComments	Very low tide!	
+FieldComments	Very low water, bag flipped	
+FieldComments	Very poor condition. Diagonal perpendicular seine. Veg (SAV) rolled up lead line. Thick mats of filamentous algae present.	
+FieldComments	Very Shallow	
+FieldComments	very shallow water	
+FieldComments	very windy	
+FieldComments	Very windy	
+FieldComments	Very Windy	
+FieldComments	VERY windy	
+FieldComments	VERY WINDY	
+FieldComments	VERY WINDY- LOST A FEW MQF DUE TO WIND	
+FieldComments	very windy, cone left down	
+FieldComments	Very windy, high flows	
+FieldComments	Very windy, lifted seine out of water a few times.	
+FieldComments	very windy.	
+FieldComments	Very windy.	
+FieldComments	Very windy. Lead line may have risen a bit from wind lifting floats.	
+FieldComments	Very windy. Seined on shelf due to high flows	
+FieldComments	VIAL #2- 53.5	
+FieldComments	VIAL #4= 44.5.  TRAP WAS CHECKED AT 13:30 AND FISHED FOR ONE ADDITIONAL HOUR, FISHED 3HRS TOTAL.	
+FieldComments	vial turb 15.4 NTU, seined north of site cuz primrose/hyacinth overgrowth. Lots of hyacinth in seine net	
+FieldComments	w side of TD across from STS	
+FieldComments	WAG FL 62MM #2W	
+FieldComments	Waited 1 hour for lower tide level.	
+FieldComments	water fell below trap entrance	
+FieldComments	water hyacinth had to be moved at identification site	
+FieldComments	Water is abnormally clear.	
+FieldComments	Water is too clear and shallow for secchi reading	
+FieldComments	water level high	
+FieldComments	Water levels down; 25% of trap above water still.	
+FieldComments	water low and huge cow tracks	
+FieldComments	water much deeper than normal. Had to perfom shorter distance	
+FieldComments	WATER QUALITY TAKEN AT 17:56.	
+FieldComments	water really low	
+FieldComments	water too clear and shallow for secchi	
+FieldComments	Water too high and projected to rsie 1 ft tomorrow - pulling!	
+FieldComments	Water too shallow and clear for secchi. Lots of filamentous algae, filling the net. Rainwater Killifish caught; 21mm- too small	
+FieldComments	water very clean	
+FieldComments	We caught a goat	
+FieldComments	Weather CLR once boat loaded. Hvy debris in box.	
+FieldComments	Weeds fill end of fyke when deployed, may cover entrance for fish decreased chance of catching salmon	
+FieldComments	weir-east end	
+FieldComments	Weir overtopping	
+FieldComments	Went a little downstream of road to get enough water.	
+FieldComments	Went around dense veg, could not maintain width	
+FieldComments	Went through veg.	
+FieldComments	Went under the hyacinth during seine	
+FieldComments	west beach side variation	
+FieldComments	west side	
+FieldComments	west side of toe drain, across from sts	
+FieldComments	WHC- 429- hole in head (one we tried to kill at the RSTR that survived probably)	
+FieldComments	whc-300=2mss & 3shr,  whc-260=1mss & 3shr & 1goby	
+FieldComments	whc #1  marked (Ad clipped)	
+FieldComments	whc #1, clipped ad for marking	
+FieldComments	whc 190 clipped and released (in bad shape)	
+FieldComments	WHC 235 killed for contents	
+FieldComments	WHC 483mm radio tagged 148024	
+FieldComments	WHC FL: 190mm = Scoliosis	
+FieldComments	WHC=275mm had full belly	
+FieldComments	white pelicans & egrets present	
+FieldComments	White Sturgeon tag# 8127F	
+FieldComments	WHS (254) many lrg tumors; SASU spawning colors	
+FieldComments	width and depth not recorded on datasheet	
+FieldComments	width only 4m --> cond code 2	
+FieldComments	width ranged between 5-15m	
+FieldComments	wier boat ramp	
+FieldComments	will clip all stripers on ventral part of caudal	
+FieldComments	winch stopped working, couldn't pull trap up	
+FieldComments	Winched trap upstream to realign after high flows pushed it downstream.	
+FieldComments	wind blew leads	
+FieldComments	WIND REALLY PICKED UP WHILE CHECKING TRAP. WST- WAS NOT EXPRESSING GAMETES	
+FieldComments	windy	
+FieldComments	Windy	
+FieldComments	WINDY	
+FieldComments	windy- DO high, probably miscalibrated	
+FieldComments	Windy - Acoustic Tagged CHNF - ERP project	
+FieldComments	Windy and strong current.	
+FieldComments	windy condition; S= 80-108	
+FieldComments	windy day	
+FieldComments	Windy day	
+FieldComments	windy day 20-30mph winds; carp rolled off bank and got away; STB saved for predation study	
+FieldComments	windy!	
+FieldComments	Windy!	
+FieldComments	WINDY!  TURBIDITY VIAL #1=51.5 NTU	
+FieldComments	WINDY!  TURBIDITY VIAL 3= 104 NTU	
+FieldComments	WINDY! TURBIDITY VIAL #4= 57.5	
+FieldComments	windy, bad haul	
+FieldComments	Windy, Due to veg, shorter length (see new length below)	
+FieldComments	windy, not spinning	
+FieldComments	Windy, Petra Lee (PL)	
+FieldComments	Windy. CHN-F= 0-63; CHN-S=64-86	
+FieldComments	Windy. RBT: Ad- minus, sores on body. 200+ SPLT <25mm.	
+FieldComments	WINDY. TRAP WAS SPINNING ~2 HRS	
+FieldComments	windy: NNW	
+FieldComments	windy; CHN-F: 46-102mm; lots of STB under 25mm; CHN-F 77mm (both) ad clip; CHN-F 70 ad+	
+FieldComments	windy; LIS weir not overtopping	
+FieldComments	windy; log in cone- not spinning when we arrived; lots (~200) undersized STB	
+FieldComments	windy; safety tailgate meeting	
+FieldComments	WOO-HOO, A STURGEON!	
+FieldComments	WQ taken from shore	
+FieldComments	WST  very thin, 4 shrimp	
+FieldComments	WST FL = 1110 CDFW HH.2220; WST FL=1090 possible immature female	
+FieldComments	WST lengths are TL. All SPLT to YB pond	
+FieldComments	YB inundation/ 4 hour fish time-> Sunday/ removed log @ 12:45 prior to check/ log stopped trap- debris load increasing @ trap water level seemed to receed by 2 ft-> but flow increased	
+FieldComments	YB Study Pond	
+FieldComments	YFG@85 kept for parasite analysis. 125 Shrimp	
+FieldComments	YSI - Left at office. DSM were not kept (dead or alive).	
+FieldComments	ysi 1 not stabilizing after 30 secs	
+FieldComments	YSI 556 - Bad EC/TEMP probe	
+FieldComments	Ysi cord not working, Readings go from nagative #'s to what is listed.	
+FieldComments	ysi dead	
+FieldComments	YSI did not pass calibration.	
+FieldComments	YSI did not pass DO% calbiration	
+FieldComments	YSI doesnâ€™t work	
+FieldComments	YSI down	
+FieldComments	YSI down, RPM after cleared: 4.5	
+FieldComments	ysi left in cage	
+FieldComments	YSI not available	
+FieldComments	YSI not functioning	
+FieldComments	YSI not staying powered	
+FieldComments	YSI not working	
+FieldComments	YSI not working-unable to measure EC or DO	
+FieldComments	YSI on Cache sloug study	
+FieldComments	YSI on Cache Slough Study.	
+FieldComments	YSI only gave first turbidity reading and then it stopped working	
+FieldComments	YSI READINGS MAY NOT BE ACCURATE, DO WAS 19.71.	
+FieldComments	YSI recalibrated for DO	
+FieldComments	YSI stopped reading turbitidy after the second reading (mean is only out of 2)	
+FieldComments	ysi turb 31.9 NTU	
+FieldComments	ysi turb 6.7 NTU	
+FieldComments	YSI won't turn on, ebb	
+FieldComments	ysi1 trub 35.5 NTU	
+FieldComments	zero catch	
+FieldComments	NA	
+Flag_WQ	1,1,1,1,1,1,1	
+Flag_WQ	1,1,1,1,1,1,3	
+Flag_WQ	1,1,1,1,1,1,NA	
+Flag_WQ	1,1,1,1,1,3,1	
+Flag_WQ	1,1,1,1,1,NA,1	
+Flag_WQ	1,1,1,1,1,NA,3	
+Flag_WQ	1,1,1,1,1,NA,NA	
+Flag_WQ	1,1,1,1,3,1,1	
+Flag_WQ	1,1,1,1,3,1,NA	
+Flag_WQ	1,1,1,1,NA,1,1	
+Flag_WQ	1,1,1,3,1,1,1	
+Flag_WQ	1,1,1,3,1,1,3	
+Flag_WQ	1,1,1,NA,1,1,1	
+Flag_WQ	1,1,3,1,1,1,1	
+Flag_WQ	1,1,3,1,1,1,NA	
+Flag_WQ	1,1,NA,1,1,1,1	
+Flag_WQ	1,1,NA,1,1,1,3	
+Flag_WQ	1,1,NA,1,1,1,NA	
+Flag_WQ	1,1,NA,1,1,3,1	
+Flag_WQ	1,1,NA,1,1,NA,1	
+Flag_WQ	1,1,NA,1,1,NA,3	
+Flag_WQ	1,1,NA,1,1,NA,NA	
+Flag_WQ	1,1,NA,1,3,1,1	
+Flag_WQ	1,1,NA,1,3,1,NA	
+Flag_WQ	1,1,NA,1,3,3,1	
+Flag_WQ	1,1,NA,1,3,NA,1	
+Flag_WQ	1,1,NA,1,3,NA,NA	
+Flag_WQ	1,1,NA,1,NA,NA,1	
+Flag_WQ	1,1,NA,3,1,NA,1	
+Flag_WQ	1,1,NA,NA,1,1,1	
+Flag_WQ	1,1,NA,NA,1,3,1	
+Flag_WQ	1,1,NA,NA,1,NA,1	
+Flag_WQ	1,1,NA,NA,NA,NA,1	
+Flag_WQ	1,1,NA,NA,NA,NA,3	
+Flag_WQ	1,1,NA,NA,NA,NA,NA	
+Flag_WQ	1,3,1,1,1,1,1	
+Flag_WQ	1,3,1,1,1,1,NA	
+Flag_WQ	1,3,3,1,1,1,1	
+Flag_WQ	1,3,3,1,1,1,NA	
+Flag_WQ	1,3,3,1,1,3,1	
+Flag_WQ	1,3,3,1,1,NA,1	
+Flag_WQ	1,3,NA,1,1,1,1	
+Flag_WQ	1,3,NA,1,1,NA,3	
+Flag_WQ	1,3,NA,NA,NA,NA,1	
+Flag_WQ	1,NA,1,1,1,1,1	
+Flag_WQ	1,NA,1,1,1,3,1	
+Flag_WQ	1,NA,1,1,NA,1,1	
+Flag_WQ	1,NA,NA,1,1,1,1	
+Flag_WQ	1,NA,NA,1,NA,NA,1	
+Flag_WQ	1,NA,NA,NA,NA,NA,1	
+Flag_WQ	1,NA,NA,NA,NA,NA,3	
+Flag_WQ	1,NA,NA,NA,NA,NA,NA	
+Flag_WQ	3,1,NA,1,1,1,1	
+Flag_WQ	3,1,NA,1,1,NA,1	
+Flag_WQ	3,1,NA,NA,NA,NA,1	
+Flag_WQ	3,NA,NA,NA,NA,NA,NA	
+Flag_WQ	NA,1,1,1,1,1,1	
+Flag_WQ	NA,1,NA,1,1,1,1	
+Flag_WQ	NA,1,NA,1,1,NA,1	
+Flag_WQ	NA,3,3,1,1,1,1	
+Flag_WQ	NA,NA,NA,1,1,1,1	
+Flag_WQ	NA,NA,NA,1,1,NA,NA	
+Flag_WQ	NA,NA,NA,NA,NA,NA,1	
+Flag_WQ	NA,NA,NA,NA,NA,NA,NA	
+Flag_WQ	NA	
+GearCode	FKNT	
+GearCode	FKTR	
+GearCode	RSTR5	
+GearCode	RSTR8	
+GearCode	SEIN100	
+GearCode	SEIN30	
+GearCode	SEIN50	
+GearCode	SEINCOVE	
+GearCode	SEINENCL	
+HabitatType	AG	
+HabitatType	NV	
+HabitatType	Rip	
+HabitatType	RIP	
+HabitatType	Veg	
+HabitatType	VEG	
+HabitatType	NA	
+MethodCode	BSEIN	
+MethodCode	FKTR	
+MethodCode	RSTR	
+SampleAltered	Y	
+SampleAltered	NA	
+StationCode	AL1	
+StationCode	AL2	
+StationCode	AL3	
+StationCode	AL4	
+StationCode	Alt_Fyke	
+StationCode	BL1	
+StationCode	BL2	
+StationCode	BL3	
+StationCode	BL4	
+StationCode	BL5	
+StationCode	BL6	
+StationCode	CCS1	
+StationCode	CCS2	
+StationCode	CCS3	
+StationCode	CCS4	
+StationCode	FW1	
+StationCode	LIHF	
+StationCode	LIHFS	
+StationCode	LIS	
+StationCode	PCS	
+StationCode	RD22	
+StationCode	SB1	
+StationCode	SB2	
+StationCode	STTD	
+StationCode	YB	
+StationCode	YBI80	
+SubstrateCode	AVG	
+SubstrateCode	GRV	
+SubstrateCode	MUD	
+SubstrateCode	PAV	
+SubstrateCode	SND	
+SubstrateCode	TVG	
+SubstrateCode	NA	
+Tide	Ebb	
+Tide	Flood	
+Tide	High	
+Tide	Low	
+Tide	Overtopping	
+Tide	NA	
+WeatherCode	CLD	
+WeatherCode	CLR	
+WeatherCode	FOG	
+WeatherCode	NIT	
+WeatherCode	RAN	

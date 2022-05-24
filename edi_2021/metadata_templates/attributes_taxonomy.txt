@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+OrganismCode		character				
+IEPFishCode		character				
+CommonName		character				
+Native		categorical				
+Phylum		categorical				
+Class		categorical				
+Order		categorical				
+Family		character				
+Genus		character				
+Species		character				
+Taxa		character				

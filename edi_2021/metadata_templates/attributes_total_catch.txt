@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleID		character				
+EventID		numeric	!Add units here!			
+OrganismCode		categorical				
+Count		numeric	!Add units here!			

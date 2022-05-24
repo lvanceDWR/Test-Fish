@@ -1,0 +1,16 @@
+attributeName	code	definition
+MethodCode	BSEIN	
+MethodCode	FKTR	
+MethodCode	RSTR	
+MonitoringType	Overtopping	
+MonitoringType	Overtopping, Special Study-NDFA	
+MonitoringType	Removed	
+MonitoringType	Routine	
+MonitoringType	Routine, Special Study-NDFA	
+MonitoringType	Special Study	
+MonitoringType	Temporary	
+PeriodOfRecordTo	12/10/2014	
+PeriodOfRecordTo	12/9/2016	
+PeriodOfRecordTo	3/24/2017	
+PeriodOfRecordTo	8/13/2008	
+PeriodOfRecordTo	Present	
