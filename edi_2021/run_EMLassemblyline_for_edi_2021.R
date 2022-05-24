@@ -89,16 +89,15 @@ EMLassemblyline::make_eml(
   eml.path = path_eml,
   dataset.title = "Interagency Ecological Program: Fish catch and water quality data from the Sacramento River floodplain and tidal slough, collected by the Yolo Bypass Fish Monitoring Program, 1998-2021.",
   temporal.coverage = c("1998-01-26", "2021-12-30"),
-  geographic.description = "Yolo Bypass tidal slough and seasonal floodplain in Sacramento, California, USA.",
-  geographic.coordinates = c("N", "E", "S", "W"),
-  maintenance.description = "ongoing",
+  geographic.description = "Yolo Bypass tidal slough and seasonal floodplain in Sacramento, California, USA",
+  maintenance.description = "Collection is ongoing; data updates expected approximately annually",
   data.table = c("effort.csv", "event.csv", "fish_unique.csv", "FKTR_hours_fished_1999-2018.csv", "genetics_salmon.csv", "genetics_smelt.csv", "integrated_wq_totalcatch.csv", "RSTR_hours_fished_1999-2018.csv", "station.csv", "taxonomy.csv", "total_catch.csv"),
   data.table.name = c("Trap Effort", "Water Quality and Environmental Data", "Individual Fish ", "Monthly Fyke Effort, Historical", "Salmon Genetics", "Smelt Genetics", "Integrated Water Quality and Fish Catch", "Monthly Screw Trap Effort, Historical", "Stations", "Taxonomy", "Total Fish Catch"),
   data.table.description = c("Fyke and screw trap effort in hours, starting 2010", "Water quality and environmental data, event level data", "Individual fish lengths and associated data", "Fyke trap effort in monthly hours, use for data prior to 2010", "Salmon genetics data", "Smelt genetics data", "Water quality and environmental data and total fish catch", "Screw trap effort in monthly hours, use for data prior to 2010", "station information", "taxonomic information", "total fish catch"),
   data.table.quote.character = c('"','"', '"'), # If you have columns that have commas in the text, you will need to use "quote = TRUE" when you write your R file (write.csv), and then use this to tell make_eml what is going around your character cells. c(apostrophe, quote, apostrophe, comma, etc...)
-  other.entity = c(""),
-  other.entity.name = c(""),
-  other.entity.description = c(""),
+  other.entity = c("Metadata_Fish_Publication_v1.0.pdf", "add more"),
+  other.entity.name = c("Metadata for YBFMP Fish Data"),
+  other.entity.description = c("Metadata for YBFMP Fish Data"),
   user.id = c("csmith", "aquaticecology"),
-  user.domain = "",
-  package.id = "")
+  user.domain = "EDI",
+  package.id = "edi.233.3")
