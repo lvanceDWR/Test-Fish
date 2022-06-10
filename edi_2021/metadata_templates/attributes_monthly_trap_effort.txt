@@ -3,4 +3,4 @@ MethodCode	Sampling Method Code	categorical
 Year	Year	numeric	dimensionless			
 Month	Month	categorical				
 OperationTimeHRS	Hours Sampled	numeric	hour			
-Comments	Comments	character				No comments recorded
+Comments	Comments	character			NA	No comments recorded

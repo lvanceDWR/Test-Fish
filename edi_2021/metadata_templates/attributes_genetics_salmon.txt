@@ -5,5 +5,5 @@ GeneticID	Genetically identified race ID	categorical			NA	No genetics run or gen
 Probability1	Probability of GeneticID	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
 GeneticID2	2nd most likely genetic race ID	categorical			NA	No genetics run or genetic analysis unsuccessful
 Probability2	Probability of GeneticID2	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
-Comments_Salmon	Comments about salmon	character				No comments
+Comments_Salmon	Comments about salmon	character			NA	No comments
 Comments_SalmonDataUsage	Comments about using salmon data	character				

@@ -20,6 +20,6 @@ MethodCode	Sampling Method Code	categorical			NA	Not measured or recorded
 GearCode	Sampling Gear Code	categorical			NA	Not measured or recorded
 GearConditionCode	Condition of gear during sample such as high debris	categorical			NA	Not measured or recorded
 SampleAltered	Was sampling altered? (no effect on sample)	categorical			NA	Not measured or recorded
-FieldComments	Field comments	character				No comments
+FieldComments	Field comments	character			NA	No comments
 Flag_WQ	Flag for water quality data	character				
 Comment_WQ	What was flagged	character				

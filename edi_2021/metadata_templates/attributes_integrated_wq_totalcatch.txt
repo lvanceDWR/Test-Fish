@@ -20,13 +20,13 @@ MethodCode	Sampling Method Code	categorical			NA	Not measured or recorded
 GearCode	Sampling Gear Code	categorical			NA	Not measured or recorded
 GearConditionCode	Condition of gear during sample such as high debris	categorical			NA	Not measured or recorded
 SampleAltered	Was sampling altered? (no effect on sample)	categorical			NA	Not measured or recorded
-FieldComments	Field comments	character				No comments
+FieldComments	Field comments	character			NA	No comments
 Flag_WQ	Flag for water quality data	character				
 Comment_WQ	What was flagged	character				
 SampleID	Sample Key	character				
-EventID	Event Key	character				
 OrganismCode	Organism Code	character				
+IEPFishCode	IEP Fish Code	character				
 Count	Count	numeric	number			
-SeineVolume	Seine Volume	numeric	cubicmeter			
+SeineVolume	Seine Volume	numeric	cubicMeter			
 TrapStatus	Status of trap	categorical			NA	Not recorded or not relevant to sample type or condition of sampling
 TrapHours	Hours trap was fished	numeric	hour		NA	Not recorded or not relevant to sample type or condition of sampling

@@ -12,4 +12,4 @@ StageCode	Life stage	categorical			NA	Not measured or recorded
 Dead	Fish dead or not dead	categorical			NA	Not measured or recorded
 Expression	Fish level of sexual expression	categorical			NA	Not measured or recorded
 GeneticSample	Genetic sample taken	categorical			NA	Not measured or recorded
-FishIDComments	Fish ID comments	character				No comments
+FishIDComments	Fish ID comments	character			NA	No comments

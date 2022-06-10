@@ -1,1 +1,4 @@
 id	unitType	parentSI	multiplierToSI	description
+microSeimensPerCentimeter	conductance	siemensPerMeter	1.00E-03	uS/cm
+nephelometricTurbidityUnit	turbidity			NTU
+proportion	dimensionless	percent	1.00E-02	proportion
