@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MethodCode	Sampling Method Code	categorical				
+Year	Year	numeric	dimensionless			
+Month	Month	categorical				
+OperationTimeHRS	Hours Sampled	numeric	hour			
+Comments	Comments	character				No comments recorded

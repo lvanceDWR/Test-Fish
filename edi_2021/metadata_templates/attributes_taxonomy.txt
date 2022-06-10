@@ -1,12 +1,12 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-OrganismCode		character				
-IEPFishCode		character				
-CommonName		character				
-Native		categorical				
-Phylum		categorical				
-Class		categorical				
-Order		categorical				
-Family		character				
-Genus		character				
-Species		character				
-Taxa		character				
+OrganismCode	Organism Code	character				
+IEPFishCode	IEP standardized fish code	character				
+CommonName	Common Name	character				
+Native	Native or Invasive	categorical			NA	Not relevant
+Phylum	Taxonomic Phylum	character			NA	Not relevant for organism
+Class	Taxonomic Class	character			NA	Not relevant for organism
+Order	Taxonomic Order	character			NA	Not relevant for organism
+Family	Taxonomic Family	character			NA	Not relevant for organism
+Genus	Taxonomic Genus	character			NA	Not relevant for organism
+Species	Species designation	character			NA	Not relevant for organism
+Taxa	Lowest taxon determined	character				

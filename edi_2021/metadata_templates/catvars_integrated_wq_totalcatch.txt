@@ -1,187 +1,45 @@
 attributeName	code	definition
-Comment_WQ	NA,NA,NA,NA,NA,NA,NA	
-Comment_WQ	NA,NA,NA,NA,NA,NA,Secchi	
-Comment_WQ	NA,NA,NA,NA,NA,Turbidity,NA	
-Comment_WQ	NA,NA,NA,NA,pH,NA,NA	
-Comment_WQ	NA,NA,NA,NA,pH,Turbidity,NA	
-Comment_WQ	WaterTemp,NA,NA,NA,NA,NA,NA	
-Flag_WQ	1,1,1,1,1,1,1	
-Flag_WQ	1,1,1,1,1,1,3	
-Flag_WQ	1,1,1,1,1,1,NA	
-Flag_WQ	1,1,1,1,1,3,1	
-Flag_WQ	1,1,1,1,1,NA,1	
-Flag_WQ	1,1,1,1,3,1,1	
-Flag_WQ	1,1,1,1,NA,1,1	
-Flag_WQ	1,1,1,NA,1,1,1	
-Flag_WQ	1,1,NA,1,1,1,1	
-Flag_WQ	1,1,NA,1,1,1,NA	
-Flag_WQ	1,1,NA,1,1,3,1	
-Flag_WQ	1,1,NA,1,1,NA,1	
-Flag_WQ	1,1,NA,1,1,NA,3	
-Flag_WQ	1,1,NA,1,1,NA,NA	
-Flag_WQ	1,1,NA,1,3,1,1	
-Flag_WQ	1,1,NA,1,3,3,1	
-Flag_WQ	1,1,NA,1,3,NA,1	
-Flag_WQ	1,1,NA,1,NA,NA,1	
-Flag_WQ	1,1,NA,NA,1,1,1	
-Flag_WQ	1,1,NA,NA,1,NA,1	
-Flag_WQ	1,1,NA,NA,NA,NA,1	
-Flag_WQ	1,1,NA,NA,NA,NA,3	
-Flag_WQ	1,1,NA,NA,NA,NA,NA	
-Flag_WQ	1,NA,1,1,1,1,1	
-Flag_WQ	1,NA,1,1,NA,1,1	
-Flag_WQ	1,NA,NA,1,NA,NA,1	
-Flag_WQ	1,NA,NA,NA,NA,NA,1	
-Flag_WQ	1,NA,NA,NA,NA,NA,NA	
-Flag_WQ	3,1,NA,1,1,1,1	
-Flag_WQ	3,1,NA,1,1,NA,1	
-Flag_WQ	3,1,NA,NA,NA,NA,1	
-Flag_WQ	NA,1,1,1,1,1,1	
-Flag_WQ	NA,1,NA,1,1,1,1	
-Flag_WQ	NA,NA,NA,NA,NA,NA,1	
-Flag_WQ	NA,NA,NA,NA,NA,NA,NA	
-GearCode	FKTR	
-GearCode	RSTR5	
-GearCode	RSTR8	
-GearCode	NA	
-IEPFishCode	AMESHA	
-IEPFishCode	AMMLAM	
-IEPFishCode	BIGLOG	
-IEPFishCode	BLABUL	
-IEPFishCode	BLACRA	
-IEPFishCode	BLUEGI	
-IEPFishCode	BROBUL	
-IEPFishCode	CHACAT	
-IEPFishCode	CHISAL	
-IEPFishCode	CHMICR	
-IEPFishCode	COMCAR	
-IEPFishCode	DELSME	
-IEPFishCode	FATMIN	
-IEPFishCode	GOLDFI	
-IEPFishCode	GOLSHI	
-IEPFishCode	GRESUN	
-IEPFishCode	HARDHE	
-IEPFishCode	HITCH	
-IEPFishCode	LARBAS	
-IEPFishCode	LONSME	
-IEPFishCode	MIGRSH	
-IEPFishCode	MISSIL	
-IEPFishCode	PACLAM	
-IEPFishCode	PACSSC	
-IEPFishCode	PRISCU	
-IEPFishCode	PUMPKI	
-IEPFishCode	RAIKIL	
-IEPFishCode	RAITRO	
-IEPFishCode	REDSHI	
-IEPFishCode	REDSUN	
-IEPFishCode	RIVLAM	
-IEPFishCode	SACBLA	
-IEPFishCode	SACPIK	
-IEPFishCode	SACSUC	
-IEPFishCode	SHIGOB	
-IEPFishCode	SIBPRA	
-IEPFishCode	SMABAS	
-IEPFishCode	SPLITT	
-IEPFishCode	SPOBAS	
-IEPFishCode	STAFLO	
-IEPFishCode	STRBAS	
-IEPFishCode	THRSHA	
-IEPFishCode	THRSTI	
-IEPFishCode	TULPER	
-IEPFishCode	UNICEN	
-IEPFishCode	UNICOT	
-IEPFishCode	UNIDEN	
-IEPFishCode	UNIKIL	
-IEPFishCode	UNILAM	
-IEPFishCode	UNIMIC	
-IEPFishCode	UNIOSM	
-IEPFishCode	UNISIL	
-IEPFishCode	WAKASA	
-IEPFishCode	WARMOT	
-IEPFishCode	WESMOS	
-IEPFishCode	WHICAT	
-IEPFishCode	WHICRA	
-IEPFishCode	WHISTU	
-IEPFishCode	YELBUL	
-IEPFishCode	YELGOB	
-IEPFishCode	NA	
-MethodCode	FKTR	
-MethodCode	RSTR	
-OrganismCode	AMM	
-OrganismCode	AMS	
-OrganismCode	BAS	
-OrganismCode	BGS	
-OrganismCode	BKB	
-OrganismCode	BKS	
-OrganismCode	BRB	
-OrganismCode	C	
-OrganismCode	CAT	
-OrganismCode	CHC	
-OrganismCode	CHN	
-OrganismCode	CMC	
-OrganismCode	DSM	
-OrganismCode	FHM	
-OrganismCode	GF	
-OrganismCode	GSF	
-OrganismCode	GSN	
-OrganismCode	HCH	
-OrganismCode	HH	
-OrganismCode	KLF	
-OrganismCode	LAM	
-OrganismCode	LFS	
-OrganismCode	LMB	
-OrganismCode	LP	
-OrganismCode	MQF	
-OrganismCode	MSS	
-OrganismCode	PKN	
-OrganismCode	PL	
-OrganismCode	PRS	
-OrganismCode	PSS	
-OrganismCode	RBT	
-OrganismCode	RES	
-OrganismCode	RFK	
-OrganismCode	RL	
-OrganismCode	RSN	
-OrganismCode	SAPM	
-OrganismCode	SASU	
-OrganismCode	SCB	
-OrganismCode	SCP	
-OrganismCode	SHM	
-OrganismCode	SHR	
-OrganismCode	SHRK	
-OrganismCode	SMB	
-OrganismCode	SME	
-OrganismCode	SNF	
-OrganismCode	SPB	
-OrganismCode	SPLT	
-OrganismCode	STB	
-OrganismCode	STF	
-OrganismCode	TFS	
-OrganismCode	TP	
-OrganismCode	TSS	
-OrganismCode	UNID	
-OrganismCode	W	
-OrganismCode	WAG	
-OrganismCode	WHC	
-OrganismCode	WHS	
-OrganismCode	WST	
-OrganismCode	YEB	
-OrganismCode	YFG	
-OrganismCode	NA	
-SampleAltered	Y	
-SampleAltered	NA	
-StationCode	PCS	
-StationCode	STTD	
-Tide	Ebb	
-Tide	Flood	
-Tide	High	
-Tide	Low	
-Tide	Overtopping	
-Tide	NA	
-TrapStatus	Check	
-TrapStatus	Pull	
-WeatherCode	CLD	
-WeatherCode	CLR	
-WeatherCode	FOG	
-WeatherCode	RAN	
-WeatherCode	NA	
+GearCode	FKNT	Fyke Net, used in 1998
+GearCode	FKTR	Fyke Trap
+GearCode	RSTR5	Rotary Screw Trap, 5' diameter
+GearCode	RSTR8	Rotary Screw Trap, 8' diameter
+GearCode	SEIN100	100' Beach Seine, 1.5 inch mesh
+GearCode	SEIN30	30' Beach Seine, 1.5 inch mesh
+GearCode	SEIN50	50' Beach Seine, 1.5 inch mesh with 4 ft bag
+GearCode	SEINCOVE	Beach Seine
+GearCode	SEINENCL	Seine enclosure
+GearConditionCode	1	Good (normal)
+GearConditionCode	2	Fair (50%+ 
+HabitatType	AG	Agricultural
+HabitatType	NV	1998 specific code
+HabitatType	RIP	Riparian
+HabitatType	VEG	Vegetation
+MethodCode	BSEIN	Beach Seine
+MethodCode	FKTR	Fyke Trap
+MethodCode	RSTR	Rotary Screw Trap
+MicrocystisRank	1	Microcystis absent
+MicrocystisRank	2	Low-widely scattered colonies
+MicrocystisRank	3	Medium-adjacent colonies
+SampleAltered	Y	Yes but does not affect quality of sample
+SubstrateCode	AVG	Aquatic Vegetation
+SubstrateCode	GRV	Gravel
+SubstrateCode	MUD	Mud
+SubstrateCode	PAV	Pavement
+SubstrateCode	SND	Sand
+SubstrateCode	TVG	Terrestrial Vegetation such as grass during overtopping
+Tide	Ebb	Moving from high to low
+Tide	Flood	Moving from low to high
+Tide	High	30 minutes before or after hgh
+Tide	Low	30 minutes before or after low
+Tide	Overtopping	Overtopping
+TrapStatus	Check	Checked trap
+TrapStatus	Pull	Pulled trap
+VegetationRank	1	No vegetation present
+VegetationRank	2	Vegetation present but no impact to sample
+VegetationRank	3	Vegetation present and impact to sample
+VegetationRank	4	Vegetation present and prevented sample from being taken
+WeatherCode	CLD	Overcast or cloud cover >50%
+WeatherCode	CLR	Clear
+WeatherCode	FOG	Foggy
+WeatherCode	NIT	Night
+WeatherCode	RAN	Rainy

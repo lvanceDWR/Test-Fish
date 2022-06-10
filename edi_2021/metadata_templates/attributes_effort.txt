@@ -1,8 +1,8 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-EventID		numeric	!Add units here!			
-SeineLength		numeric	!Add units here!			
-SeineWidth		numeric	!Add units here!			
-SeineDepth		numeric	!Add units here!			
-SeineVolume		numeric	!Add units here!			
-TrapStatus		character				
-TrapHours		numeric	!Add units here!			
+EventID	Event Key	character				
+SeineLength	Length of seine sample	numeric	meter		NA	
+SeineWidth	Width of seine sample	numeric	meter		NA	Not recorded or not relevant to sample type or condition of sampling
+SeineDepth	Depth of seine sample	numeric	meter		NA	Not recorded or not relevant to sample type or condition of sampling
+SeineVolume	Volume of seine sample	numeric	cubicmeter		NA	Not recorded or not relevant to sample type or condition of sampling
+TrapStatus	Status of trap	categorical			NA	Not recorded or not relevant to sample type or condition of sampling
+TrapHours	Hours trap was fished	numeric	hour		NA	Not recorded or not relevant to sample type or condition of sampling

@@ -1,25 +1,25 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-EventID		numeric	!Add units here!			
-StationCode		categorical				
-Datetime		Date		!Add datetime specifier here!		
-SampleDate		Date		!Add datetime specifier here!		
-WaterTemp		numeric	!Add units here!			
-SpecificConductance		numeric	!Add units here!			
-Conductivity		numeric	!Add units here!			
-Turbidity		numeric	!Add units here!			
-DO		numeric	!Add units here!			
-pH		numeric	!Add units here!			
-Secchi		numeric	!Add units here!			
-Tide		categorical				
-WeatherCode		categorical				
-VegetationRank		numeric	!Add units here!			
-SubstrateCode		categorical				
-HabitatType		categorical				
-MicrocystisRank		numeric	!Add units here!			
-MethodCode		categorical				
-GearCode		categorical				
-GearConditionCode		numeric	!Add units here!			
-SampleAltered		categorical				
-FieldComments		categorical				
-Flag_WQ		categorical				
-Comment_WQ		categorical				
+EventID	Event Key	character				
+StationCode	Station Abbreviation	character				
+Datetime	Date and Time of Sample	Date		Y-M-D h:m:s		
+SampleDate	Date of Sample	Date		Y-M-D		
+WaterTemp	Temperature of water	numeric	celsius		NA	Not measured or recorded
+SpecificConductance	Specific conductivity of water 	numeric	microSeimensPerCentimeter		NA	Not measured or recorded
+Conductivity	Electrical conductivity of water 	numeric	microSeimensPerCentimeter		NA	Not measured or recorded
+Turbidity	Turbidity of water 	numeric	nephelometricTurbidityUnit		NA	Not measured or recorded
+DO	Dissolved oxygen concentration 	numeric	milligramsPerLiter		NA	Not measured or recorded
+pH	Total pH of water 	numeric	dimensionless		NA	Not measured or recorded
+Secchi	Secchi depth sample collected 	numeric	meter		NA	Not measured or recorded
+Tide	Tidal stage	categorical			NA	Not measured or recorded
+WeatherCode	Weather at time of water quality sample	categorical			NA	Not measured or recorded
+VegetationRank	Level of effect of vegetation on sample	categorical			NA	Not measured or recorded
+SubstrateCode	Substrate of Sampling Site	categorical			NA	Not measured or recorded
+HabitatType	Habitat of Sampling Site	categorical			NA	Not measured or recorded
+MicrocystisRank	Visual rating of Microcystis in sampled body	categorical			NA	Not measured or recorded
+MethodCode	Sampling Method Code	categorical			NA	Not measured or recorded
+GearCode	Sampling Gear Code	categorical			NA	Not measured or recorded
+GearConditionCode	Condition of gear during sample such as high debris	categorical			NA	Not measured or recorded
+SampleAltered	Was sampling altered? (no effect on sample)	categorical			NA	Not measured or recorded
+FieldComments	Field comments	character				No comments
+Flag_WQ	Flag for water quality data	character				
+Comment_WQ	What was flagged	character				

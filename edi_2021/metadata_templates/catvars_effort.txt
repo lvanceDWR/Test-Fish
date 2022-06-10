@@ -1,0 +1,4 @@
+attributeName	code	definition
+TrapStatus	Check	Checked trap
+TrapStatus	Pull	Pulled trap
+TrapStatus	Set	Set trap

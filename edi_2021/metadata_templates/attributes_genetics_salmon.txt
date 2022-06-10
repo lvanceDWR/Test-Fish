@@ -1,9 +1,9 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-SalmGeneticRowID		numeric	!Add units here!			
-FishGenID		character				
-GeneticID		categorical				
-Probability1		numeric	!Add units here!			
-GeneticID2		categorical				
-Probability2		numeric	!Add units here!			
-Comments_Salmon		categorical				
-Comments_SalmonDataUsage		categorical				
+SalmGeneticRowID	Salmon genetics key	character				
+FishGenID	Fish genetic key	character				
+GeneticID	Genetically identified race ID	categorical			NA	No genetics run or genetic analysis unsuccessful
+Probability1	Probability of GeneticID	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
+GeneticID2	2nd most likely genetic race ID	categorical			NA	No genetics run or genetic analysis unsuccessful
+Probability2	Probability of GeneticID2	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
+Comments_Salmon	Comments about salmon	character				No comments
+Comments_SalmonDataUsage	Comments about using salmon data	character				

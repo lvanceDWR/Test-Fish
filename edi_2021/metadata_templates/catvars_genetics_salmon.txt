@@ -1,53 +1,10 @@
 attributeName	code	definition
-Comments_Salmon	3rd best: Spring, Prob: .0193	
-Comments_Salmon	3rd prob LF 0.1942	
-Comments_Salmon	3rd Spring 0.0248	
-Comments_Salmon	3rd: F. Prob: .0214	
-Comments_Salmon	3rd: F. Prob: .0363	
-Comments_Salmon	3rd: F. Prob: .0519	
-Comments_Salmon	3rd: F. Prob: .0816	
-Comments_Salmon	3rd: Fall - 0.1377	
-Comments_Salmon	3rd: LF. Prob: .0101	
-Comments_Salmon	3rd: LF. Prob: .0106	
-Comments_Salmon	3rd: LF. Prob: .011	
-Comments_Salmon	3rd: LF. Prob: .0149	
-Comments_Salmon	3rd: LF. Prob: .0226	
-Comments_Salmon	3rd: LF. Prob: .024	
-Comments_Salmon	3rd: LF. Prob: .0267	
-Comments_Salmon	3rd: LF. Prob: .0348	
-Comments_Salmon	3rd: LF. Prob: .0762	
-Comments_Salmon	3rd: LF. Prob: .0836	
-Comments_Salmon	3rd: LF. Prob: .0859	
-Comments_Salmon	3rd: LF. Prob: .1393	
-Comments_Salmon	3rd: LF. Prob: .1675	
-Comments_Salmon	3rd: LF. Prob: .1863	
-Comments_Salmon	3rd: LF. Prob: 0.0335	
-Comments_Salmon	3rd: S. Prob: .0102	
-Comments_Salmon	3rd: S. Prob: .0124	
-Comments_Salmon	3rd: S. Prob: .0127	
-Comments_Salmon	3rd: S. Prob: .0135	
-Comments_Salmon	3rd: S. Prob: .0137	
-Comments_Salmon	3rd: S. Prob: .0139	
-Comments_Salmon	3rd: S. Prob: .0145	
-Comments_Salmon	3rd: S. Prob: .0159	
-Comments_Salmon	3rd: S. Prob: .0184	
-Comments_Salmon	3rd: S. Prob: .024	
-Comments_Salmon	3rd: S. Prob: .0289	
-Comments_Salmon	3rd: S. Prob: .0293	
-Comments_Salmon	3rd: S. Prob: .0352	
-Comments_Salmon	3rd: S. Prob: .0711	
-Comments_Salmon	3rd: S. Prob: .0789	
-Comments_Salmon	3rd: S. Prob: 0.0231	
-Comments_Salmon	CODEUNK	
-Comments_Salmon	In Genetics & Dissection log, fish labeled as ""2017Ad_plus-S_179""	
-Comments_Salmon	Spring run from Deer Creek	
-Comments_SalmonDataUsage	Please contact Mariah Meek (mhmeek@msu.edu) if you wish to share or publish any salmonid genetics data	
-GeneticID	Fall	
-GeneticID	LateFall	
-GeneticID	n/p	
-GeneticID	Spring	
-GeneticID	Winter	
-GeneticID2	Fall	
-GeneticID2	LateFall	
-GeneticID2	n/p	
-GeneticID2	Spring	
+GeneticID	Fall	Fall run
+GeneticID	LateFall	Late Fall run
+GeneticID	n/p	Not provided
+GeneticID	Spring	Spring run
+GeneticID	Winter	Winter run
+GeneticID2	Fall	Fall run
+GeneticID2	LateFall	Late Fall run
+GeneticID2	n/p	Not provided
+GeneticID2	Spring	Spring run

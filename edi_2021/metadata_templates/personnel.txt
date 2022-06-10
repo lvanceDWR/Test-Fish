@@ -1,1 +1,17 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program				Creator			
+Catarina		Pien	California Department of Water Resources	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	Creator			
+Catarina		Pien	California Department of Water Resources	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	Database manager			
+Catarina		Pien	California Department of Water Resources	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	Field crew			
+Nicole		Kwan	California Department of Water Resources	Nicole.Kwan@water.ca.gov	0000-0003-1178-7788	Creator			
+Nicole		Kwan	California Department of Water Resources	Nicole.Kwan@water.ca.gov	0000-0003-1178-7788	PI	YBFMP	State Water Project	Not applicable
+Nicole		Kwan	California Department of Water Resources	Nicole.Kwan@water.ca.gov	0000-0003-1178-7788	Contact			
+Jesse		Adams	California Department of Water Resources	Jesse.Adams@water.ca.gov	0000-0002-0739-8782	Field crew			
+Naoaki		Ikemiyagi	California Department of Water Resources	Naoaki.Ikemiyagi@water.ca.gov		Field lead			
+Naoaki		Ikemiyagi	California Department of Water Resources	Naoaki.Ikemiyagi@water.ca.gov		Contact			
+James		Robinson	California Department of Water Resources	James.Robinson@water.ca.gov		Field lead			
+Emily		Hubbard	California Department of Water Resources	Emily.Hubbard@water.ca.gov		Field crew			
+Emily		Hubbard	California Department of Water Resources	Emily.Hubbard@water.ca.gov		Data entry			
+Brian	M	Schreier	California Department of Water Resources	Brian.Schreier@water.ca.gov	0000-0002-5075-3946	Associate			
+Ted		Sommer	California Department of Water Resources	Ted.Sommer@water.ca.gov		Associate			
+Louise		Conrad	California Department of Water Resources	Louise.Conrad@deltacouncil.ca.gov		Associate			

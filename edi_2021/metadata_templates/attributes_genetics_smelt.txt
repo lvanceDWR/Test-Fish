@@ -1,8 +1,8 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-SmeltGeneticRowID		numeric	!Add units here!			
-FishGenID		character				
-qDSM		numeric	!Add units here!			
-qWAG		numeric	!Add units here!			
-qLFS		numeric	!Add units here!			
-GeneticID		categorical				
-Comments_Smelt		categorical				
+SmeltGeneticRowID	Smelt genetics key	character				
+FishGenID	Fish genetic key	character				
+qDSM	Probability of being Delta Smelt	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
+qWAG	Probability of being Wakasagi	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
+qLFS	Probability of being Longfin Smelt	numeric	dimensionless		NA	No genetics run or genetic analysis unsuccessful
+GeneticID	Genetically identified species	categorical			NA	No genetics run or genetic analysis unsuccessful
+Comments_Smelt	Comments about smelt	character				

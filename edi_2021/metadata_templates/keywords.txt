@@ -1,1 +1,28 @@
 keyword	keywordThesaurus
+Yolo Bypass	
+San Fransciso Estuary	
+Sacramento-San Joaquin Delta	
+Yolo Bypass Fish Monitoring Program	
+California Department of Water Resources	
+Interagency Ecological Program	
+rotary screw trap	
+fyke trap	
+beach seine	
+tidal slough	
+Chinook Salmon	
+Sacramento Splittail	
+aquatic ecosystems	https://vocab.lternet.edu/vocab/vocab/index.php
+freshwater	https://vocab.lternet.edu/vocab/vocab/index.php
+ecology	https://vocab.lternet.edu/vocab/vocab/index.php
+estuaries	https://vocab.lternet.edu/vocab/vocab/index.php
+rivers	https://vocab.lternet.edu/vocab/vocab/index.php
+floodplain	https://vocab.lternet.edu/vocab/vocab/index.php
+seasonality	https://vocab.lternet.edu/vocab/vocab/index.php
+long term	https://vocab.lternet.edu/vocab/vocab/index.php
+communities	https://vocab.lternet.edu/vocab/vocab/index.php
+food webs	https://vocab.lternet.edu/vocab/vocab/index.php
+surveys	https://vocab.lternet.edu/vocab/vocab/index.php
+fishes	https://vocab.lternet.edu/vocab/vocab/index.php
+abundance	https://vocab.lternet.edu/vocab/vocab/index.php
+endangered species	https://vocab.lternet.edu/vocab/vocab/index.php
+invasive species	https://vocab.lternet.edu/vocab/vocab/index.php

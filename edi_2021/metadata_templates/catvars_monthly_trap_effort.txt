@@ -1,0 +1,14 @@
+attributeName	code	definition
+MethodCode	FKTR	Fyke trap
+MethodCode	RSTR	Rotary Screw trap
+Month	Apr	April
+Month	Dec	December
+Month	Feb	February
+Month	Jan	January
+Month	July	July
+Month	Jun	June
+Month	Mar	March
+Month	May	May
+Month	Nov	November
+Month	Oct	October
+Month	Sep	September

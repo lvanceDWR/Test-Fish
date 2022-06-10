@@ -1,10 +1,10 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-StationCode		character				
-StationName		character				
-StationNumber		character				
-Latitude		numeric	!Add units here!			
-Longitude		numeric	!Add units here!			
-PeriodOfRecordFrom		character				
-PeriodOfRecordTo		categorical				
-MonitoringType		categorical				
-MethodCode		categorical				
+StationCode	Station Code	character				
+StationName	Station Name	character				
+StationNumber	Station Number, from WDL	character				
+Latitude	Latitude of sample location	numeric	degree			
+Longitude	Longitude of sample location	numeric	degree			
+PeriodOfRecordFrom	Start date of station	character				
+PeriodOfRecordTo	End date of station	character				
+MonitoringType	Monitoring type	character				
+MethodCode	Method sampled for station	categorical				
