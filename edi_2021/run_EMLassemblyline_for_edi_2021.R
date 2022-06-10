@@ -1,22 +1,20 @@
 # This script executes an EMLassemblyline workflow.
+# Update EMLassemblyline and load
 
+  #remotes::install_github("EDIorg/EMLassemblyline")
+library(EMLassemblyline)
 
-# Create templates structure
+# Run this to create template directory structure. Pick the name of your folder where all EDI-relevant info will go
 template_directories(path = ".", dir.name = "edi_2021")
 
 
 # Initialize workspace --------------------------------------------------------
 
-# Update EMLassemblyline and load
-
-remotes::install_github("EDIorg/EMLassemblyline")
-library(EMLassemblyline)
-
 # Define paths for your metadata templates, data, and EML
-
-path_templates <- "edi_2021/metadata_templates"
-path_data <- "edi_2021/data_objects"
-path_eml <- "edi_2021/eml"
+dir <- "edi_2021"
+path_templates <- paste0(dir, "/metadata_templates")
+path_data <- paste0(dir, "/data_objects")
+path_eml <- paste0(dir, "/eml")
 
 # Create metadata templates ---------------------------------------------------
 
@@ -26,19 +24,22 @@ path_eml <- "edi_2021/eml"
 # E.g. ?template_core_metadata
 
 # Create core templates (required for all data packages)
+# markdown cheatsheet: https://www.markdownguide.org/cheat-sheet/
 
 EMLassemblyline::template_core_metadata(
   path = path_templates,
   license = "CCBY",
-  file.type = ".txt",
+  file.type = ".md",
   write.file = TRUE)
 
 # Create table attributes template (required when data tables are present)
+# you will input the data tables included in your dataset
 
 EMLassemblyline::template_table_attributes(
   path = path_templates,
   data.path = path_data,
-  data.table = c("effort.csv", "event.csv", "fish_unique.csv", "genetics_salmon.csv", "genetics_smelt.csv", "historical_monthly_trap_effort.csv", "integrated_wq_totalcatch.csv", "station.csv", "taxonomy.csv", "total_catch.csv"))
+  data.table = c("effort.csv", "event.csv", "fish_unique.csv", "genetics_salmon.csv", "genetics_smelt.csv",  "integrated_wq_totalcatch.csv", "station.csv", "taxonomy.csv", "total_catch.csv", "monthly_trap_effort.csv"))
+
 
 # Create categorical variables template (required when attributes templates
 # contains variables with a "categorical" class)
@@ -47,6 +48,7 @@ EMLassemblyline::template_categorical_variables(
   path = path_templates,
   data.path = path_data)
 
+# Look at standard units in the package. Need to create custom units if they aren't in here.
 # view_unit_dictionary()
 
 # Create geographic coverage (required when more than one geographic location
@@ -91,13 +93,13 @@ EMLassemblyline::make_eml(
   temporal.coverage = c("1998-01-26", "2021-12-30"),
   geographic.description = "Yolo Bypass tidal slough and seasonal floodplain in Sacramento, California, USA",
   maintenance.description = "Collection is ongoing; data updates expected approximately annually",
-  data.table = c("effort.csv", "event.csv", "fish_unique.csv", "FKTR_hours_fished_1999-2018.csv", "genetics_salmon.csv", "genetics_smelt.csv", "integrated_wq_totalcatch.csv", "RSTR_hours_fished_1999-2018.csv", "station.csv", "taxonomy.csv", "total_catch.csv"),
-  data.table.name = c("Trap Effort", "Water Quality and Environmental Data", "Individual Fish ", "Monthly Fyke Effort, Historical", "Salmon Genetics", "Smelt Genetics", "Integrated Water Quality and Fish Catch", "Monthly Screw Trap Effort, Historical", "Stations", "Taxonomy", "Total Fish Catch"),
-  data.table.description = c("Fyke and screw trap effort in hours, starting 2010", "Water quality and environmental data, event level data", "Individual fish lengths and associated data", "Fyke trap effort in monthly hours, use for data prior to 2010", "Salmon genetics data", "Smelt genetics data", "Water quality and environmental data and total fish catch", "Screw trap effort in monthly hours, use for data prior to 2010", "station information", "taxonomic information", "total fish catch"),
-  data.table.quote.character = c('"','"', '"'), # If you have columns that have commas in the text, you will need to use "quote = TRUE" when you write your R file (write.csv), and then use this to tell make_eml what is going around your character cells. c(apostrophe, quote, apostrophe, comma, etc...)
-  other.entity = c("Metadata_Fish_Publication_v1.0.pdf", "add more"),
-  other.entity.name = c("Metadata for YBFMP Fish Data"),
-  other.entity.description = c("Metadata for YBFMP Fish Data"),
+  data.table = c("effort.csv", "event.csv", "fish_unique.csv",  "genetics_salmon.csv", "genetics_smelt.csv", "integrated_wq_totalcatch.csv",  "station.csv", "taxonomy.csv", "total_catch.csv", "monthly_trap_effort.csv"),
+  data.table.name = c("Sampling Effort", "Water Quality and Environmental Data", "Individual Fish Length and Associated Data",  "Salmon Genetics", "Smelt Genetics", "Integrated Water Quality and Fish Catch",  "Stations", "Fish Taxonomy", "Total Fish Catch", "Historical Monthly Trap Effort"),
+  data.table.description = c("Sampling Effort for Beach Seine (SeineVolume) and Traps (Hours), starting 2010", "Water quality and environmental data, event level data", "Individual fish lengths and associated data", "Salmon genetics data", "Smelt genetics data", "Water quality and environmental data and total fish catch",  "Station information", "Fish taxonomic information", "total fish catch", "Trap effort in monthly hours, use for data prior to 2010"),
+  data.table.quote.character = c('', '"','"','"', '"','"','"', '', '', '"'), # If you have columns that have commas in the text, you will need to use "quote = TRUE" when you write your R file (write.csv), and then use this to tell make_eml what is going around your character cells. c(apostrophe, quote, apostrophe, comma, etc...)
+  other.entity = c("Metadata_Fish_Publication_v1.0.pdf", "YBFMP_Fish_Data_Organization.pdf", "clean_fish_tables.Rmd", "clean_fish_tables.html", "integrate_fish_data.Rmd", "qc_calculate_effort_traps.Rmd"),
+  other.entity.name = c("Metadata for YBFMP Fish Data", "Fish Data Tables Organization", "Code for cleaning fish tables", "HTML for clean fish tables, showing plots", "Code for integrating fish tables", "Code for calculating trap effort"),
+  other.entity.description = c("Metadata for YBFMP Fish Data", "Fish Data Tables Organization", "Code for cleaning fish tables", "HTML for clean fish tables, showing plots","Code for integrating fish tables in different ways", "Code for calculating trap effort"),
   user.id = c("csmith", "aquaticecology"),
   user.domain = "EDI",
   package.id = "edi.233.3")
