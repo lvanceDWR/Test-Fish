@@ -3,14 +3,14 @@ title: "clean_fish_tables"
 author: "Catarina Pien"
 date: "4/19/2022"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 editor_options:
   chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
 Load libraries
@@ -761,7 +761,7 @@ Upon joining sample and catch (in integrate_fish_data.Rmd lines 54-62), found se
 * Found some weird things going on with effort, see below
 ```{r}
 #check <- fishNA %>%
-  filter(!grepl('No fish|No fish|zero catch|No catch|No Fish|NO FISH|NO CATCH|nothing|no catch|No Catch|no fish|only one larval|Only one larval', FieldComments))
+#  filter(!grepl('No fish|No fish|zero catch|No catch|No Fish|NO FISH|NO CATCH|nothing|no catch|No Catch|no fish|only one larval|Only one larval', FieldComments))
 
 shouldbeNONE <- c(653, 759, 5564, 1701, 1821, 7464, 7507, 7509, 7514, 637, 5149, 5599, 5617, 5641, 5658, 6619, 7764, 7837, 6823, 7355, 7419, 7420, 7465, 7503, 7506, 7508, 7511, 7524, 7525, 8177, 8184, 8217)
 
@@ -914,7 +914,7 @@ total_catch_all <- total_catch_wide %>%
 
 
 ## 8. Write cleaned tables
-```{r}
+```{r eval = FALSE}
 write.csv(stations_clean, "data_clean/station.csv", quote = TRUE, row.names = FALSE)
 write.csv(fish_sample_cleaned, "data_clean/event.csv", quote = TRUE, row.names = FALSE)
 write.csv(effort_final, "data_clean/effort.csv", row.names = FALSE)
