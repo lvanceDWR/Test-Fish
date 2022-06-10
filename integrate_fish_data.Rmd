@@ -23,8 +23,8 @@ Read in files
 station <- read.csv("data_clean/station.csv")
 event <- read.csv("data_clean/event.csv")
 effort <- read.csv("data_clean/effort.csv")
-total_catch <- read.csv("data_clean/total_catch.csv")
-fish_unique <- read.csv("data_clean/fish_unique")
+total_catch <- readRDS("data_clean/total_catch.rds")
+fish_unique <- read.csv("data_clean/fish_unique.csv")
 taxonomy <- read.csv("data_clean/taxonomy.csv")
 salm_gen <- read.csv("data_clean/genetics_salmon.csv")
 smelt_gen <- read.csv("data_clean/genetics_smelt.csv")
@@ -46,7 +46,7 @@ glimpse(smelt_gen)
 
 1. Look at sample locations: Join latitude/longitude with samples
 ```{r}
-sample_locations <- left_join(event, stations %>% select(StationCode, StationName, Latitude, Longitude))
+sample_locations <- left_join(event, station %>% select(StationCode, StationName, Latitude, Longitude))
 ```
 
 2. WQ data + Total catch, CPUE: This is the version written for EDI
@@ -56,13 +56,19 @@ sample_effort <- left_join(event, effort) %>%
 
 catch <- left_join(sample_effort, total_catch) %>%
   relocate(c(SeineVolume, TrapStatus, TrapHours), .after = Count) %>%
-  mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume,
-                       ifelse(MethodCode %in% c("RSTR", "FKTR") & lubridate::year(SampleDate)>=2010, Count/TrapHours, NA))) %>%
-  filter(TrapStatus!= "Set")
+  dplyr::filter(!TrapStatus %in% "Set")
 
 catch_names <- left_join(catch, taxonomy %>% select(OrganismCode, IEPFishCode)) %>%
   relocate(IEPFishCode, .after = OrganismCode)
 ```
+
+To calculate CPUE (not units are different for BSEIN (catch/volume) vs traps (catch/hr))
+```{r}
+catch_CPUE <- catch_names %>%
+   mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume,
+                      ifelse(MethodCode %in% c("RSTR", "FKTR") & lubridate::year(SampleDate)>=2010, Count/TrapHours, NA)))
+```
+
 
 3. If you want only fish that have length/individual info
 ```{r}

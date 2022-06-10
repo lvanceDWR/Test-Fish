@@ -88,6 +88,7 @@ fish_ref_clean <- fish_ref %>%
          MicrocystisRank = MicrocystisVisualRank,
          GearCode = GearID,
          EventID = SampleID)%>%
+  mutate(across(.cols = c(GearCode, WeatherCode), .fns = na_if, "")) %>%
     filter(lubridate::year(Datetime) < 2022) %>%
   mutate(SampleAltered = ifelse(SampleDate<ymd("2022-02-22"), NA, SampleAltered)) %>%
   select(EventID, StationCode, Datetime, SampleDate, WaterTemp, SpecificConductance, Conductivity, Turbidity, DO, pH, Secchi, WeatherCode, VegetationRank, MicrocystisRank, MethodCode, GearCode, GearConditionCode, SampleAltered) %>%
@@ -138,6 +139,7 @@ fish_catch_clean0 <- fish_catch %>%
          GeneticSample = Genetic.Sample,
          RaceByLength = Race,
          EventID = SampleID) %>%
+  mutate(Dead = replace(Dead, Dead == "yes", "Yes")) %>%
   mutate(SampleID = 1:nrow(.)) %>%
   mutate(RaceByLength = 
         ifelse(RaceByLength %in% c("f", "F"), "Fall",
@@ -238,10 +240,15 @@ seine_clean <- seine %>%
              as.character(SubstrateCode) %in% c("Vegetation", "VG", "mud/veg")~"AVG",
              as.character(SubstrateCode) %in% c("Sand", "SN", "silt")~"SND",
              as.character(SubstrateCode) == "grass"~"TVG",
-             TRUE ~ as.character(SubstrateCode)))  
+             as.character(SubstrateCode) == "" ~ NA_character_,
+             TRUE ~ as.character(SubstrateCode))) %>%
+  mutate(HabitatType = replace(HabitatType, HabitatType == "Rip", "RIP"),
+         HabitatType = replace(HabitatType, HabitatType == "Veg", "VEG")) %>%
+  mutate(across(.cols = c(HabitatType, Tide_Seine), .fns = na_if, "")) 
 unique(seine_clean$HabitatType) #good
 unique(seine_clean$SubstrateCode) # good
 unique(seine_clean$Region)
+unique(seine_clean$Tide_Seine)
 ```
 
 ### Trap Effort
@@ -253,7 +260,12 @@ trap_clean <- left_join(fish_ref_clean %>% select(StationCode, MethodCode,Sample
          EffortHours = effort.hrs) %>%
   select(StationCode, MethodCode,SampleDate, Datetime, EventID, TrapStatus, Tide, EffortHours, TrapComments) %>%
   filter(SampleDate<as.Date("2010-01-01"),
-         MethodCode %in% c("FKTR", "RSTR"))
+         MethodCode %in% c("FKTR", "RSTR")) %>%
+   mutate(across(.cols = c(Tide, TrapStatus), .fns = na_if, ""))
+
+unique(trap_clean$TrapStatus)
+unique(trap_clean$Tide)
+
 
 # Effort
 effort_clean <- effort %>%
@@ -263,12 +275,15 @@ effort_clean <- effort %>%
          StationCode = factor(StationCode)) %>%
   rename(TrapComments = Comments,
          EffortHours = effort.hrs,
-         EventID = SampleID)
+         EventID = SampleID)%>%
+   mutate(across(.cols = c(Tide), .fns = na_if, ""))
 
 # Combine trap effort (2010 - .) with other trap (prior to 2010) so you get trap status 
 trapeffort_clean <- rbind(trap_clean, effort_clean) %>%
   rename(Tide_Trap = Tide)
-unique(trap_clean$TrapStatus)
+
+unique(effort_clean$Tide)
+unique(trapeffort_clean$Tide)
 ```
 
 ### Genetics and CWT
@@ -289,6 +304,7 @@ smelt_gen_clean <- smelt_gen %>%
     GeneticID == "hybrid (LFS/WAG)" ~ "HYB_LFS_WAG",
     GeneticID == "hybrid (DSM/WAG)" ~ "HYB_DSM_WAG",
     GeneticID == "missing data" ~ "UNK",
+    GeneticID == "" ~ "UNK",
     TRUE ~ as.character(GeneticID))) %>%
   select(SmeltGeneticRowID, FishGenID, qDSM, qWAG, qLFS, GeneticID, Comments_Smelt) 
 
@@ -662,7 +678,6 @@ fish_sample_cleaned <- left_join(Sample_alone, Outliers_wide %>% select(EventID,
 filterEventID <- unique(fish_sample_cleaned$EventID)
 ```
 
-
 ## 6. Check fish catch table
 
 ### a) Filter to events in sample_cleaned; check MethodCode
@@ -716,7 +731,7 @@ fish_catch_QC2 <- fish_catch_QC %>%
 ### c) No catch
 Check no catch entries that don't say no catch in comments, see if there is other fish catch in that sample. 
 ```{r}
-# Remove samples that clearly say no catch
+# Remove samples that clearly say no catch for the QC
 fish_nocatch <- fish_catch_QC2 %>%
   filter(OrganismCode == "NONE") %>%
   left_join(fish_sample_cleaned %>% select(EventID, FieldComments)) %>%
@@ -739,15 +754,40 @@ fish_catch_QC3 <- fish_catch_QC2 %>%
   filter(!(EventID %in% incorrectevents & OrganismID == "NONE"))
 ```
 
+Upon joining sample and catch (in integrate_fish_data.Rmd lines 54-62), found several OrganismCodes of "NA". Most were "no catch" that did not have a "NONE" in the catch table. 
+
+* Created data frame of entries of NONE to add to total_catch table
+* Created a row for a shrimp plus count that was not included
+* Found some weird things going on with effort, see below
+```{r}
+#check <- fishNA %>%
+  filter(!grepl('No fish|No fish|zero catch|No catch|No Fish|NO FISH|NO CATCH|nothing|no catch|No Catch|no fish|only one larval|Only one larval', FieldComments))
+
+shouldbeNONE <- c(653, 759, 5564, 1701, 1821, 7464, 7507, 7509, 7514, 637, 5149, 5599, 5617, 5641, 5658, 6619, 7764, 7837, 6823, 7355, 7419, 7420, 7465, 7503, 7506, 7508, 7511, 7524, 7525, 8177, 8184, 8217)
+
+# Make data frame to add to the rest of total_catch. These should eventually be modified in the database. 
+addNONE <- data.frame(EventID = c(shouldbeNONE, 2662), OrganismCode = c(rep("NONE", 32), "SHR"),  Count = c(rep(1, 32), 21)) %>%
+  left_join(fish_sample_cleaned %>% select(Datetime, EventID, StationCode)) %>%
+  mutate(SampleID = paste0(format(Datetime,"%Y%m%d_%H%M"), "_", StationCode, "_", OrganismCode)) %>%
+  select(SampleID, EventID, OrganismCode, Count)
+
+# 2662: Enter SHR plus count = 21
+
+# Also found some efforts off: 5028 needs to pass effort to 5029 and be removed, 6820 needs to pass its effort to 6821 and be removed. This is done below in the final effort table, but could probably be done in the effort script. 
+```
+
 ### d) Make separate tables
 
 Make table of total catch
 ```{r}
-total_catch <- fish_catch_QC3 %>%
+total_catch0 <- fish_catch_QC3 %>%
   group_by(EventID, SampleID, OrganismCode) %>%
   summarize(Count = sum(Count))  %>%
   ungroup() %>%
-  select(SampleID, EventID, OrganismCode, Count) %>%
+  select(SampleID, EventID, OrganismCode, Count)
+
+# Add in additional missed value from the OrganismID = NA search
+total_catch <- rbind(total_catch0, addNONE) %>%
   arrange(SampleID)
 ```
 
@@ -827,7 +867,8 @@ taxonomy_clean <- left_join(fish_tax_clean, iepfishcodes, by = "Taxa") %>%
                           TRUE ~ as.character(Taxa))) %>%
   select(OrganismCode, IEPFishCode, everything()) %>%
   select(-CommonName.y) %>%
-  rename(CommonName = CommonName.x)
+  rename(CommonName = CommonName.x) %>%
+   mutate(across(.cols = c(Native), .fns = na_if, "")) 
   
 str(iepfishcodes)
 str(fish_tax_clean)
@@ -836,7 +877,11 @@ str(fish_tax_clean)
 ### c) Effort table, remove EventIDs
 ```{r}
 effort_final <- Effort_alone %>%
-  filter(EventID %in% filterEventID)
+  mutate(TrapHours = replace(TrapHours, EventID == 5029, 23.86667),
+         TrapHours = replace(TrapHours, EventID == 6821, 25.4666667
+)) %>%
+  filter(EventID %in% filterEventID) %>%
+    filter(!EventID %in% c(6820, 5028))
 ```
 
 ### d) Add in zeroes for total catch
