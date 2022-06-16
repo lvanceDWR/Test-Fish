@@ -914,6 +914,8 @@ total_catch_all <- total_catch_wide %>%
 
 
 ## 8. Write cleaned tables
+Note: I had to change the "smart apostrophes" into regular straight apostrophes after writing these files since they weren't utf-8 encoding and had a slight error in EDI when trying to view through their data explorer. I think these appeared in the comments sections for the integrated_wq_totalcatch.csv, fish_unique.csv, and event.csv files. I just did a find and replace. The smart apostrophe you can copy by typing Im into word, right clicking, and selecting I'm (or any other abbreviated word - basically let Microsoft create the apostrophe for you). Copy the apostrophe, and paste in the the ctrl+F popup. Replace with normal apostrophe '. 
+
 ```{r eval = FALSE}
 write.csv(stations_clean, "data_clean/station.csv", quote = TRUE, row.names = FALSE)
 write.csv(fish_sample_cleaned, "data_clean/event.csv", quote = TRUE, row.names = FALSE)
