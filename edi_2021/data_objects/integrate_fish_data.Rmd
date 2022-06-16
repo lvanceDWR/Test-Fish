@@ -1,0 +1,106 @@
+---
+title: "integrate_fish_data"
+author: "Catarina Pien"
+date: "4/19/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+Code for joining fish data together
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+```
+
+Read in files
+```{r}
+station <- read.csv("data_clean/station.csv")
+event <- read.csv("data_clean/event.csv")
+effort <- read.csv("data_clean/effort.csv")
+total_catch <- readRDS("data_clean/total_catch.rds")
+fish_unique <- read.csv("data_clean/fish_unique.csv")
+taxonomy <- read.csv("data_clean/taxonomy.csv")
+salm_gen <- read.csv("data_clean/genetics_salmon.csv")
+smelt_gen <- read.csv("data_clean/genetics_smelt.csv")
+```
+
+Check files
+```{r}
+glimpse(stations)
+glimpse(event)
+glimpse(effort)
+glimpse(total_catch)
+glimpse(fish_unique)
+glimpse(taxonomy)
+glimpse(salm_gen)
+glimpse(smelt_gen)
+```
+
+*Here are a few ways you might want to view the data. *
+
+1. Look at sample locations: Join latitude/longitude with samples
+```{r}
+sample_locations <- left_join(event, station %>% select(StationCode, StationName, Latitude, Longitude))
+```
+
+2. WQ data + Total catch, CPUE: This is the version written for EDI
+```{r}
+sample_effort <- left_join(event, effort) %>%
+  select(-SeineLength, -SeineDepth, -SeineWidth)
+
+catch <- left_join(sample_effort, total_catch) %>%
+  relocate(c(SeineVolume, TrapStatus, TrapHours), .after = Count) %>%
+  dplyr::filter(!TrapStatus %in% "Set")
+
+catch_names <- left_join(catch, taxonomy %>% select(OrganismCode, IEPFishCode)) %>%
+  relocate(IEPFishCode, .after = OrganismCode)
+```
+
+To calculate CPUE (not units are different for BSEIN (catch/volume) vs traps (catch/hr))
+```{r}
+catch_CPUE <- catch_names %>%
+   mutate(CPUE = ifelse(MethodCode == "BSEIN", Count/SeineVolume,
+                      ifelse(MethodCode %in% c("RSTR", "FKTR") & lubridate::year(SampleDate)>=2010, Count/TrapHours, NA)))
+```
+
+
+3. If you want only fish that have length/individual info
+```{r}
+length <- left_join(fish_unique, event) 
+```
+
+4. If you want salmon catch info with genetic results
+```{r}
+salmon <- left_join(length, salm_gen) %>%
+  filter(OrganismCode == "CHN")
+```
+
+5. If you want smelt catch info with genetic results
+```{r}
+smelt <- left_join(length, smelt_gen) %>%
+  filter(OrganismCode %in% c("WAG", "DSM", "LFS"))
+```
+
+
+To remove flagged data:
+```{r}
+noflags <- catch_names %>%
+  filter(!grepl('2|3', Flag_WQ))
+
+nopHflags <- catch_names %>%
+  filter(!grepl('pH', Comment_WQ))
+```
+
+
+Write flat file
+```{r}
+write.csv(catch_names, "data_clean/integrated_wq_totalcatch.csv", quote = TRUE, row.names = FALSE)
+saveRDS(catch_names, "data_clean/integrated_wq_totalcatch.rds", compress = "xz") #version for GitHub
+```
+
