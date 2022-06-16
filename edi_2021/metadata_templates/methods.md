@@ -10,14 +10,14 @@ The trap is reached by truck via the Sacramento Deep Water Ship Channel/East Yol
 
 The screw trap cone is 8 feet in diameter and designed by EG Solutions (Corvallis, Oregon) (see Figure 1). The trap configuration is as follows:  Length: 22.5 ft, Width: 12 ft, Weight: 1300 lbs, Cone: 8 ft diameter and 9 ft length with 2 ft on each end for shaft (total of 13 ft), Livebox: 4 ft by 5 ft with a 25 ft3 volume, Pontoons: 22.5 ft length and 20 in. width, with 9 ft between pontoons. During operation the trap is attached to a ¾” overhead cable originally installed December 2003 (replaced in 2011 after damage during a flood) with two ½” cables attached to each pontoon to align the trap in the center of the channel. The overhead cable is strung between two large trees, each with two ¼” guy cables connected to concrete T anchors. The trap has a rear anchor to maintain the traps position during low flow periods and strong flood tides. A revolution counter was installed on the main shaft of the screw trap in March 2013.
 
-See **"DWR-6-SOP-018_v1.1_RotaryScrewTrapSampling"** for more information.
+See **DWR-6-SOP-018\_v1.1\_RotaryScrewTrapSampling** for more information.
 
 ## Fyke Trap Sample Collection
 The fyke trap is ten feet in diameter and twenty-four feet long with a modified design based on fyke traps operated by the California Department of Fish and Wildlife (CDFW) office in Stockton (see Figure 1). It is constructed out of square stainless steel tubing with galvanized chain link fencing for the main structural netting and black 0.5” square polypropylene fencing lining the terminal compartment to aid in retention and fish safety. The fyke trap is installed with one warning float attached to the downstream end of the trap and one float rigged to the upstream anchoring (nose) cable, trap guide and anchor cables are anchored to t-posts on the levee shoreline, and two guide ropes are also set to help guide the trap when it is rolled up the bank during the retrieval process. The fyke trap doesn’t cover the entire channel as wings are not used, and should not be viewed as a traditional fyke net.
 
 The fyke trap is typically deployed at the beginning of the week, checked daily, and pulled out at the end of the week. Operations are halted briefly in the summer (approximately July-September), when fish catches are low, and are reinitiated in the fall when adult salmon begin migrating up the Toe Drain. When the fyke trap is deployed and operational, fish enter the downstream opening of the trap (10 ft. diameter), pass through the first funnel (3 ft. diameter), and enter a central chamber, then move further through the second funnel (1 ft. 8 in. diameter), and become trapped inside the upstream (terminal) compartment. Captured fish are netted out of the compartment, identified to species, counted, and fork length is measured to the nearest millimeter for up to 20-50 individuals of each species, except for native species of special concern, for which all fish are counted and processed.
 
-See **"DWR-6-SOP-017_v1.1_FykeTrapSampling"** for more information. 
+See **DWR-6-SOP-017\_v1.1\_FykeTrapSampling** for more information. 
 
 ## Beach Seine Sample Collection
 Currently, beach seine sites are sampled every-other week with a single haul from a 25 ft by 4 ft (8 x 1.2 meters) pole seine (1/8” sq. mesh). These are modified beach seine hauls; because the levee banks are generally steep, the seine is towed parallel to the shoreline as opposed to netting straight toward the shoreline (see Figure 1). 
@@ -25,7 +25,7 @@ Currently, beach seine sites are sampled every-other week with a single haul fro
 The seine sites include one perennial pond (YB), nine sites along the Toe Drain (AL# [above Lisbon Weir] and BL# [below Lisbon Weir]) and four high flow sites to capture floodplain inundation periods (RD22, FW1, LIHF, and YB180; only sampled during floodplain inundation). 
 Generally, during flood events, sampling begins in the northern Bypass, gradually moving southward as the basin drains. Captured fish are identified to species, counted, and fork length is measured to the nearest millimeter for up to 20-50 individuals of each species, except for native species of special concern, for which all fish are counted and processed. 
 
-See **"DWR-6-SOP-016_v1.1_BeachSeineSampling"** for more information.
+See **DWR-6-SOP-016\_v1.1\_BeachSeineSampling** for more information.
 
 ## Fish Handling of Species of Special Concern
 
@@ -49,18 +49,18 @@ Other fishes
 
 Following the processing of special species (salmon and smelt) all other fish >25mm in fork length are identified and counted: fork length is measured to the nearest millimeter on a wetted measuring board for up to 20-50 of each species. Occasionally, whole samples or fin clips from other fish species are collected for special studies or genetic identification.  Any juvenile fish that cannot be field identified are preserved on ice with respective labels for individual identification and examined at the West Sacramento, CA office. 
 
-See **"DWR-6-SOP-008_v1.3_ListedSpeciesHandling"** for more information.
+See **DWR-6-SOP-008\_v1.3\_ListedSpeciesHandling** for more information.
 
 # II. Sample Processing and Tracking
 
 ## Post-Processing
 
 - All genetic fin clips are stored in 95% ethanol and sent to contractors for genetic identification.
-- CWT tags of ad-clipped salmon are extracted and read by YBMFP staff and reported in the online Regional Mark Information System (RMIS). See DWR-6-SOP-003_v1.1_CodedWireTagRecovery for more information.
+- CWT tags of ad-clipped salmon are extracted and read by YBMFP staff and reported in the online Regional Mark Information System (RMIS). See **DWR-6-SOP-003\_v1.1\_CodedWireTagRecovery** for more information.
 - Diet samples, which are occasionally sampled for special studies, are prepared by YBFMP staff (removal of stomach, fixed in formalin) and sent to contractors for identification of contents.
 - Whole fish heads (Otoliths) are kept for special studies.
 - Otoliths can be stored a few recommended ways. If the otoliths are clean and completely free of fish parts, then they can be stored dry. Otoliths can be frozen (limiting the freeze/thaw action) or preserved in EtOH greater than 70%
-- Osmerids collected are examined under a microscope for laboratory identification, photographed, and a fin clip is collected and sent to contractors for genetic ID. See **"DWR-6-SOP-008_v1.3_ListedSpeciesHandling"** for more information.
+- Osmerids collected are examined under a microscope for laboratory identification, photographed, and a fin clip is collected and sent to contractors for genetic ID. See **DWR-6-SOP-008\_v1.3\_ListedSpeciesHandling** for more information.
 
 ## Sample Tracking
 Samples are tracked on a spreadsheet both for permitting reasons and to maintain a list of genetic samples. A chain of custody (COC) listing sample number, date, time, location, type, and study/project is sent to contractors, who check that all samples are accounted for. Signatures are required of both the person responsible for sending the sample package, and the person receiving it. Once the sample is sent, the contractor is notified of approximate date of delivery. 
@@ -97,19 +97,19 @@ Four levels of quality control are conducted on data:
 1. Field data are checked by someone other than the data recorder prior to leaving each field site, 
 2. Datasheets are checked while being entered into the Microsoft Access database, which has customized error-checking and data validation checks, 
 3. A separate DWR staff member compares data from original field sheets to data entered into the database, 
-4. Finally, data are sorted and/or summarized to highlight erroneous outliers. In addition to data sorting, qualitative analyses are conducted on the water quality data by creating multi-layered visualizations of data in R-studio including; boxplots, histograms, and regressions of correlated water quality parameters from sampling sites across time. Outlier tests were also run on water quality data and used to identify suspicious data. See **"Fish_Publication_QAQC_Workflow_v1.0"** for more details.
+4. Finally, data are sorted and/or summarized to highlight erroneous outliers. In addition to data sorting, qualitative analyses are conducted on the water quality data by creating multi-layered visualizations of data in R-studio including; boxplots, histograms, and regressions of correlated water quality parameters from sampling sites across time. Outlier tests were also run on water quality data and used to identify suspicious data. See **Fish\_Publication\_QAQC\_Workflow\_v1.0** for more details.
 
 ## Notes on Data Quality and Usage:
 
 ### Dataset Structure:
 
-- YBFMP is now publishing in the tidy format (separate tables similar to the way they are organized in the relational database) in order to follow best data practices of reducing duplication of data in any given table. This reduces errors and file size and helps with clarity for how data are sampled and organized. See **"Fish_Workflow_Tables.pdf"** for the organizational structure published here, and the keys used to join tables. More information and resources can be provided by the IEP Data Utilization Workgroup (see [https://iep.ca.gov/Data/Data-Utilization-Working-Group](https://iep.ca.gov/Data/Data-Utilization-Working-Group)).
+- YBFMP is now publishing in the tidy format (separate tables similar to the way they are organized in the relational database) in order to follow best data practices of reducing duplication of data in any given table. This reduces errors and file size and helps with clarity for how data are sampled and organized. See **Fish\_Workflow\_Tables.pdf** for the organizational structure published here, and the keys used to join tables. More information and resources can be provided by the IEP Data Utilization Workgroup (see [https://iep.ca.gov/Data/Data-Utilization-Working-Group](https://iep.ca.gov/Data/Data-Utilization-Working-Group)).
 
-- We have included a flat file of environmental/water quality and catch data for those who are not familiar with joining tables, or using R, but have also included instructions in **"integrate_fish_data.Rmd"** for customizing the dataset (e.g. for seeing length data with water quality data, seeing salmon data only, smelt data only) using different joins. 
+- We have included a flat file of environmental/water quality and catch data for those who are not familiar with joining tables, or using R, but have also included instructions in **integrate\_fish\_data.Rmd** for customizing the dataset (e.g. for seeing length data with water quality data, seeing salmon data only, smelt data only) using different joins. 
 
 ### Water Quality:
 
-- We have flagged some of the water quality data based on visual inspection of outliers, and outlier tests. See "Flag_WQ"" and "Comment_WQ"" columns for flags. To remove any flagged data, see line 86 in **"integrate_fish_data.Rmd"**.
+- We have flagged some of the water quality data based on visual inspection of outliers, and outlier tests. See "Flag\_WQ"" and "Comment\_WQ"" columns for flags. To remove any flagged data, see line 86 in **integrate\_fish\_data.Rmd**.
 
 ### Rotary Screw Trap:
 
@@ -193,8 +193,8 @@ Rotary screw trap (RSTR8) operation began in 1998, deployment generally occurs f
 * May 2008: Specific Conductivity, pH, Dissolved Oxygen start being collected
 * 2010: operation of the fyke trap changed to daily checks with no weekend fishing in 2010
 * February 2012: Turbidity starts being collected
-* 2014: clogging by water hyacinth likely reduced trap efficiency for some period and the trap was out of operation and then temporarily relocated to a downstream location ("Alt_Fyke"). Trap was not operated October 10th to November 13th
-* 2015: clogging by water hyacinth likely reduced trap efficiency for some period and the trap was out of operation and then temporarily relocated to a downstream location ("Alt_Fyke"). Trap not operated from December 1st to 10th.   
+* 2014: clogging by water hyacinth likely reduced trap efficiency for some period and the trap was out of operation and then temporarily relocated to a downstream location (Alt\_Fyke). Trap was not operated October 10th to November 13th
+* 2015: clogging by water hyacinth likely reduced trap efficiency for some period and the trap was out of operation and then temporarily relocated to a downstream location (Alt\_Fyke). Trap not operated from December 1st to 10th.   
 * 2016: trap was not operated in November for bank reconstruction
 Late October 2016-present: Turbidity readings taken by YSI instead of Hach turbidimeter. 
 * 2017: trap was operated intermittently during high flood times.
@@ -232,7 +232,7 @@ Sept. 2019: Changed the name of the Cache Creek Sinks (CCS1-7) sites to the Toe 
 * 2019: Genetic sampling (via fin clip) of Lamprey began.
 * 2021: Genetic subsampling (via fin clip) of Killifish began in August to differentiate between Rainwater and Bluefin Killifish.
 
-See **"DWR-6-MET-007_Genetics_v1.2"**" for additional information.
+See **DWR-6-MET-007\_Genetics\_v1.2** for additional information.
 
 ### Coded Wire Tag Sampling
 * 2016: CWTs began to be processed and read by YBFMP staff. Prior to this they were sent out externally for processing.
@@ -243,13 +243,13 @@ QA/QC processes are described in Methods. No other review is conducted.
 # VIII. Methods References
 |Reference Location or DOI| Reference Title |
 | ----------- | ----------- |
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-003_v1.1_CodedWireTagRecovery|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-006_v1.1_LaboratoryDissectionofFish|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-008_v1.3_ListedSpeciesHandling|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-016_v1.1_BeachSeineSampling|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-017_v1.1_FykeTrapSampling|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-SOP-018_v1.1_RotaryScrewTrapSampling|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|DWR-6-MET-007_Genetics_v1.2|
-|[https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references](https://github.com/AEU-DISE/publish_fish/tree/main/metadata/methods_references)|Fish_Publication_QAQC_Workflow_v1.0|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-003\_v1.1\_CodedWireTagRecovery|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-006\_v1.1\_LaboratoryDissectionofFish|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-008\_v1.3\_ListedSpeciesHandling|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-016\_v1.1\_BeachSeineSampling|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-017\_v1.1\_FykeTrapSampling|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-SOP-018\_v1.1\_RotaryScrewTrapSampling|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|DWR-6-MET-007\_Genetics\_v1.2|
+|[https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references](https://github.com/AEU-DISE/publish\_fish/tree/main/metadata/methods\_references)|Fish\_Publication\_QAQC\_Workflow\_v1.0|
 
 
